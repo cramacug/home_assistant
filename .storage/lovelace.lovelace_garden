@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_garden",
+  "data": {
+    "config": {
+      "title": "Can Marla",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.can_marla",
+              "secondary_info_attribute": "humidity"
+            },
+            {
+              "type": "entities",
+              "title": "Garden power hub",
+              "entities": [
+                {
+                  "entity": "button.garden_shelly_hub_reboot"
+                },
+                {
+                  "entity": "sensor.internal_plug_voltage"
+                },
+                {
+                  "entity": "sensor.internal_plug_temperature"
+                },
+                {
+                  "entity": "switch.pool"
+                },
+                {
+                  "entity": "sensor.pool_power"
+                },
+                {
+                  "entity": "sensor.pool_energy"
+                },
+                {
+                  "entity": "binary_sensor.pool_overvoltage"
+                },
+                {
+                  "entity": "binary_sensor.pool_overpowering"
+                },
+                {
+                  "entity": "binary_sensor.pool_overheating"
+                },
+                {
+                  "entity": "switch.2_x_plugs"
+                },
+                {
+                  "entity": "sensor.2_x_plugs_power"
+                },
+                {
+                  "entity": "sensor.2_x_plugs_energy"
+                },
+                {
+                  "entity": "binary_sensor.2_x_plugs_overvoltage"
+                },
+                {
+                  "entity": "binary_sensor.2_x_plugs_overpowering"
+                },
+                {
+                  "entity": "binary_sensor.2_x_plugs_overheating"
+                },
+                {
+                  "entity": "light.2_x_lights_plug"
+                },
+                {
+                  "entity": "sensor.2_x_lights_plug_power"
+                },
+                {
+                  "entity": "sensor.2_x_lights_plug_energy"
+                },
+                {
+                  "entity": "binary_sensor.2_x_lights_plug_overvoltage"
+                },
+                {
+                  "entity": "binary_sensor.2_x_lights_plug_overpowering"
+                },
+                {
+                  "entity": "binary_sensor.2_x_lights_plug_overheating"
+                },
+                {
+                  "entity": "switch.internal_plug"
+                },
+                {
+                  "entity": "sensor.internal_plug_power"
+                },
+                {
+                  "entity": "sensor.internal_plug_energy"
+                },
+                {
+                  "entity": "binary_sensor.internal_plug_overvoltage"
+                },
+                {
+                  "entity": "binary_sensor.internal_plug_overpowering"
+                },
+                {
+                  "entity": "binary_sensor.internal_plug_overheating"
+                }
+              ],
+              "state_color": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

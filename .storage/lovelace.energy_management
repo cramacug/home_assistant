@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.energy_management",
+  "data": {
+    "config": {
+      "title": "Can Marla",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "title": "Energy distribution today",
+              "type": "energy-distribution",
+              "link_dashboard": true
+            },
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.can_marla",
+              "secondary_info_attribute": "humidity"
+            },
+            {
+              "type": "vertical-stack",
+              "title": "Estimated PV Energy production",
+              "cards": [
+                {
+                  "type": "entities",
+                  "title": "PV - Summary",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "sensor.power_production_now"
+                    },
+                    {
+                      "entity": "sensor.energy_current_hour"
+                    },
+                    {
+                      "entity": "sensor.energy_next_hour"
+                    },
+                    {
+                      "entity": "sensor.energy_production_today"
+                    },
+                    {
+                      "entity": "sensor.energy_production_tomorrow"
+                    },
+                    {
+                      "entity": "sensor.power_highest_peak_time_today"
+                    },
+                    {
+                      "entity": "sensor.power_highest_peak_time_tomorrow"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Estimated Energy per hour",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.energy_current_hour",
+                      "name": "Current hour"
+                    },
+                    {
+                      "entity": "sensor.energy_next_hour",
+                      "name": "Next hour"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

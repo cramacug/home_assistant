@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "d4d39442c181f1c5e801a08730c0c473",
+        "filesize": 55477,
+        "content_type": "image/jpeg",
+        "name": "Pickle Rick.jpeg",
+        "uploaded_at": "2022-06-22T10:43:35.826735+00:00"
+      },
+      {
+        "id": "db8c5d40372205b796908e1bc3d69f05",
+        "filesize": 2087336,
+        "content_type": "image/jpeg",
+        "name": "IMG_1270.jpg",
+        "uploaded_at": "2022-07-09T13:05:21.816603+00:00"
+      }
+    ]
+  }
+}

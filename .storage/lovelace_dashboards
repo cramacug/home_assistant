@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:shovel",
+        "title": "Garden",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "lovelace-garden",
+        "id": "lovelace_garden"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:desktop-classic",
+        "title": "System - RP4",
+        "require_admin": true,
+        "mode": "storage",
+        "url_path": "lovelace-testing",
+        "id": "lovelace_testing"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:solar-power",
+        "title": "Energy Management",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "energy-management",
+        "id": "energy_management"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:test-tube",
+        "title": "TEST-DASHBORAD",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "test-dashborad",
+        "id": "test_dashborad"
+      }
+    ]
+  }
+}

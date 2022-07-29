@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": null
+      },
+      {
+        "name": "Kitchen",
+        "id": "kitchen",
+        "picture": null
+      },
+      {
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": null
+      },
+      {
+        "name": "Garden",
+        "id": "garden",
+        "picture": "/api/image/serve/db8c5d40372205b796908e1bc3d69f05/512x512"
+      },
+      {
+        "name": "Office",
+        "id": "office",
+        "picture": null
+      },
+      {
+        "name": "Can Marla - Main",
+        "id": "can_marla_main",
+        "picture": null
+      }
+    ]
+  }
+}

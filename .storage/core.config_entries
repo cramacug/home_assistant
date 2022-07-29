@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e0d6d58312b55d2e9867ea18d5b81d8b",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": true,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4e9271368b8267777f546cecbfebb704",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "55ef6d26fcdfc9ef0388b2de7e5d259e",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "073e1406d93fe6f1edcd458658415251",
+        "version": 1,
+        "domain": "rpi_power",
+        "title": "Raspberry Pi Power Supply Checker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "31e00735dd4f51082a0b1178450dc3d0",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Garden Shelly Hub",
+        "data": {
+          "host": "192.168.1.220",
+          "sleep_period": 0,
+          "model": "SPSW-004PE16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "083AF2BFB544",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e87b287bda86e9aa8746e1097dec4b39",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "Mosquitto broker",
+        "data": {
+          "broker": "core-mosquitto",
+          "port": 1883,
+          "username": "homeassistant",
+          "password": "shaGoofoo5adeiReo5KoosaTaadai9theezuca9ot7Ohxokoo7ae0shei5vu0Eer",
+          "protocol": "3.1.1",
+          "discovery": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "41da6a880a169fc539fde5b6b3e481c4",
+        "version": 1,
+        "domain": "synology_dsm",
+        "title": "dropade918 (192.168.1.155)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "0011327B17B9",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "73d65265bc6e7527b981285321a1b8f5",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Pixel 6",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2022.6.0-full (2398)",
+          "device_name": "Pixel 6",
+          "manufacturer": "Google",
+          "model": "Pixel 6",
+          "os_name": "Android",
+          "os_version": "32",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "chXbIL2JTaChdLwcvFVNIX:APA91bFq53LcleXp2im_bzxOEEzK5AFztk2KRtcr0VLQU9LOiF0gheD3vxVvRWYBP3ZB8z_8mKY3mkdV9ApMWvRgQNdIe7bXBGVANmhJc7wjAcOgDZB7T7cuHgGH_9d0zOvAKlQyYGrl"
+          },
+          "device_id": "b98d27017a17d327",
+          "webhook_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987",
+          "user_id": "5b4f42439d76473a9de09f28359272fb"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-b98d27017a17d327",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b8c08db5cdf768eab2efe62f0b6abfbe",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Marc’s iPad",
+        "data": {
+          "app_name": "Home Assistant",
+          "supports_encryption": true,
+          "device_name": "Marc’s iPad",
+          "app_version": "2022.3 (2022.358)",
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "model": "iPad13,1",
+          "app_data": {
+            "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "os_name": "iPadOS",
+          "os_version": "15.5",
+          "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
+          "webhook_id": "1f8a1fc14861b812b09d8940957a826262740452ccc893093e81bba2f5cd835c",
+          "secret": "5d88b5b4329752ddd2cdd071f8b4aa4e2811642a1cc0e8ad08b2b112e3ded447",
+          "user_id": "5b4f42439d76473a9de09f28359272fb"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "35659568e3ef52506699f9ccf17d7382",
+        "version": 1,
+        "domain": "raspberry_pi",
+        "title": "Raspberry Pi",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
+        "version": 1,
+        "domain": "forecast_solar",
+        "title": "Can Marla",
+        "data": {
+          "latitude": 41.6832,
+          "longitude": 2.2822
+        },
+        "options": {
+          "azimuth": 270,
+          "declination": 30,
+          "modules power": 8000
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "89f0e1f7fbc74bd3068dc13460727d40",
+        "version": 1,
+        "domain": "upnp",
+        "title": "RT-AX88-Cramacug",
+        "data": {
+          "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
+          "location": "http://192.168.1.1:46764/rootDesc.xml",
+          "mac_address": "fc:34:97:84:75:28"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5cb46c50884f9d010cee70344757ab94",
+        "version": 1,
+        "domain": "asuswrt",
+        "title": "192.168.1.1",
+        "data": {
+          "host": "192.168.1.1",
+          "username": "cramacug-cm-ax88u",
+          "protocol": "ssh",
+          "mode": "router",
+          "password": "spiderman-0x86",
+          "port": 1024
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "fc:34:97:84:75:28",
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "84f08978ce021a000f7b29a5afff5207",
+        "version": 1,
+        "domain": "synology_dsm",
+        "title": "cramacug918 (192.168.1.156)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "001132C1E821",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "821e46bc4dc755db760a1552caf591e5",
+        "version": 1,
+        "domain": "pi_hole",
+        "title": "Pi-Hole",
+        "data": {
+          "host": "192.168.1.155:37545",
+          "name": "Pi-Hole",
+          "location": "admin",
+          "ssl": false,
+          "verify_ssl": true,
+          "statistics_only": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

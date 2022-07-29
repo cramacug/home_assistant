@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_testing",
+  "data": {
+    "config": {
+      "title": "Can Marla",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "RP4 - Status",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Glance card sample",
+                  "entities": [
+                    "binary_sensor.rpi_power_status",
+                    "sensor.processor_temperature",
+                    "sensor.processor_use",
+                    "sensor.memory_use",
+                    "sensor.disk_use"
+                  ]
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.processor_use",
+                  "needle": true,
+                  "severity": {
+                    "green": 3,
+                    "yellow": 60,
+                    "red": 80
+                  },
+                  "min": 0,
+                  "max": 100,
+                  "name": "RP4 - CPU Load"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "RP4 - CPU Use",
+                  "hours_to_show": 1,
+                  "entities": [
+                    {
+                      "entity": "sensor.processor_use",
+                      "name": "CPU Use"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "RP4 - Memory usee",
+                  "hours_to_show": 1,
+                  "entities": [
+                    {
+                      "entity": "sensor.memory_use",
+                      "name": "Memory Use"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "RP4 - CPU Load",
+                  "hours_to_show": 1,
+                  "entities": [
+                    {
+                      "entity": "sensor.load_1m",
+                      "name": "Load 1m"
+                    },
+                    {
+                      "entity": "sensor.load_5m",
+                      "name": "Load 5m"
+                    },
+                    {
+                      "entity": "sensor.load_15m",
+                      "name": "Load 15m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.processor_use",
+                "sensor.processor_temperature",
+                "sensor.memory_free",
+                "sensor.memory_use",
+                "sensor.memory_use_percent",
+                "sensor.swap_free",
+                "sensor.swap_use",
+                "sensor.swap_use_percent",
+                "sensor.load_1m",
+                "sensor.load_5m",
+                "sensor.load_15m",
+                "sensor.disk_free",
+                "sensor.disk_use_percent_config",
+                "sensor.disk_use",
+                "sensor.ipv4_address_eth0",
+                "sensor.ipv6_address_eth0",
+                "sensor.network_in_eth0",
+                "sensor.network_out_eth0",
+                "sensor.network_throughput_in_eth0",
+                "sensor.network_throughput_out_eth0",
+                "sensor.packets_in_eth0",
+                "sensor.packets_out_eth0",
+                "sensor.last_boot"
+              ],
+              "title": "RP4 - Sensors",
+              "show_header_toggle": true,
+              "state_color": true
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "binary_sensor.rt_ax88_cramacug_wan_status",
+                  "name": "Wan status"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_external_ip",
+                  "name": "External IP"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_uptime"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_kib_s_received",
+                  "name": "KiB/s received"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_kib_s_sent",
+                  "name": "KiB/s sent"
+                }
+              ],
+              "title": "RT-AX88-Cramacug",
+              "state_color": true
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.pi_hole",
+                {
+                  "entity": "sensor.pi_hole_ads_blocked_today",
+                  "name": "Ads Blocked Today"
+                },
+                {
+                  "entity": "sensor.pi_hole_ads_percentage_blocked_today",
+                  "name": "Ads Percentage Blocked Today"
+                },
+                {
+                  "entity": "sensor.pi_hole_dns_queries_cached",
+                  "name": "DNS Queries Cached"
+                },
+                {
+                  "entity": "sensor.pi_hole_dns_queries_forwarded",
+                  "name": "DNS Queries Forwarded"
+                },
+                {
+                  "entity": "sensor.pi_hole_dns_queries_today",
+                  "name": "DNS Queries Today"
+                },
+                {
+                  "entity": "sensor.pi_hole_dns_unique_clients",
+                  "name": "DNS Unique Clients"
+                },
+                {
+                  "entity": "sensor.pi_hole_dns_unique_domains",
+                  "name": "DNS Unique Domains"
+                },
+                {
+                  "entity": "sensor.pi_hole_domains_blocked",
+                  "name": "Domains Blocked"
+                },
+                {
+                  "entity": "sensor.pi_hole_seen_clients",
+                  "name": "Seen Clients"
+                }
+              ],
+              "title": "Pi-Hole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+2022-07-27 15:38:16 ERROR (MainThread) [homeassistant.components.sensor] Error adding entities for domain sensor with platform pi_hole
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 397, in async_add_entities
+    await asyncio.gather(*tasks)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 641, in _async_add_entity
+    await entity.add_to_platform_finish()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 776, in add_to_platform_finish
+    self.async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 532, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 570, in _async_write_ha_state
+    state = self._stringify_state(available)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 538, in _stringify_state
+    if (state := self.state) is None:
+  File "/usr/src/homeassistant/homeassistant/components/sensor/__init__.py", line 388, in state
+    value = self.native_value
+  File "/usr/src/homeassistant/homeassistant/components/pi_hole/sensor.py", line 69, in native_value
+    return round(self.api.data[self.entity_description.key], 2)
+KeyError: 'ads_blocked_today'
+2022-07-27 15:38:18 ERROR (MainThread) [homeassistant.components.sensor] Error while setting up pi_hole platform for sensor
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 258, in _async_setup_platform
+    await asyncio.gather(*pending)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 397, in async_add_entities
+    await asyncio.gather(*tasks)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 641, in _async_add_entity
+    await entity.add_to_platform_finish()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 776, in add_to_platform_finish
+    self.async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 532, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 570, in _async_write_ha_state
+    state = self._stringify_state(available)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 538, in _stringify_state
+    if (state := self.state) is None:
+  File "/usr/src/homeassistant/homeassistant/components/sensor/__init__.py", line 388, in state
+    value = self.native_value
+  File "/usr/src/homeassistant/homeassistant/components/pi_hole/sensor.py", line 69, in native_value
+    return round(self.api.data[self.entity_description.key], 2)
+KeyError: 'ads_blocked_today'
+2022-07-27 15:38:18 ERROR (MainThread) [homeassistant.components.binary_sensor] pi_hole: Error on device update!
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 446, in _async_add_entity
+    await entity.async_device_update(warning=False)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 702, in async_device_update
+    await task
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 350, in async_update
+    await self.coordinator.async_request_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 158, in async_request_refresh
+    await self._debounced_refresh.async_call()
+  File "/usr/src/homeassistant/homeassistant/helpers/debounce.py", line 78, in async_call
+    await task
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 182, in async_refresh
+    await self._async_refresh(log_failures=True)
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 283, in _async_refresh
+    self.async_update_listeners()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 110, in async_update_listeners
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 339, in _handle_coordinator_update
+    self.async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 532, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 570, in _async_write_ha_state
+    state = self._stringify_state(available)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 538, in _stringify_state
+    if (state := self.state) is None:
+  File "/usr/src/homeassistant/homeassistant/components/sensor/__init__.py", line 388, in state
+    value = self.native_value
+  File "/usr/src/homeassistant/homeassistant/components/pi_hole/sensor.py", line 69, in native_value
+    return round(self.api.data[self.entity_description.key], 2)
+KeyError: 'ads_blocked_today'
+2022-07-27 15:40:10 WARNING (Recorder) [homeassistant.components.sensor.recorder] Entity sensor.pool_energy from integration shelly has state class total_increasing, but its state is not strictly increasing. Triggered by state 29.3 (29.31) with last_updated set to 2022-07-27T13:39:39.304912+00:00. Please create a bug report at https://github.com/home-assistant/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22integration%3A+shelly%22
+2022-07-27 15:42:36 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /core/update request Server disconnected

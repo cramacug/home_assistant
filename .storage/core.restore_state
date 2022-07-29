@@ -1,0 +1,991 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.marc_cg",
+        "state": "not_home",
+        "attributes": {
+          "editable": false,
+          "id": "marc_cg",
+          "latitude": 41.69207763671875,
+          "longitude": 2.2841316425044424,
+          "gps_accuracy": 35,
+          "source": "device_tracker.marcs_ipad",
+          "user_id": "5b4f42439d76473a9de09f28359272fb",
+          "entity_picture": "/api/image/serve/d4d39442c181f1c5e801a08730c0c473/512x512",
+          "friendly_name": "Marc CG"
+        },
+        "last_changed": "2022-07-27T13:42:51.460048+00:00",
+        "last_updated": "2022-07-27T13:43:04.026773+00:00",
+        "context": {
+          "id": "01G8ZYB2JT79R974KRK0XN9MKW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.cramacug",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "cramacug",
+          "user_id": "39562036d5044f5ea8491eaddc6a8932",
+          "friendly_name": "Cramacug"
+        },
+        "last_changed": "2022-07-27T13:42:51.472535+00:00",
+        "last_updated": "2022-07-27T13:43:04.027056+00:00",
+        "context": {
+          "id": "01G8ZYB2JVXRKYZ4NAN1TWG795",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2022.07.0",
+          "in_progress": false,
+          "latest_version": "2022.07.0",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.07.0",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor: Update",
+          "supported_features": 1
+        },
+        "last_changed": "2022-07-29T11:15:11.457392+00:00",
+        "last_updated": "2022-07-29T11:15:11.457392+00:00",
+        "context": {
+          "id": "01G94TNQZ13TB2F6ZSHJ51Z8SX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2022.7.7",
+          "in_progress": false,
+          "latest_version": "2022.7.7",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core: Update",
+          "supported_features": 11
+        },
+        "last_changed": "2022-07-29T11:15:11.458252+00:00",
+        "last_updated": "2022-07-29T11:15:11.458252+00:00",
+        "context": {
+          "id": "01G94TNQZ2BQ8CMWJ41PJA34MW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.let_s_encrypt_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.12.6",
+          "in_progress": false,
+          "latest_version": "4.12.6",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Let's Encrypt",
+          "entity_picture": "/api/hassio/addons/core_letsencrypt/icon",
+          "friendly_name": "Let's Encrypt: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.458778+00:00",
+        "last_updated": "2022-07-29T11:15:11.458778+00:00",
+        "context": {
+          "id": "01G94TNQZ2QXTWZCM5Z4YQJ1JJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mosquitto_broker_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "6.1.2",
+          "in_progress": false,
+          "latest_version": "6.1.2",
+          "release_summary": "# Changelog\n\n## 6.1.2\n\n- Add debug option to help with issues\n\n## 6.1.1\n\n- Don't purge openssl in cleanup\n\n## 6.1.0\n\n- Update mosquitto to 2.0.11\n- Remove `mosquitto-auth-plug` and replace with `mosquitto-go-auth` 1.8.2\n- Change base image from Alpine to ",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Mosquitto broker",
+          "entity_picture": "/api/hassio/addons/core_mosquitto/icon",
+          "friendly_name": "Mosquitto broker: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.459115+00:00",
+        "last_updated": "2022-07-29T11:15:11.459115+00:00",
+        "context": {
+          "id": "01G94TNQZ385RVB3H2E5ZRVGY9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.grafana_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "7.6.0",
+          "in_progress": false,
+          "latest_version": "7.6.0",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- 📚 Use new My Home Assistant link format @frenck (#272)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 5.3.1 @frenck (#265)\n- ⬆️ Upgrades libnss3 to 2:3.61-1+deb11u2 @frenck (#266)\n- ⬆️ Upgrades libgt",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Grafana",
+          "entity_picture": "/api/hassio/addons/a0d7b954_grafana/icon",
+          "friendly_name": "Grafana: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.459420+00:00",
+        "last_updated": "2022-07-29T11:15:11.459420+00:00",
+        "context": {
+          "id": "01G94TNQZ3DE6558FC9K993VCD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.2.0",
+          "in_progress": false,
+          "latest_version": "5.2.0",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- Bump yamllint from 1.26.3 to 1.27.1 in /vscode @dependabot (#473)\n- ⬆️ Upgrades add-on base image to 6.1.0 @frenck (#477)\n- ⬆️ Upgrades code-server to 4.5.1 @frenck (#478)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.459711+00:00",
+        "last_updated": "2022-07-29T11:15:11.459711+00:00",
+        "context": {
+          "id": "01G94TNQZ332RNAEK8T0FF25CA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.3.3",
+          "in_progress": false,
+          "latest_version": "5.3.3",
+          "release_summary": "# Changelog\n\n## 5.3.3\n\n- Fix Home Assistant API endpoint\n\n## 5.3.2\n\n- Update base image to Alpine 3.14\n\n## 5.3.1\n\n- Update base image to Alpine 3.13\n\n## 5.3.0\n\n- Ignore input-keyword used in blueprints in yaml-linting\n\n## 5.2.0\n\n- Add git option which all",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "File editor",
+          "entity_picture": "/api/hassio/addons/core_configurator/icon",
+          "friendly_name": "File editor: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.460012+00:00",
+        "last_updated": "2022-07-29T11:15:11.460012+00:00",
+        "context": {
+          "id": "01G94TNQZ4G8C99KPG871GENV2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.duck_dns_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.15.0",
+          "in_progress": false,
+          "latest_version": "1.15.0",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Duck DNS",
+          "entity_picture": "/api/hassio/addons/core_duckdns/icon",
+          "friendly_name": "Duck DNS: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.460288+00:00",
+        "last_updated": "2022-07-29T11:15:11.460288+00:00",
+        "context": {
+          "id": "01G94TNQZ4NYP6BWKC1EZ7HSA6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.nginx_home_assistant_ssl_proxy_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "3.1.5",
+          "in_progress": false,
+          "latest_version": "3.1.5",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "NGINX Home Assistant SSL proxy",
+          "entity_picture": "/api/hassio/addons/core_nginx_proxy/icon",
+          "friendly_name": "NGINX Home Assistant SSL proxy: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.460562+00:00",
+        "last_updated": "2022-07-29T11:15:11.460562+00:00",
+        "context": {
+          "id": "01G94TNQZ49EC36N4Q7SPVVA6E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "9.6.0",
+          "in_progress": false,
+          "latest_version": "9.6.0",
+          "release_summary": "# Changelog\n\n## 9.6.0\n\n**Breaking change**: RSA keys generated using the SHA-1 hash algorithm\nwere disabled by OpenSSH due to a security vulnerability. If you find\nyour RSA key does not work after update you will need to make a new key\nwith a stronger alg",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.460862+00:00",
+        "last_updated": "2022-07-29T11:15:11.460862+00:00",
+        "context": {
+          "id": "01G94TNQZ4778J4271ZT2JFJ3Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "8.4",
+          "in_progress": false,
+          "latest_version": "8.4",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/8.4",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System: Update",
+          "supported_features": 3
+        },
+        "last_changed": "2022-07-29T11:15:11.462664+00:00",
+        "last_updated": "2022-07-29T11:15:11.462664+00:00",
+        "context": {
+          "id": "01G94TNQZ626RC371EHRGJMPJR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_battery_level",
+        "state": "63",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-60",
+          "friendly_name": "Pixel 6 Battery Level"
+        },
+        "last_changed": "2022-07-29T07:54:13.126206+00:00",
+        "last_updated": "2022-07-29T07:54:13.126206+00:00",
+        "context": {
+          "id": "01G94F5R86N9ND5ZCBMM6DYV7F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_battery_temperature",
+        "state": "28.8",
+        "attributes": {
+          "state_class": "measurement",
+          "unit_of_measurement": "°C",
+          "device_class": "temperature",
+          "icon": "mdi:battery",
+          "friendly_name": "Pixel 6 Battery Temperature"
+        },
+        "last_changed": "2022-07-29T08:31:52.670497+00:00",
+        "last_updated": "2022-07-29T08:31:52.670497+00:00",
+        "context": {
+          "id": "01G94HAPTYDEE6WAXBJE5Z4JBP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_battery_state",
+        "state": "discharging",
+        "attributes": {
+          "icon": "mdi:battery-minus",
+          "friendly_name": "Pixel 6 Battery State"
+        },
+        "last_changed": "2022-07-28T09:26:52.239893+00:00",
+        "last_updated": "2022-07-28T09:26:52.239893+00:00",
+        "context": {
+          "id": "01G9222P2F6GJ73PV0ABGR8KWK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_charger_type",
+        "state": "none",
+        "attributes": {
+          "icon": "mdi:battery",
+          "friendly_name": "Pixel 6 Charger Type"
+        },
+        "last_changed": "2022-07-28T09:26:47.013579+00:00",
+        "last_updated": "2022-07-28T09:26:47.013579+00:00",
+        "context": {
+          "id": "01G9222GZ56EVE4630CTVNJD6P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.pixel_6_battery_health",
+        "state": "good",
+        "attributes": {
+          "icon": "mdi:battery-heart-variant",
+          "friendly_name": "Pixel 6 Battery Health"
+        },
+        "last_changed": "2022-07-27T13:43:03.804441+00:00",
+        "last_updated": "2022-07-27T13:43:03.804441+00:00",
+        "context": {
+          "id": "01G8ZYB2BWRTZ25D459G0N38NX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.pixel_6_is_charging",
+        "state": "off",
+        "attributes": {
+          "device_class": "plug",
+          "icon": "mdi:power-plug-off",
+          "friendly_name": "Pixel 6 Is Charging"
+        },
+        "last_changed": "2022-07-28T08:13:39.896039+00:00",
+        "last_updated": "2022-07-28T08:13:39.896039+00:00",
+        "context": {
+          "id": "01G91XWMNRCS2F3Z4D0NSS42EF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.pixel_6",
+        "state": "unknown",
+        "attributes": {
+          "source_type": "gps",
+          "friendly_name": "Pixel 6"
+        },
+        "last_changed": "2022-07-27T13:43:03.805134+00:00",
+        "last_updated": "2022-07-27T13:43:03.805134+00:00",
+        "context": {
+          "id": "01G8ZYB2BXZDEGCJJ7R3WSRHJ9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_activity",
+        "state": "Stationary",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Stationary"
+          ],
+          "icon": "mdi:human-male",
+          "friendly_name": "Marc’s iPad Activity"
+        },
+        "last_changed": "2022-07-27T13:43:03.805512+00:00",
+        "last_updated": "2022-07-27T13:43:03.805512+00:00",
+        "context": {
+          "id": "01G8ZYB2BXASY82W0HJ6E5K0CD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_battery_level",
+        "state": "100",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery",
+          "friendly_name": "Marc’s iPad Battery Level"
+        },
+        "last_changed": "2022-07-28T23:24:26.196742+00:00",
+        "last_updated": "2022-07-28T23:24:26.196742+00:00",
+        "context": {
+          "id": "01G93J0A6M5KTR6YB5F9E7H7KQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_battery_state",
+        "state": "Full",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery",
+          "friendly_name": "Marc’s iPad Battery State"
+        },
+        "last_changed": "2022-07-28T23:24:26.197139+00:00",
+        "last_updated": "2022-07-28T23:24:26.197139+00:00",
+        "context": {
+          "id": "01G93J0A6N07AZCZ2AEEFEAYD6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_storage",
+        "state": "26.09",
+        "attributes": {
+          "Available": "12,76 GB",
+          "Available (Important)": "19,02 GB",
+          "Available (Opportunistic)": "16,69 GB",
+          "Total": "63,98 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "Marc’s iPad Storage"
+        },
+        "last_changed": "2022-07-28T21:33:04.296079+00:00",
+        "last_updated": "2022-07-28T23:24:26.197444+00:00",
+        "context": {
+          "id": "01G93J0A6NXX3X4A721JAFRJA7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "Marc’s iPad SSID"
+        },
+        "last_changed": "2022-07-27T13:43:03.807803+00:00",
+        "last_updated": "2022-07-27T13:43:03.807803+00:00",
+        "context": {
+          "id": "01G8ZYB2BZRN58EJREP3VHNYQA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Marc’s iPad Connection Type"
+        },
+        "last_changed": "2022-07-27T13:43:03.808090+00:00",
+        "last_updated": "2022-07-27T13:43:03.808090+00:00",
+        "context": {
+          "id": "01G8ZYB2C0RVYX381SBEXCFAA2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "Marc’s iPad BSSID"
+        },
+        "last_changed": "2022-07-27T13:43:03.808363+00:00",
+        "last_updated": "2022-07-27T13:43:03.808363+00:00",
+        "context": {
+          "id": "01G8ZYB2C0JS873DQNVPBBK3M7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_geocoded_location",
+        "state": "Carrer de Rocabuquera, 70\n08530 La Garriga Barcelona\nSpain",
+        "attributes": {
+          "Administrative Area": "Barcelona",
+          "Areas Of Interest": "N/A",
+          "Country": "Spain",
+          "Inland Water": "N/A",
+          "ISO Country Code": "ES",
+          "Locality": "La Garriga",
+          "Location": [
+            41.69207763671875,
+            2.2841316425044424
+          ],
+          "Name": "Carrer de Rocabuquera, 70",
+          "Ocean": "N/A",
+          "Postal Code": "08530",
+          "Sub Administrative Area": "Vallès Oriental",
+          "Sub Locality": "N/A",
+          "Sub Thoroughfare": "70",
+          "Thoroughfare": "Carrer de Rocabuquera",
+          "Time Zone": "Europe/Madrid",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "Marc’s iPad Geocoded Location"
+        },
+        "last_changed": "2022-07-27T13:43:03.808640+00:00",
+        "last_updated": "2022-07-27T13:43:03.808640+00:00",
+        "context": {
+          "id": "01G8ZYB2C02XRFY1Z4YN72TZ2N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.marcs_ipad_last_update_trigger",
+        "state": "Signaled",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "Marc’s iPad Last Update Trigger"
+        },
+        "last_changed": "2022-07-28T23:24:26.198115+00:00",
+        "last_updated": "2022-07-28T23:24:26.198115+00:00",
+        "context": {
+          "id": "01G93J0A6PHA4NQN79STC2AXNF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.marcs_ipad",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 83,
+          "latitude": 41.69207763671875,
+          "longitude": 2.2841316425044424,
+          "gps_accuracy": 35,
+          "altitude": 248.07239532470703,
+          "vertical_accuracy": 17.940185546875,
+          "friendly_name": "Marc’s iPad"
+        },
+        "last_changed": "2022-07-27T13:43:03.809628+00:00",
+        "last_updated": "2022-07-27T13:43:03.809628+00:00",
+        "context": {
+          "id": "01G8ZYB2C12QZNXTTM1K4BWMMA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.garden_shelly_hub_ota_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "Garden Shelly Hub OTA Update"
+        },
+        "last_changed": "2022-07-27T13:43:04.017917+00:00",
+        "last_updated": "2022-07-27T13:43:04.017917+00:00",
+        "context": {
+          "id": "01G8ZYB2JH3Z497G6KJD9H3S8B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.garden_shelly_hub_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Garden Shelly Hub Reboot"
+        },
+        "last_changed": "2022-07-27T13:43:04.018444+00:00",
+        "last_updated": "2022-07-27T13:43:04.018444+00:00",
+        "context": {
+          "id": "01G8ZYB2JJDN1G8HAT59ZE96MS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_core_update_available",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.11.4",
+          "in_progress": false,
+          "latest_version": "v5.11.4",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/pi-hole/releases/tag/v5.11.4",
+          "skipped_version": null,
+          "title": "Pi-hole Core",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole Core Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-07-27T21:42:20.478369+00:00",
+        "last_updated": "2022-07-27T21:42:20.478369+00:00",
+        "context": {
+          "id": "01G90SRN1YBRF2PYN6XJF6SXVB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_web_update_available",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.13",
+          "in_progress": false,
+          "latest_version": "v5.13",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/AdminLTE/releases/tag/v5.13",
+          "skipped_version": null,
+          "title": "Pi-hole Web interface",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole Web Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-07-27T21:42:20.478955+00:00",
+        "last_updated": "2022-07-27T21:42:20.478955+00:00",
+        "context": {
+          "id": "01G90SRN1YFWC6GQ5PCJ2YYHMT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_ftl_update_available",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.16.1",
+          "in_progress": false,
+          "latest_version": "v5.16.1",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/FTL/releases/tag/v5.16.1",
+          "skipped_version": null,
+          "title": "Pi-hole FTL DNS",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole FTL Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-07-27T21:42:20.479342+00:00",
+        "last_updated": "2022-07-27T21:42:20.479342+00:00",
+        "context": {
+          "id": "01G90SRN1Z5M834J99D240CQ2C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.samba_share_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "10.0.0",
+          "in_progress": false,
+          "latest_version": "10.0.0",
+          "release_summary": "# Changelog\n\n## 10.0.0\n\nBREAKING CHANGE: Don't mangle filenames\n\nBy default, Samba mangles filenames with special characters to ensure\ncompatibility with really old versions of Windows which have a very limited\ncharset for filenames. The add-on no longer ",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Samba share",
+          "entity_picture": "/api/hassio/addons/core_samba/icon",
+          "friendly_name": "Samba share: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.461140+00:00",
+        "last_updated": "2022-07-29T11:20:13.260450+00:00",
+        "context": {
+          "id": "01G94TYYPC9TB1JT2ZAC34J2SZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.git_pull_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "7.13.1",
+          "in_progress": false,
+          "latest_version": "7.13.1",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Git pull",
+          "entity_picture": "/api/hassio/addons/core_git_pull/icon",
+          "friendly_name": "Git pull: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T11:15:11.461966+00:00",
+        "last_updated": "2022-07-29T11:15:11.461966+00:00",
+        "context": {
+          "id": "01G94TNQZ5NWMZTEMV4CE93CGS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_core_update_available_2",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.11.4",
+          "in_progress": false,
+          "latest_version": "v5.11.4",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/pi-hole/releases/tag/v5.11.4",
+          "skipped_version": null,
+          "title": "Pi-hole Core",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole Core Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-07-27T21:41:35.476452+00:00",
+        "last_updated": "2022-07-27T21:41:35.476452+00:00",
+        "context": {
+          "id": "01G90SQ93M3A7BKGTVFZN4R09K",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-27T21:42:07.324584+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_web_update_available_2",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.13",
+          "in_progress": false,
+          "latest_version": "v5.13",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/AdminLTE/releases/tag/v5.13",
+          "skipped_version": null,
+          "title": "Pi-hole Web interface",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole Web Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-07-27T21:41:35.477430+00:00",
+        "last_updated": "2022-07-27T21:41:35.477430+00:00",
+        "context": {
+          "id": "01G90SQ93N5MJHEE7PVDT99HKG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-27T21:42:07.325467+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_ftl_update_available_2",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.16.1",
+          "in_progress": false,
+          "latest_version": "v5.16.1",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/FTL/releases/tag/v5.16.1",
+          "skipped_version": null,
+          "title": "Pi-hole FTL DNS",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole FTL Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-07-27T21:41:35.478106+00:00",
+        "last_updated": "2022-07-27T21:41:35.478106+00:00",
+        "context": {
+          "id": "01G90SQ93P24Y16FDMMJ97RX7Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-27T21:42:07.326213+00:00"
+    }
+  ]
+}
