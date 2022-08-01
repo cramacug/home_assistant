@@ -27,7 +27,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -48,7 +48,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -76,7 +76,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -104,7 +104,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -132,7 +132,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -152,15 +152,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-07-29T11:15:11.459115+00:00",
-        "last_updated": "2022-07-29T11:15:11.459115+00:00",
+        "last_updated": "2022-08-01T01:45:01.279732+00:00",
         "context": {
-          "id": "01G94TNQZ385RVB3H2E5ZRVGY9",
+          "id": "01G9BH7WJZ7349VJG13FTTPJRN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -180,15 +180,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-07-29T11:15:11.459420+00:00",
-        "last_updated": "2022-07-29T11:15:11.459420+00:00",
+        "last_updated": "2022-08-01T01:45:01.280096+00:00",
         "context": {
-          "id": "01G94TNQZ3DE6558FC9K993VCD",
+          "id": "01G9BH7WK0365M7YX7HQDKY3PX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -208,15 +208,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-07-29T11:15:11.459711+00:00",
-        "last_updated": "2022-07-29T11:15:11.459711+00:00",
+        "last_updated": "2022-08-01T01:45:01.280270+00:00",
         "context": {
-          "id": "01G94TNQZ332RNAEK8T0FF25CA",
+          "id": "01G9BH7WK0H8TA2GV47DB211BE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -236,15 +236,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-07-29T11:15:11.460012+00:00",
-        "last_updated": "2022-07-29T11:15:11.460012+00:00",
+        "last_updated": "2022-08-01T01:45:01.280447+00:00",
         "context": {
-          "id": "01G94TNQZ4G8C99KPG871GENV2",
+          "id": "01G9BH7WK0A3B4JZXHMGSS09EX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -272,7 +272,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -300,7 +300,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -320,15 +320,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-07-29T11:15:11.460862+00:00",
-        "last_updated": "2022-07-29T11:15:11.460862+00:00",
+        "last_updated": "2022-08-01T01:45:01.280765+00:00",
         "context": {
-          "id": "01G94TNQZ4778J4271ZT2JFJ3Y",
+          "id": "01G9BH7WK0EV2NB2EDG5QYF06B",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -356,34 +356,34 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_level",
-        "state": "63",
+        "state": "74",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-60",
+          "icon": "mdi:battery-70",
           "friendly_name": "Pixel 6 Battery Level"
         },
-        "last_changed": "2022-07-29T07:54:13.126206+00:00",
-        "last_updated": "2022-07-29T07:54:13.126206+00:00",
+        "last_changed": "2022-07-31T21:45:51.540721+00:00",
+        "last_updated": "2022-07-31T21:45:51.540721+00:00",
         "context": {
-          "id": "01G94F5R86N9ND5ZCBMM6DYV7F",
+          "id": "01G9B3HZ5MECHT2G43SXCAA3MB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_temperature",
-        "state": "28.8",
+        "state": "28.2",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "°C",
@@ -391,16 +391,16 @@
           "icon": "mdi:battery",
           "friendly_name": "Pixel 6 Battery Temperature"
         },
-        "last_changed": "2022-07-29T08:31:52.670497+00:00",
-        "last_updated": "2022-07-29T08:31:52.670497+00:00",
+        "last_changed": "2022-07-31T22:01:43.693892+00:00",
+        "last_updated": "2022-07-31T22:01:43.693892+00:00",
         "context": {
-          "id": "01G94HAPTYDEE6WAXBJE5Z4JBP",
+          "id": "01G9B4F10DYFQM5HD8JQ4VFDPB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -410,16 +410,16 @@
           "icon": "mdi:battery-minus",
           "friendly_name": "Pixel 6 Battery State"
         },
-        "last_changed": "2022-07-28T09:26:52.239893+00:00",
-        "last_updated": "2022-07-28T09:26:52.239893+00:00",
+        "last_changed": "2022-07-29T18:40:58.605912+00:00",
+        "last_updated": "2022-07-29T18:40:58.605912+00:00",
         "context": {
-          "id": "01G9222P2F6GJ73PV0ABGR8KWK",
+          "id": "01G95M607DF9XHBFKZQMGG1G1S",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -429,16 +429,16 @@
           "icon": "mdi:battery",
           "friendly_name": "Pixel 6 Charger Type"
         },
-        "last_changed": "2022-07-28T09:26:47.013579+00:00",
-        "last_updated": "2022-07-28T09:26:47.013579+00:00",
+        "last_changed": "2022-07-29T18:40:58.563730+00:00",
+        "last_updated": "2022-07-29T18:40:58.563730+00:00",
         "context": {
-          "id": "01G9222GZ56EVE4630CTVNJD6P",
+          "id": "01G95M6063YKZC3PSCCBW9T6PD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -457,7 +457,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -477,7 +477,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -496,7 +496,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -519,72 +519,72 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_battery_level",
-        "state": "100",
+        "state": "71",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery",
+          "icon": "mdi:battery-70",
           "friendly_name": "Marc’s iPad Battery Level"
         },
-        "last_changed": "2022-07-28T23:24:26.196742+00:00",
-        "last_updated": "2022-07-28T23:24:26.196742+00:00",
+        "last_changed": "2022-07-31T22:03:36.188984+00:00",
+        "last_updated": "2022-07-31T22:03:36.188984+00:00",
         "context": {
-          "id": "01G93J0A6M5KTR6YB5F9E7H7KQ",
+          "id": "01G9B4JEVW8HS676K935FES33W",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_battery_state",
-        "state": "Full",
+        "state": "Not Charging",
         "attributes": {
           "Low Power Mode": false,
-          "icon": "mdi:battery",
+          "icon": "mdi:battery-70",
           "friendly_name": "Marc’s iPad Battery State"
         },
-        "last_changed": "2022-07-28T23:24:26.197139+00:00",
-        "last_updated": "2022-07-28T23:24:26.197139+00:00",
+        "last_changed": "2022-07-29T21:29:17.554586+00:00",
+        "last_updated": "2022-07-31T22:03:36.189666+00:00",
         "context": {
-          "id": "01G93J0A6N07AZCZ2AEEFEAYD6",
+          "id": "01G9B4JEVXD32042RF9RCQM1TS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_storage",
-        "state": "26.09",
+        "state": "28.22",
         "attributes": {
-          "Available": "12,76 GB",
-          "Available (Important)": "19,02 GB",
-          "Available (Opportunistic)": "16,69 GB",
+          "Available": "13,95 GB",
+          "Available (Important)": "19,32 GB",
+          "Available (Opportunistic)": "18,06 GB",
           "Total": "63,98 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "Marc’s iPad Storage"
         },
-        "last_changed": "2022-07-28T21:33:04.296079+00:00",
-        "last_updated": "2022-07-28T23:24:26.197444+00:00",
+        "last_changed": "2022-07-31T21:53:41.054228+00:00",
+        "last_updated": "2022-07-31T22:03:36.189967+00:00",
         "context": {
-          "id": "01G93J0A6NXX3X4A721JAFRJA7",
+          "id": "01G9B4JEVXA245EDGNEDG1RPE8",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -603,7 +603,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -622,7 +622,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -641,7 +641,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -679,26 +679,26 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_last_update_trigger",
-        "state": "Signaled",
+        "state": "Background Fetch",
         "attributes": {
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "Marc’s iPad Last Update Trigger"
         },
-        "last_changed": "2022-07-28T23:24:26.198115+00:00",
-        "last_updated": "2022-07-28T23:24:26.198115+00:00",
+        "last_changed": "2022-07-29T21:29:17.572858+00:00",
+        "last_updated": "2022-07-29T21:29:17.572858+00:00",
         "context": {
-          "id": "01G93J0A6PHA4NQN79STC2AXNF",
+          "id": "01G95XT6G438RC2B1PFHDH5ZER",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -723,7 +723,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -733,16 +733,16 @@
           "device_class": "update",
           "friendly_name": "Garden Shelly Hub OTA Update"
         },
-        "last_changed": "2022-07-27T13:43:04.017917+00:00",
-        "last_updated": "2022-07-27T13:43:04.017917+00:00",
+        "last_changed": "2022-08-01T08:34:21.755578+00:00",
+        "last_updated": "2022-08-01T08:34:21.755578+00:00",
         "context": {
-          "id": "01G8ZYB2JH3Z497G6KJD9H3S8B",
+          "id": "01G9C8NDDV3DGHC9Z776CGESZP",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -752,16 +752,16 @@
           "device_class": "restart",
           "friendly_name": "Garden Shelly Hub Reboot"
         },
-        "last_changed": "2022-07-27T13:43:04.018444+00:00",
-        "last_updated": "2022-07-27T13:43:04.018444+00:00",
+        "last_changed": "2022-08-01T08:34:21.756038+00:00",
+        "last_updated": "2022-08-01T08:34:21.756038+00:00",
         "context": {
-          "id": "01G8ZYB2JJDN1G8HAT59ZE96MS",
+          "id": "01G9C8NDDWVAX17D2T5D56MSZ0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -789,7 +789,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -817,7 +817,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -845,7 +845,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -865,43 +865,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-07-29T11:15:11.461140+00:00",
-        "last_updated": "2022-07-29T11:20:13.260450+00:00",
+        "last_updated": "2022-08-01T01:45:01.280935+00:00",
         "context": {
-          "id": "01G94TYYPC9TB1JT2ZAC34J2SZ",
+          "id": "01G9BH7WK0SG89VRKZSYSQHTVJ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.git_pull_update",
-        "state": "off",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "7.13.1",
-          "in_progress": false,
-          "latest_version": "7.13.1",
-          "release_summary": null,
-          "release_url": null,
-          "skipped_version": null,
-          "title": "Git pull",
-          "entity_picture": "/api/hassio/addons/core_git_pull/icon",
-          "friendly_name": "Git pull: Update",
-          "supported_features": 25
-        },
-        "last_changed": "2022-07-29T11:15:11.461966+00:00",
-        "last_updated": "2022-07-29T11:15:11.461966+00:00",
-        "context": {
-          "id": "01G94TNQZ5NWMZTEMV4CE93CGS",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-07-29T11:43:04.242394+00:00"
+      "last_seen": "2022-08-01T08:43:04.548209+00:00"
     },
     {
       "state": {
@@ -986,6 +958,25 @@
       },
       "extra_data": null,
       "last_seen": "2022-07-27T21:42:07.326213+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.git_pull_update",
+        "state": "unavailable",
+        "attributes": {
+          "friendly_name": "Git pull: Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-07-29T12:15:35.307033+00:00",
+        "last_updated": "2022-07-29T12:15:35.307033+00:00",
+        "context": {
+          "id": "01G94Y4AWB7S950G33D58PGZBN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-29T12:15:35.311809+00:00"
     }
   ]
 }

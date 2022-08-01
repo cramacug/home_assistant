@@ -141,7 +141,9 @@
             {
               "type": "entities",
               "entities": [
-                "binary_sensor.pi_hole",
+                {
+                  "entity": "binary_sensor.pi_hole"
+                },
                 {
                   "entity": "sensor.pi_hole_ads_blocked_today",
                   "name": "Ads Blocked Today"
@@ -177,6 +179,15 @@
                 {
                   "entity": "sensor.pi_hole_seen_clients",
                   "name": "Seen Clients"
+                },
+                {
+                  "entity": "update.pi_hole_core_update_available"
+                },
+                {
+                  "entity": "update.pi_hole_web_update_available"
+                },
+                {
+                  "entity": "update.pi_hole_ftl_update_available"
                 }
               ],
               "title": "Pi-Hole"

@@ -330,7 +330,7 @@
         "manufacturer": "Apple",
         "model": "iPad13,1",
         "name": "Marc’s iPad",
-        "sw_version": "15.5",
+        "sw_version": "15.6",
         "hw_version": null,
         "entry_type": null,
         "id": "22265456ff1ebd1551bb937cadeada7a",
@@ -492,30 +492,6 @@
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": "homeassistant://hassio/addon/core_samba"
-      },
-      {
-        "config_entries": [
-          "ad029a534a33369a4c5daeb9fbd91af1"
-        ],
-        "connections": [],
-        "identifiers": [
-          [
-            "hassio",
-            "core_git_pull"
-          ]
-        ],
-        "manufacturer": "Official add-ons",
-        "model": "Home Assistant Add-on",
-        "name": "Git pull",
-        "sw_version": "7.13.1",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "5a436bbe8cbf5c93027b525265986bd8",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_git_pull"
       }
     ],
     "deleted_devices": [
@@ -556,6 +532,20 @@
         ],
         "id": "fd2f0a8d2dde0163dafa0758da07c7f3",
         "orphaned_timestamp": 1658958127.3296862
+      },
+      {
+        "config_entries": [
+          "ad029a534a33369a4c5daeb9fbd91af1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_git_pull"
+          ]
+        ],
+        "id": "5a436bbe8cbf5c93027b525265986bd8",
+        "orphaned_timestamp": null
       }
     ]
   }
