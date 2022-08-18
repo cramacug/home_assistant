@@ -77,7 +77,7 @@
         "domain": "shelly",
         "title": "Garden Shelly Hub",
         "data": {
-          "host": "192.168.1.220",
+          "host": "192.168.1.116",
           "sleep_period": 0,
           "model": "SPSW-004PE16EU",
           "gen": 2
@@ -96,11 +96,10 @@
         "title": "Mosquitto broker",
         "data": {
           "broker": "core-mosquitto",
-          "port": 1883,
-          "username": "homeassistant",
+          "discovery": true,
           "password": "shaGoofoo5adeiReo5KoosaTaadai9theezuca9ot7Ohxokoo7ae0shei5vu0Eer",
-          "protocol": "3.1.1",
-          "discovery": true
+          "port": 1883,
+          "username": "homeassistant"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -226,7 +225,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:46764/rootDesc.xml",
+          "location": "http://192.168.1.1:40467/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28"
         },
         "options": {},
@@ -310,17 +309,43 @@
         "disabled_by": null
       },
       {
-        "entry_id": "545d12cff2781f7b9e87767ff7310396",
+        "entry_id": "2c861ec74c1fdc0e3aa79ccd5d391c2d",
         "version": 1,
-        "domain": "cpuspeed",
-        "title": "CPU Speed",
+        "domain": "bluetooth",
+        "title": "Bluetooth",
         "data": {},
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": "cpuspeed",
-        "disabled_by": "user"
+        "source": "ignore",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "861dbb6836bdc1bb2439e30381d4bd19",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "UE40JU6400 (UE40JU6400)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "08a0dd1f-8968-4edc-8f0e-315495e5c580",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "716fb08295cc5316e360542051abf536",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "[TV] UE40JU6400",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:5eee25cd-64f6-423d-bd76-bc84c575ea4f",
+        "disabled_by": null
       }
     ]
   }

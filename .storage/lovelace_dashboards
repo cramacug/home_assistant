@@ -39,6 +39,15 @@
         "mode": "storage",
         "url_path": "test-dashborad",
         "id": "test_dashborad"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:weather-sunny-alert",
+        "title": "Weather",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "lovelace-weather",
+        "id": "lovelace_weather"
       }
     ]
   }

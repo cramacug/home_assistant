@@ -11,9 +11,10 @@
           "title": "Home",
           "cards": [
             {
+              "show_current": true,
+              "show_forecast": true,
               "type": "weather-forecast",
-              "entity": "weather.can_marla",
-              "show_forecast": false
+              "entity": "weather.can_marla"
             },
             {
               "type": "entities",
