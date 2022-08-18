@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_weather",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "weather-forecast",
+                  "entity": "weather.aemet_daily",
+                  "show_forecast": true
+                },
+                {
+                  "type": "entities",
+                  "title": "Current",
+                  "entities": [
+                    "sensor.aemet_condition",
+                    "sensor.aemet_humidity",
+                    "sensor.aemet_pressure",
+                    "sensor.aemet_rain",
+                    "sensor.aemet_rain_probability",
+                    "sensor.aemet_snow",
+                    "sensor.aemet_snow_probability",
+                    "sensor.aemet_storm_probability",
+                    "sensor.aemet_temperature",
+                    "sensor.aemet_temperature_feeling",
+                    "sensor.aemet_wind_bearing",
+                    "sensor.aemet_wind_max_speed",
+                    "sensor.aemet_wind_speed"
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "title": "Forecast",
+                  "entities": [
+                    "sensor.aemet_daily_forecast_condition",
+                    "sensor.aemet_daily_forecast_precipitation",
+                    "sensor.aemet_daily_forecast_precipitation_probability",
+                    "sensor.aemet_daily_forecast_temperature",
+                    "sensor.aemet_daily_forecast_temperature_low",
+                    "sensor.aemet_daily_forecast_time",
+                    "sensor.aemet_daily_forecast_wind_bearing",
+                    "sensor.aemet_daily_forecast_wind_speed"
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "title": "Station properties",
+                  "entities": [
+                    "sensor.aemet_town_name",
+                    "sensor.aemet_town_id",
+                    "sensor.aemet_town_timestamp",
+                    "sensor.aemet_station_name",
+                    "sensor.aemet_station_id",
+                    "sensor.aemet_station_timestamp"
+                  ]
+                }
+              ]
+            },
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.can_marla",
+              "secondary_info_attribute": "humidity"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
