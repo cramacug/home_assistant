@@ -135,7 +135,7 @@
             "core_mosquitto"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "Mosquitto broker",
         "sw_version": "6.1.2",
@@ -159,7 +159,7 @@
             "core_letsencrypt"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "Let's Encrypt",
         "sw_version": "4.12.6",
@@ -183,7 +183,7 @@
             "a0d7b954_grafana"
           ]
         ],
-        "manufacturer": "Home Assistant Community Add-ons",
+        "manufacturer": "a0d7b954",
         "model": "Home Assistant Add-on",
         "name": "Grafana",
         "sw_version": "7.6.0",
@@ -207,7 +207,7 @@
             "core_configurator"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "File editor",
         "sw_version": "5.3.3",
@@ -231,7 +231,7 @@
             "a0d7b954_vscode"
           ]
         ],
-        "manufacturer": "Home Assistant Community Add-ons",
+        "manufacturer": "a0d7b954",
         "model": "Home Assistant Add-on",
         "name": "Studio Code Server",
         "sw_version": "5.2.2",
@@ -255,7 +255,7 @@
             "core_duckdns"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "Duck DNS",
         "sw_version": "1.15.0",
@@ -303,7 +303,7 @@
             "core_nginx_proxy"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "NGINX Home Assistant SSL proxy",
         "sw_version": "3.1.5",
@@ -330,7 +330,7 @@
         "manufacturer": "Apple",
         "model": "iPad13,1",
         "name": "Marc’s iPad",
-        "sw_version": "15.6",
+        "sw_version": "15.6.1",
         "hw_version": null,
         "entry_type": null,
         "id": "22265456ff1ebd1551bb937cadeada7a",
@@ -351,7 +351,7 @@
             "core_ssh"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "Terminal & SSH",
         "sw_version": "9.6.0",
@@ -394,12 +394,12 @@
         ],
         "connections": [
           [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
-          ],
-          [
             "mac",
             "fc:34:97:84:75:28"
+          ],
+          [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
           ]
         ],
         "identifiers": [
@@ -480,7 +480,7 @@
             "core_samba"
           ]
         ],
-        "manufacturer": "Official add-ons",
+        "manufacturer": "core",
         "model": "Home Assistant Add-on",
         "name": "Samba share",
         "sw_version": "10.0.0",

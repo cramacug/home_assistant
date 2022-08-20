@@ -194,7 +194,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:40467/rootDesc.xml",
+          "location": "http://192.168.1.1:60660/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28"
         },
         "options": {},
@@ -324,14 +324,14 @@
         "data": {
           "supports_encryption": true,
           "device_name": "Marc’s iPad",
-          "os_version": "15.6",
+          "os_version": "15.6.1",
           "model": "iPad13,1",
           "app_id": "io.robbie.HomeAssistant",
           "os_name": "iPadOS",
           "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
           "app_data": {
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
-            "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG"
+            "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
           "app_name": "Home Assistant",
           "manufacturer": "Apple",

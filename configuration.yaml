@@ -17,6 +17,7 @@ recorder:
   # purge_keep_days: 5
   db_url: postgresql://home_assistant:home_assistant_p4ssw0rd@192.168.1.155:37535/home_assistant_db
   # db_url: sqlite:////home/user/.homeassistant/test
+  auto_purge: false
 
 # Example configuration.yaml entry with all entry types (delete/comment out as necessary)
 sensor:
