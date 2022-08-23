@@ -5,10 +5,10 @@
   "data": {
     "login_attempts_threshold": -1,
     "ip_ban_enabled": true,
+    "ssl_profile": "modern",
+    "server_port": 8123,
     "cors_allowed_origins": [
       "https://cast.home-assistant.io"
-    ],
-    "server_port": 8123,
-    "ssl_profile": "modern"
+    ]
   }
 }

@@ -33,6 +33,16 @@
         "name": "Can Marla - Main",
         "id": "can_marla_main",
         "picture": null
+      },
+      {
+        "name": "Laia's Office",
+        "id": "laia_s_office",
+        "picture": null
+      },
+      {
+        "name": "Marc's Office",
+        "id": "marc_s_office",
+        "picture": null
       }
     ]
   }

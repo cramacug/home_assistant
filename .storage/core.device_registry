@@ -66,7 +66,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Operating System",
         "name": "Home Assistant Operating System",
-        "sw_version": "8.4",
+        "sw_version": "8.5",
         "hw_version": null,
         "entry_type": "service",
         "id": "bd0d822a596d115c3cf365fb5f036008",
@@ -101,8 +101,8 @@
       },
       {
         "config_entries": [
-          "31e00735dd4f51082a0b1178450dc3d0",
-          "5cb46c50884f9d010cee70344757ab94"
+          "5cb46c50884f9d010cee70344757ab94",
+          "31e00735dd4f51082a0b1178450dc3d0"
         ],
         "connections": [
           [
@@ -135,7 +135,7 @@
             "core_mosquitto"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "Mosquitto broker",
         "sw_version": "6.1.2",
@@ -159,7 +159,7 @@
             "core_letsencrypt"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "Let's Encrypt",
         "sw_version": "4.12.6",
@@ -183,7 +183,7 @@
             "a0d7b954_grafana"
           ]
         ],
-        "manufacturer": "a0d7b954",
+        "manufacturer": "Home Assistant Community Add-ons",
         "model": "Home Assistant Add-on",
         "name": "Grafana",
         "sw_version": "7.6.0",
@@ -207,7 +207,7 @@
             "core_configurator"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "File editor",
         "sw_version": "5.3.3",
@@ -231,10 +231,10 @@
             "a0d7b954_vscode"
           ]
         ],
-        "manufacturer": "a0d7b954",
+        "manufacturer": "Home Assistant Community Add-ons",
         "model": "Home Assistant Add-on",
         "name": "Studio Code Server",
-        "sw_version": "5.2.2",
+        "sw_version": "5.3.0",
         "hw_version": null,
         "entry_type": "service",
         "id": "b3dd2f2c3a838064056a56dd2ca04f94",
@@ -255,7 +255,7 @@
             "core_duckdns"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "Duck DNS",
         "sw_version": "1.15.0",
@@ -303,7 +303,7 @@
             "core_nginx_proxy"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "NGINX Home Assistant SSL proxy",
         "sw_version": "3.1.5",
@@ -351,7 +351,7 @@
             "core_ssh"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "Terminal & SSH",
         "sw_version": "9.6.0",
@@ -480,7 +480,7 @@
             "core_samba"
           ]
         ],
-        "manufacturer": "core",
+        "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "Samba share",
         "sw_version": "10.0.0",
@@ -492,6 +492,54 @@
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": "homeassistant://hassio/addon/core_samba"
+      },
+      {
+        "config_entries": [
+          "4e126d0156dce6372d2c0df1051a36cd"
+        ],
+        "connections": [
+          [
+            "mac",
+            "44:17:93:cc:a6:40"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus H&T",
+        "name": "ShellyPlus_HT_SecondFloor",
+        "sw_version": "20220811-115112/plushtprod1.2-g03cb415",
+        "hw_version": "gen2 (SNSN-0013A)",
+        "entry_type": null,
+        "id": "14732356719f05da1b39dbedd401d9fe",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.120"
+      },
+      {
+        "config_entries": [
+          "ba9cebdb6adf9ea539252829d0d58fcf"
+        ],
+        "connections": [
+          [
+            "mac",
+            "44:17:93:d0:dc:08"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus H&T",
+        "name": "ShellyPlus_HT_Atic",
+        "sw_version": "20220811-115112/plushtprod1.2-g03cb415",
+        "hw_version": "gen2 (SNSN-0013A)",
+        "entry_type": null,
+        "id": "a669169928cd23f3a6c0f68928c49a24",
+        "via_device_id": null,
+        "area_id": "marc_s_office",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.119"
       }
     ],
     "deleted_devices": [

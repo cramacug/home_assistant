@@ -194,7 +194,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:60660/rootDesc.xml",
+          "location": "http://192.168.1.1:51726/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28"
         },
         "options": {},
@@ -345,6 +345,42 @@
         "pref_disable_polling": false,
         "source": "registration",
         "unique_id": "io.robbie.HomeAssistant-EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4e126d0156dce6372d2c0df1051a36cd",
+        "version": 1,
+        "domain": "shelly",
+        "title": "ShellyPlus_HT_SecondFloor",
+        "data": {
+          "host": "192.168.1.120",
+          "sleep_period": 0,
+          "model": "SNSN-0013A",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "441793CCA640",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
+        "version": 1,
+        "domain": "shelly",
+        "title": "ShellyPlus_HT_Atic",
+        "data": {
+          "host": "192.168.1.119",
+          "sleep_period": 0,
+          "model": "SNSN-0013A",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "441793D0DC08",
         "disabled_by": null
       }
     ]
