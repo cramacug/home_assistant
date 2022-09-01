@@ -27,7 +27,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -48,7 +48,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -76,7 +76,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -104,7 +104,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -132,7 +132,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -160,7 +160,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -188,7 +188,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -216,7 +216,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -244,7 +244,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -272,7 +272,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -300,7 +300,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -328,7 +328,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -356,7 +356,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -384,7 +384,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -412,7 +412,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -440,7 +440,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -468,12 +468,12 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_level",
-        "state": "63",
+        "state": "62",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
@@ -481,24 +481,24 @@
           "icon": "mdi:battery-60",
           "friendly_name": "Pixel 6 Battery Level"
         },
-        "last_changed": "2022-09-01T12:04:05.645165+00:00",
-        "last_updated": "2022-09-01T12:04:05.645165+00:00",
+        "last_changed": "2022-09-01T12:12:34.808073+00:00",
+        "last_updated": "2022-09-01T12:12:34.808073+00:00",
         "context": {
-          "id": "01GBWEZQCDKFE0TQJKHVB30PEZ",
+          "id": "01GBWFF8KR9H35QF6QDBA5H2DQ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 63,
+        "native_value": 62,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_temperature",
-        "state": "28.5",
+        "state": "28.7",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "°C",
@@ -506,19 +506,19 @@
           "icon": "mdi:battery",
           "friendly_name": "Pixel 6 Battery Temperature"
         },
-        "last_changed": "2022-09-01T12:04:05.645657+00:00",
-        "last_updated": "2022-09-01T12:04:05.645657+00:00",
+        "last_changed": "2022-09-01T12:12:34.848640+00:00",
+        "last_updated": "2022-09-01T12:12:34.848640+00:00",
         "context": {
-          "id": "01GBWEZQCD56JF32RK93WB96RX",
+          "id": "01GBWFF8N0KBDNE9ZZE33Q9SEY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 28.5,
+        "native_value": 28.7,
         "native_unit_of_measurement": "°C"
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -540,7 +540,7 @@
         "native_value": "discharging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -562,7 +562,7 @@
         "native_value": "none",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -584,34 +584,34 @@
         "native_value": "good",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_power",
-        "state": "-0.3",
+        "state": "-3.2",
         "attributes": {
           "state_class": "measurement",
-          "current": -0.07625,
-          "voltage": 3.989,
+          "current": -0.804687,
+          "voltage": 3.977,
           "unit_of_measurement": "W",
           "device_class": "power",
           "icon": "mdi:battery-minus",
           "friendly_name": "Pixel 6 Battery Power"
         },
-        "last_changed": "2022-09-01T12:04:05.647155+00:00",
-        "last_updated": "2022-09-01T12:04:05.647155+00:00",
+        "last_changed": "2022-09-01T12:12:34.881501+00:00",
+        "last_updated": "2022-09-01T12:12:34.881501+00:00",
         "context": {
-          "id": "01GBWEZQCFB9GVP82QG8PZAZR9",
+          "id": "01GBWFF8P1CHFAYECVD85AW4TQ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": -0.3,
+        "native_value": -3.2,
         "native_unit_of_measurement": "W"
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -631,7 +631,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -650,7 +650,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -676,7 +676,7 @@
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -700,7 +700,7 @@
         "native_value": 95,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -723,7 +723,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -750,7 +750,7 @@
         "native_value": "22.84",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -772,7 +772,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -794,7 +794,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -816,7 +816,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -857,7 +857,7 @@
         "native_value": "Carrer de Rocabuquera, 70\n08530 La Garriga Barcelona\nSpain",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -879,7 +879,7 @@
         "native_value": "Background Fetch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -904,7 +904,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -923,7 +923,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -942,7 +942,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -961,7 +961,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -980,7 +980,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -999,7 +999,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -1018,7 +1018,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -1037,45 +1037,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:04:15.111635+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_ht_secondfloor_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPlus_HT_SecondFloor OTA Update"
-        },
-        "last_changed": "2022-09-01T11:57:52.145193+00:00",
-        "last_updated": "2022-09-01T11:57:52.145193+00:00",
-        "context": {
-          "id": "01GBWEMAMHWDZ3QXXN60KHH7FC",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T12:03:33.231303+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_ht_secondfloor_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPlus_HT_SecondFloor Reboot"
-        },
-        "last_changed": "2022-09-01T11:57:52.145691+00:00",
-        "last_updated": "2022-09-01T11:57:52.145691+00:00",
-        "context": {
-          "id": "01GBWEMAMHK4DKNYEN9VKW9E4Z",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T12:03:33.231303+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -1085,16 +1047,16 @@
           "device_class": "update",
           "friendly_name": "ShellyPlus_HT_Atic OTA Update"
         },
-        "last_changed": "2022-09-01T11:59:12.903033+00:00",
-        "last_updated": "2022-09-01T11:59:12.903033+00:00",
+        "last_changed": "2022-09-01T12:04:17.915212+00:00",
+        "last_updated": "2022-09-01T12:04:17.915212+00:00",
         "context": {
-          "id": "01GBWEPSG7G06WZQ7RYR3W01Z5",
+          "id": "01GBWF03BVK862XM1BKD6PMKAT",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:03:33.231303+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {
@@ -1104,16 +1066,54 @@
           "device_class": "restart",
           "friendly_name": "ShellyPlus_HT_Atic Reboot"
         },
-        "last_changed": "2022-09-01T11:59:12.903543+00:00",
-        "last_updated": "2022-09-01T11:59:12.903543+00:00",
+        "last_changed": "2022-09-01T12:04:17.915654+00:00",
+        "last_updated": "2022-09-01T12:04:17.915654+00:00",
         "context": {
-          "id": "01GBWEPSG7VPNK3P6P9M0M32RA",
+          "id": "01GBWF03BVG7KDGSPTGQ465XP4",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-01T12:03:33.231303+00:00"
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyplus_ht_secondfloor_ota_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "ShellyPlus_HT_SecondFloor OTA Update"
+        },
+        "last_changed": "2022-09-01T12:07:58.336943+00:00",
+        "last_updated": "2022-09-01T12:07:58.336943+00:00",
+        "context": {
+          "id": "01GBWF6TM0RJNGW4EWXWRH41J0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyplus_ht_secondfloor_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "ShellyPlus_HT_SecondFloor Reboot"
+        },
+        "last_changed": "2022-09-01T12:07:58.337440+00:00",
+        "last_updated": "2022-09-01T12:07:58.337440+00:00",
+        "context": {
+          "id": "01GBWF6TM121V2HDK5Q8HPXGZD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-01T12:19:15.108989+00:00"
     },
     {
       "state": {

@@ -18,16 +18,26 @@
                   "type": "glance",
                   "title": "Values",
                   "entities": [
-                    "binary_sensor.shelly_pro_4pm_garden_cloud",
-                    "switch.shelly_pro_4pm_garden_pool",
-                    "sensor.shelly_pro_4pm_garden_internal_plug_temperature",
-                    "sensor.shelly_pro_4pm_garden_internal_plug_voltage",
-                    "sensor.shelly_pro_4pm_garden_rssi"
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_cloud"
+                    },
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_pool"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_voltage"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_rssi"
+                    }
                   ]
                 },
                 {
                   "type": "gauge",
-                  "entity": "sensor.pool_power",
+                  "entity": "sensor.shelly_pro_4pm_garden_pool_power",
                   "needle": true,
                   "severity": {
                     "green": 0,
@@ -44,7 +54,7 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.pool_power",
+                      "entity": "sensor.shelly_pro_4pm_garden_pool_power",
                       "name": "Power consumption last 24h"
                     }
                   ]
