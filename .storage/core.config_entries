@@ -75,7 +75,7 @@
         "entry_id": "31e00735dd4f51082a0b1178450dc3d0",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPRO-4PM-Garden",
+        "title": "Shelly-PRO-4PM-Garden",
         "data": {
           "host": "192.168.1.116",
           "sleep_period": 0,
@@ -360,7 +360,7 @@
         "entry_id": "4e126d0156dce6372d2c0df1051a36cd",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPlus-HT-SecondFloor",
+        "title": "Shelly-Plus-HT-SecondFloor",
         "data": {
           "host": "192.168.1.120",
           "sleep_period": 0,
@@ -378,7 +378,7 @@
         "entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPlus-HT-Atic",
+        "title": "Shelly-Plus-HT-Atic",
         "data": {
           "host": "192.168.1.119",
           "sleep_period": 0,
@@ -396,7 +396,7 @@
         "entry_id": "99d2218bfc032f90bf054388fab1b6cd",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPlus-1PM-Server",
+        "title": "Shelly-Plus-1PM-Server",
         "data": {
           "host": "192.168.1.117",
           "sleep_period": 0,
@@ -414,7 +414,7 @@
         "entry_id": "45a547a3325c84366a94c60b26a6a39f",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPlus-1PM-AC",
+        "title": "Shelly-Plus-1PM-AC",
         "data": {
           "host": "192.168.1.118",
           "sleep_period": 0,
