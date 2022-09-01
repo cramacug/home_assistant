@@ -11,24 +11,68 @@
           "title": "Home",
           "cards": [
             {
+              "type": "vertical-stack",
+              "title": "Pool Power Hub Meter Summary",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    "binary_sensor.shellypro_4pm_garden_cloud",
+                    "switch.pool",
+                    "sensor.internal_plug_temperature",
+                    "sensor.internal_plug_voltage",
+                    "sensor.shellypro_4pm_garden_rssi"
+                  ]
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.pool_power",
+                  "needle": true,
+                  "severity": {
+                    "green": 0,
+                    "yellow": 3000,
+                    "red": 3500
+                  },
+                  "min": 0,
+                  "max": 3600,
+                  "name": "Instant power consumption"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.pool_power",
+                      "name": "Power consumption last 24h"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "type": "entities",
               "title": "Garden power hub",
+              "state_color": true,
               "entities": [
                 {
-                  "entity": "button.shellypro_4pm_garden_reboot"
+                  "entity": "binary_sensor.shellypro_4pm_garden_firmware_update"
+                },
+                {
+                  "entity": "binary_sensor.shellypro_4pm_garden_cloud"
+                },
+                {
+                  "entity": "sensor.shellypro_4pm_garden_rssi"
+                },
+                {
+                  "entity": "sensor.shellypro_4pm_garden_uptime"
                 },
                 {
                   "entity": "sensor.internal_plug_voltage"
                 },
                 {
                   "entity": "sensor.internal_plug_temperature"
-                },
-                {
-                  "entity": "binary_sensor.shellypro_4pm_garden_cloud"
-                },
-                {
-                  "entity": "sensor.shellypro_4pm_garden_uptime",
-                  "secondary_info": "none"
                 },
                 {
                   "entity": "switch.pool"
@@ -101,48 +145,6 @@
                 },
                 {
                   "entity": "binary_sensor.internal_plug_overheating"
-                }
-              ],
-              "state_color": true
-            },
-            {
-              "type": "vertical-stack",
-              "title": "Server Power Meter Summary",
-              "cards": [
-                {
-                  "type": "glance",
-                  "title": "Values",
-                  "entities": [
-                    "binary_sensor.shellypro_4pm_garden_cloud",
-                    "switch.pool",
-                    "sensor.internal_plug_temperature",
-                    "sensor.internal_plug_voltage",
-                    "sensor.shellypro_4pm_garden_rssi"
-                  ]
-                },
-                {
-                  "type": "gauge",
-                  "entity": "sensor.pool_power",
-                  "needle": true,
-                  "severity": {
-                    "green": 0,
-                    "yellow": 3000,
-                    "red": 3500
-                  },
-                  "min": 0,
-                  "max": 3600,
-                  "name": "Instant power consumption"
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.pool_power",
-                      "name": "Power consumption last 24h"
-                    }
-                  ]
                 }
               ]
             }
