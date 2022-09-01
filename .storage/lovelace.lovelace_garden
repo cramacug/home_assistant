@@ -18,11 +18,11 @@
                   "type": "glance",
                   "title": "Values",
                   "entities": [
-                    "binary_sensor.shellypro_4pm_garden_cloud",
-                    "switch.pool",
-                    "sensor.internal_plug_temperature",
-                    "sensor.internal_plug_voltage",
-                    "sensor.shellypro_4pm_garden_rssi"
+                    "binary_sensor.shelly_pro_4pm_garden_cloud",
+                    "switch.shelly_pro_4pm_garden_pool",
+                    "sensor.shelly_pro_4pm_garden_internal_plug_temperature",
+                    "sensor.shelly_pro_4pm_garden_internal_plug_voltage",
+                    "sensor.shelly_pro_4pm_garden_rssi"
                   ]
                 },
                 {
@@ -57,94 +57,94 @@
               "state_color": true,
               "entities": [
                 {
-                  "entity": "binary_sensor.shellypro_4pm_garden_firmware_update"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_firmware_update"
                 },
                 {
-                  "entity": "binary_sensor.shellypro_4pm_garden_cloud"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_cloud"
                 },
                 {
-                  "entity": "sensor.shellypro_4pm_garden_rssi"
+                  "entity": "sensor.shelly_pro_4pm_garden_rssi"
                 },
                 {
-                  "entity": "sensor.shellypro_4pm_garden_uptime"
+                  "entity": "sensor.shelly_pro_4pm_garden_uptime"
                 },
                 {
-                  "entity": "sensor.internal_plug_voltage"
+                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_voltage"
                 },
                 {
-                  "entity": "sensor.internal_plug_temperature"
+                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_temperature"
                 },
                 {
-                  "entity": "switch.pool"
+                  "entity": "switch.shelly_pro_4pm_garden_pool"
                 },
                 {
-                  "entity": "sensor.pool_power"
+                  "entity": "sensor.shelly_pro_4pm_garden_pool_power"
                 },
                 {
-                  "entity": "sensor.pool_energy"
+                  "entity": "sensor.shelly_pro_4pm_garden_pool_energy"
                 },
                 {
-                  "entity": "binary_sensor.pool_overvoltage"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overvoltage"
                 },
                 {
-                  "entity": "binary_sensor.pool_overpowering"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overpowering"
                 },
                 {
-                  "entity": "binary_sensor.pool_overheating"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overheating"
                 },
                 {
-                  "entity": "switch.2_x_plugs"
+                  "entity": "switch.shelly_pro_4pm_garden_2_x_plugs"
                 },
                 {
-                  "entity": "sensor.2_x_plugs_power"
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
                 },
                 {
-                  "entity": "sensor.2_x_plugs_energy"
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_energy"
                 },
                 {
-                  "entity": "binary_sensor.2_x_plugs_overvoltage"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overvoltage"
                 },
                 {
-                  "entity": "binary_sensor.2_x_plugs_overpowering"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overpowering"
                 },
                 {
-                  "entity": "binary_sensor.2_x_plugs_overheating"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overheating"
                 },
                 {
-                  "entity": "light.2_x_lights_plug"
+                  "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug"
                 },
                 {
-                  "entity": "sensor.2_x_lights_plug_power"
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
                 },
                 {
-                  "entity": "sensor.2_x_lights_plug_energy"
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_energy"
                 },
                 {
-                  "entity": "binary_sensor.2_x_lights_plug_overvoltage"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overvoltage"
                 },
                 {
-                  "entity": "binary_sensor.2_x_lights_plug_overpowering"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overpowering"
                 },
                 {
-                  "entity": "binary_sensor.2_x_lights_plug_overheating"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overheating"
                 },
                 {
-                  "entity": "switch.internal_plug"
+                  "entity": "switch.shelly_pro_4pm_garden_internal_plug"
                 },
                 {
-                  "entity": "sensor.internal_plug_power"
+                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
                 },
                 {
-                  "entity": "sensor.internal_plug_energy"
+                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_energy"
                 },
                 {
-                  "entity": "binary_sensor.internal_plug_overvoltage"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overvoltage"
                 },
                 {
-                  "entity": "binary_sensor.internal_plug_overpowering"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overpowering"
                 },
                 {
-                  "entity": "binary_sensor.internal_plug_overheating"
+                  "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overheating"
                 }
               ]
             }
