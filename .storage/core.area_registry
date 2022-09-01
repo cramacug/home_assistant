@@ -25,11 +25,6 @@
         "picture": "/api/image/serve/db8c5d40372205b796908e1bc3d69f05/512x512"
       },
       {
-        "name": "Office",
-        "id": "office",
-        "picture": null
-      },
-      {
         "name": "Can Marla - Main",
         "id": "can_marla_main",
         "picture": null
@@ -42,6 +37,11 @@
       {
         "name": "Marc's Office",
         "id": "marc_s_office",
+        "picture": null
+      },
+      {
+        "name": "Prole Room",
+        "id": "prole_room",
         "picture": null
       }
     ]

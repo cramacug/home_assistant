@@ -57,6 +57,15 @@
         "mode": "storage",
         "url_path": "lovelace-rooms",
         "id": "lovelace_rooms"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:penguin",
+        "title": "Marc_Office",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "marc-office",
+        "id": "marc_office"
       }
     ]
   }

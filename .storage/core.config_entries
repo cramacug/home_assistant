@@ -75,7 +75,7 @@
         "entry_id": "31e00735dd4f51082a0b1178450dc3d0",
         "version": 1,
         "domain": "shelly",
-        "title": "Garden Shelly Hub",
+        "title": "ShellyPRO-4PM-Garden",
         "data": {
           "host": "192.168.1.116",
           "sleep_period": 0,
@@ -129,12 +129,12 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2022.6.0-full (2398)",
+          "app_version": "2022.8.0-full (2624)",
           "device_name": "Pixel 6",
           "manufacturer": "Google",
           "model": "Pixel 6",
           "os_name": "Android",
-          "os_version": "32",
+          "os_version": "33",
           "supports_encryption": false,
           "app_data": {
             "push_websocket_channel": true,
@@ -194,7 +194,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:51726/rootDesc.xml",
+          "location": "http://192.168.1.1:43142/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28"
         },
         "options": {},
@@ -295,7 +295,13 @@
         "version": 2,
         "domain": "samsungtv",
         "title": "UE40JU6400 (UE40JU6400)",
-        "data": {},
+        "data": {
+          "host": "192.168.1.219",
+          "mac": "fc:8f:90:d9:2d:c3",
+          "model": "UE40JU6400",
+          "ssdp_rendering_control_location": "http://192.168.1.219:9197/dmr",
+          "ssdp_main_tv_agent_location": "http://192.168.1.219:7677/MainTVServer2/"
+        },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -308,7 +314,9 @@
         "version": 1,
         "domain": "dlna_dmr",
         "title": "[TV] UE40JU6400",
-        "data": {},
+        "data": {
+          "url": "http://192.168.1.219:9197/dmr"
+        },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -335,10 +343,11 @@
           },
           "app_name": "Home Assistant",
           "manufacturer": "Apple",
-          "app_version": "2022.3 (2022.358)",
+          "app_version": "2022.8 (2022.387)",
           "webhook_id": "d0905fc24d27ac633a072664839cf52e7724a0221af2610da7fde1f9ab4b0e1f",
           "secret": "5680a8f2f948e41d66fcc4d708984febba3da7ca93b71b7556834e75191469fb",
-          "user_id": "5b4f42439d76473a9de09f28359272fb"
+          "user_id": "5b4f42439d76473a9de09f28359272fb",
+          "no_legacy_encryption": true
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -351,7 +360,7 @@
         "entry_id": "4e126d0156dce6372d2c0df1051a36cd",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPlus_HT_SecondFloor",
+        "title": "ShellyPlus-HT-SecondFloor",
         "data": {
           "host": "192.168.1.120",
           "sleep_period": 0,
@@ -369,7 +378,7 @@
         "entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
         "version": 1,
         "domain": "shelly",
-        "title": "ShellyPlus_HT_Atic",
+        "title": "ShellyPlus-HT-Atic",
         "data": {
           "host": "192.168.1.119",
           "sleep_period": 0,
@@ -381,6 +390,42 @@
         "pref_disable_polling": false,
         "source": "user",
         "unique_id": "441793D0DC08",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "99d2218bfc032f90bf054388fab1b6cd",
+        "version": 1,
+        "domain": "shelly",
+        "title": "ShellyPlus-1PM-Server",
+        "data": {
+          "host": "192.168.1.117",
+          "sleep_period": 0,
+          "model": "SNSW-001P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "441793D4ECDC",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "45a547a3325c84366a94c60b26a6a39f",
+        "version": 1,
+        "domain": "shelly",
+        "title": "ShellyPlus-1PM-AC",
+        "data": {
+          "host": "192.168.1.118",
+          "sleep_period": 0,
+          "model": "SNSW-001P16EU",
+          "gen": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "441793937E9C",
         "disabled_by": null
       }
     ]
