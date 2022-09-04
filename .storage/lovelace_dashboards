@@ -33,39 +33,30 @@
       },
       {
         "show_in_sidebar": true,
-        "icon": "mdi:test-tube",
-        "title": "TEST-DASHBORAD",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "test-dashborad",
-        "id": "test_dashborad"
-      },
-      {
-        "show_in_sidebar": true,
-        "icon": "mdi:weather-sunny-alert",
-        "title": "Weather",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "lovelace-weather",
-        "id": "lovelace_weather"
-      },
-      {
-        "show_in_sidebar": true,
-        "icon": "mdi:warehouse",
-        "title": "Rooms",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "lovelace-rooms",
-        "id": "lovelace_rooms"
-      },
-      {
-        "show_in_sidebar": true,
         "icon": "mdi:penguin",
         "title": "Marc_Office",
         "require_admin": false,
         "mode": "storage",
         "url_path": "marc-office",
         "id": "marc_office"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:home",
+        "title": "CanMarla Summary",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "canmarla-summary",
+        "id": "canmarla_summary"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:lightning-bolt-circle",
+        "title": "Home power consumption",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "lovelace-test",
+        "id": "lovelace_test"
       }
     ]
   }

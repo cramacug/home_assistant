@@ -101,8 +101,8 @@
       },
       {
         "config_entries": [
-          "31e00735dd4f51082a0b1178450dc3d0",
-          "5cb46c50884f9d010cee70344757ab94"
+          "5cb46c50884f9d010cee70344757ab94",
+          "31e00735dd4f51082a0b1178450dc3d0"
         ],
         "connections": [
           [
@@ -394,12 +394,12 @@
         ],
         "connections": [
           [
-            "mac",
-            "fc:34:97:84:75:28"
-          ],
-          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
+          ],
+          [
+            "mac",
+            "fc:34:97:84:75:28"
           ]
         ],
         "identifiers": [
@@ -555,7 +555,7 @@
         "manufacturer": "Shelly",
         "model": "Shelly Plus 1PM",
         "name": "Shelly-Plus-1PM-Server",
-        "sw_version": "20220830-130414/0.11.0-gfa1bc37",
+        "sw_version": "20220617-112825/0.10.3-g7c89a05",
         "hw_version": "gen2 (SNSW-001P16EU)",
         "entry_type": null,
         "id": "cbd5712974c546952ab91b17a6fa979b",
@@ -579,7 +579,7 @@
         "manufacturer": "Shelly",
         "model": "Shelly Plus 1PM",
         "name": "Shelly-Plus-1PM-AC",
-        "sw_version": "20220830-130414/0.11.0-gfa1bc37",
+        "sw_version": "20220617-112825/0.10.3-g7c89a05",
         "hw_version": "gen2 (SNSW-001P16EU)",
         "entry_type": null,
         "id": "595327bc1b72fc20cda0b84b6afdc30d",
