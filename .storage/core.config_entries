@@ -194,8 +194,9 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:47736/rootDesc.xml",
-          "mac_address": "fc:34:97:84:75:28"
+          "location": "http://192.168.1.1:53010/rootDesc.xml",
+          "mac_address": "fc:34:97:84:75:28",
+          "host": "192.168.1.1"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -281,13 +282,13 @@
         "entry_id": "2c861ec74c1fdc0e3aa79ccd5d391c2d",
         "version": 1,
         "domain": "bluetooth",
-        "title": "Bluetooth",
+        "title": "DC:A6:32:C2:7F:13",
         "data": {},
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "ignore",
-        "unique_id": null,
+        "unique_id": "DC:A6:32:C2:7F:13",
         "disabled_by": null
       },
       {
@@ -426,6 +427,42 @@
         "pref_disable_polling": false,
         "source": "user",
         "unique_id": "441793937E9C",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Shelly-Plug-S-Fridge",
+        "data": {
+          "host": "192.168.1.121",
+          "sleep_period": 0,
+          "model": "SHPLG-S",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "E8DB84BB5902",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "15ff370950f3d2dbdc144822bbac4428",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Shelly-Plug-Heater ",
+        "data": {
+          "host": "192.168.1.122",
+          "sleep_period": 0,
+          "model": "SHPLG2-1",
+          "gen": 1
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "98CDAC25D6FA",
         "disabled_by": null
       }
     ]

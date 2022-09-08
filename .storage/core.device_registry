@@ -18,7 +18,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Core",
         "name": "Home Assistant Core",
-        "sw_version": "2022.8.7",
+        "sw_version": "2022.9.0",
         "hw_version": null,
         "entry_type": "service",
         "id": "41a1eb9a8fe4bdca241844bb6c396cff",
@@ -101,8 +101,8 @@
       },
       {
         "config_entries": [
-          "5cb46c50884f9d010cee70344757ab94",
-          "31e00735dd4f51082a0b1178450dc3d0"
+          "31e00735dd4f51082a0b1178450dc3d0",
+          "5cb46c50884f9d010cee70344757ab94"
         ],
         "connections": [
           [
@@ -210,7 +210,7 @@
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "File editor",
-        "sw_version": "5.3.3",
+        "sw_version": "5.4.0",
         "hw_version": null,
         "entry_type": "service",
         "id": "538d9af8ae18b972c7ea572f3dd926fc",
@@ -394,18 +394,26 @@
         ],
         "connections": [
           [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
-          ],
-          [
             "mac",
             "fc:34:97:84:75:28"
+          ],
+          [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
           ]
         ],
         "identifiers": [
           [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_host",
+            "192.168.1.1"
+          ],
+          [
+            "upnp_serial_number",
+            "fc:34:97:84:75:28"
           ]
         ],
         "manufacturer": "ASUSTeK Computer Inc.",
@@ -588,6 +596,54 @@
         "name_by_user": "Shelly-Plus-1PM-AC",
         "disabled_by": null,
         "configuration_url": "http://192.168.1.118"
+      },
+      {
+        "config_entries": [
+          "5cd869ca5e5e8a273f0c5cfb2debd595"
+        ],
+        "connections": [
+          [
+            "mac",
+            "e8:db:84:bb:59:02"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plug S",
+        "name": "Shelly-Plug-S-Fridge",
+        "sw_version": "20220809-124506/v1.12-g99f7e0b",
+        "hw_version": "gen1 (SHPLG-S)",
+        "entry_type": null,
+        "id": "70bee833269c443dba3695b026a3716f",
+        "via_device_id": null,
+        "area_id": "kitchen",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.121"
+      },
+      {
+        "config_entries": [
+          "15ff370950f3d2dbdc144822bbac4428"
+        ],
+        "connections": [
+          [
+            "mac",
+            "98:cd:ac:25:d6:fa"
+          ]
+        ],
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plug E",
+        "name": "Shelly Plug Heater ",
+        "sw_version": "20220809-124636/v1.12-g99f7e0b",
+        "hw_version": "gen1 (SHPLG2-1)",
+        "entry_type": null,
+        "id": "490ea00a5f54c1fdd8429a756378ff60",
+        "via_device_id": null,
+        "area_id": "can_marla_main",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.122"
       }
     ],
     "deleted_devices": [

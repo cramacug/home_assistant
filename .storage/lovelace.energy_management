@@ -16,13 +16,6 @@
               "link_dashboard": true
             },
             {
-              "show_current": true,
-              "show_forecast": true,
-              "type": "weather-forecast",
-              "entity": "weather.can_marla",
-              "secondary_info_attribute": "humidity"
-            },
-            {
               "type": "vertical-stack",
               "title": "Estimated PV Energy production",
               "cards": [

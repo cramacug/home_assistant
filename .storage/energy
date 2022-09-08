@@ -1,31 +1,35 @@
 {
-    "version": 1,
-    "minor_version": 1,
-    "key": "energy",
-    "data": {
-        "energy_sources": [
-            {
-                "type": "grid",
-                "flow_from": [
-                    {
-                        "stat_energy_from": "sensor.pool_energy",
-                        "stat_cost": null,
-                        "entity_energy_from": "sensor.pool_energy",
-                        "entity_energy_price": null,
-                        "number_energy_price": null
-                    },
-                    {
-                        "stat_energy_from": "sensor.2_x_plugs_energy",
-                        "stat_cost": null,
-                        "entity_energy_from": "sensor.2_x_plugs_energy",
-                        "entity_energy_price": null,
-                        "number_energy_price": null
-                    }
-                ],
-                "flow_to": [],
-                "cost_adjustment_day": 0.0
-            }
-        ],
-        "device_consumption": []
-    }
+  "version": 1,
+  "minor_version": 1,
+  "key": "energy",
+  "data": {
+    "energy_sources": [
+      {
+        "type": "grid",
+        "flow_from": [],
+        "flow_to": [],
+        "cost_adjustment_day": 0.0
+      }
+    ],
+    "device_consumption": [
+      {
+        "stat_consumption": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_energy"
+      },
+      {
+        "stat_consumption": "sensor.shelly_pro_4pm_garden_pool_energy"
+      },
+      {
+        "stat_consumption": "sensor.shelly_plus_1pm_server_energy"
+      },
+      {
+        "stat_consumption": "sensor.shelly_plug_s_fridge_energy"
+      },
+      {
+        "stat_consumption": "sensor.shelly_pro_4pm_garden_internal_plug_energy"
+      },
+      {
+        "stat_consumption": "sensor.shelly_pro_4pm_garden_2_x_plugs_energy"
+      }
+    ]
+  }
 }

@@ -57,6 +57,15 @@
         "mode": "storage",
         "url_path": "lovelace-test",
         "id": "lovelace_test"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:fridge",
+        "title": "Kitchen",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "lovelace-kitchen",
+        "id": "lovelace_kitchen"
       }
     ]
   }
