@@ -12,12 +12,37 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
 
-# Example configuration.yaml entry with exclude
+# Example configuration.yaml
 recorder:
   # purge_keep_days: 5
   db_url: postgresql://home_assistant:home_assistant_p4ssw0rd@192.168.1.155:37535/home_assistant_db
   # db_url: sqlite:////home/user/.homeassistant/test
   auto_purge: false
+
+# Influx_DB
+influxdb:
+  api_version: 2
+  ssl: false
+  host: 192.168.1.155
+  port: 37520
+  #username: home_assistant
+  #password: home_assistant_ha
+  database: home_assistant
+  organization: HomeAssistant_ORG
+  token: Home_assistant
+  bucket: home_assistant
+  max_retries: 0
+  precision: ns
+  measurement_attr: unit_of_measurement
+
+# influxdb:
+#   host: yo.u.r.ip
+#   port: 8086
+#   database: homeassistant
+#   username: homeassistant
+#   password: Password123
+#   max_retries: 3
+#   default_measurement: state
 
 # Example configuration.yaml entry with all entry types (delete/comment out as necessary)
 sensor:

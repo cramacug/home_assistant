@@ -15,6 +15,45 @@
               "show_forecast": true,
               "type": "weather-forecast",
               "entity": "weather.can_marla"
+            },
+            {
+              "type": "vertical-stack",
+              "title": "T&H - Second Floor",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Summary",
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "name": "Uptime"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "T & H",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

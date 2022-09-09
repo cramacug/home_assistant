@@ -18,7 +18,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Core",
         "name": "Home Assistant Core",
-        "sw_version": "2022.9.0",
+        "sw_version": "2022.9.1",
         "hw_version": null,
         "entry_type": "service",
         "id": "41a1eb9a8fe4bdca241844bb6c396cff",
@@ -42,7 +42,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Supervisor",
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.08.5",
+        "sw_version": "2022.08.6",
         "hw_version": null,
         "entry_type": "service",
         "id": "71589e35ed8dc1e51b7df91ead45583a",
@@ -101,8 +101,8 @@
       },
       {
         "config_entries": [
-          "31e00735dd4f51082a0b1178450dc3d0",
-          "5cb46c50884f9d010cee70344757ab94"
+          "5cb46c50884f9d010cee70344757ab94",
+          "31e00735dd4f51082a0b1178450dc3d0"
         ],
         "connections": [
           [
@@ -394,12 +394,12 @@
         ],
         "connections": [
           [
-            "mac",
-            "fc:34:97:84:75:28"
-          ],
-          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
+          ],
+          [
+            "mac",
+            "fc:34:97:84:75:28"
           ]
         ],
         "identifiers": [
