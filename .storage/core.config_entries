@@ -194,7 +194,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:53010/rootDesc.xml",
+          "location": "http://192.168.1.1:36906/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28",
           "host": "192.168.1.1"
         },

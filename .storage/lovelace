@@ -11,6 +11,78 @@
           "title": "Home",
           "cards": [
             {
+              "type": "glance",
+              "title": "Values",
+              "entities": [
+                {
+                  "entity": "switch.shelly_pro_4pm_garden_pool",
+                  "name": "Pool"
+                },
+                {
+                  "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
+                  "name": "Garden BBQ light"
+                },
+                {
+                  "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
+                  "name": "Garden external plugs"
+                },
+                {
+                  "entity": "switch.shelly_pro_4pm_garden_internal_plug",
+                  "name": "Garden Internal Plugs"
+                },
+                {
+                  "entity": "switch.shelly_plug_s_fridge",
+                  "name": "Fridge"
+                },
+                {
+                  "entity": "switch.shelly_plus_1pm_ac",
+                  "name": "AC"
+                },
+                {
+                  "entity": "switch.shelly_plus_1pm_server",
+                  "name": "Server"
+                },
+                {
+                  "entity": "switch.shelly_plug_heater",
+                  "name": "Tmp plug"
+                }
+              ]
+            },
+            {
+              "type": "history-graph",
+              "title": "Power consumption",
+              "hours_to_show": 24,
+              "entities": [
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_power"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_power"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_fridge_power"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_garden_pool_power"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_power"
+                },
+                {
+                  "entity": "sensor.shelly_plug_heater_power"
+                }
+              ]
+            },
+            {
               "show_current": true,
               "show_forecast": true,
               "type": "weather-forecast",

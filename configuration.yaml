@@ -15,9 +15,29 @@ scene: !include scenes.yaml
 # Example configuration.yaml entry with exclude
 recorder:
   # purge_keep_days: 5
-  db_url: postgresql://home_assistant:home_assistant_p4ssw0rd@192.168.1.155:37535/home_assistant_db
+  db_url: !secret ha_postgres_db_url
   # db_url: sqlite:////home/user/.homeassistant/test
   auto_purge: false
+
+influx:
+  api_version: 2
+  ssl: false
+  host: !secret ha_influx_host
+  port: !secret ha_influx_port
+  #path:
+  #username: (api_version: 1)
+  #password: (api_version: 1)
+  database: home_assistant
+  #verify_ssl: false
+  #ssl_ca_cert: None
+  organitzation: HomeAssistant_ORG
+  token: !secret ha_influx_db
+  bucket: home_assistant
+  max_retries: 0
+  precision: ns
+  measurement_attr: unit_of_measurement
+  # default_measurement:
+  #override_measurement:
 
 # Example configuration.yaml entry with all entry types (delete/comment out as necessary)
 sensor:

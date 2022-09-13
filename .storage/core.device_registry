@@ -18,7 +18,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Core",
         "name": "Home Assistant Core",
-        "sw_version": "2022.9.0",
+        "sw_version": "2022.9.2",
         "hw_version": null,
         "entry_type": "service",
         "id": "41a1eb9a8fe4bdca241844bb6c396cff",
@@ -42,7 +42,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Supervisor",
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.08.5",
+        "sw_version": "2022.08.6",
         "hw_version": null,
         "entry_type": "service",
         "id": "71589e35ed8dc1e51b7df91ead45583a",
@@ -101,8 +101,8 @@
       },
       {
         "config_entries": [
-          "31e00735dd4f51082a0b1178450dc3d0",
-          "5cb46c50884f9d010cee70344757ab94"
+          "5cb46c50884f9d010cee70344757ab94",
+          "31e00735dd4f51082a0b1178450dc3d0"
         ],
         "connections": [
           [
@@ -210,7 +210,7 @@
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
         "name": "File editor",
-        "sw_version": "5.4.0",
+        "sw_version": "5.4.1",
         "hw_version": null,
         "entry_type": "service",
         "id": "538d9af8ae18b972c7ea572f3dd926fc",
@@ -394,19 +394,15 @@
         ],
         "connections": [
           [
-            "mac",
-            "fc:34:97:84:75:28"
-          ],
-          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
+          ],
+          [
+            "mac",
+            "fc:34:97:84:75:28"
           ]
         ],
         "identifiers": [
-          [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
-          ],
           [
             "upnp_host",
             "192.168.1.1"
@@ -414,6 +410,10 @@
           [
             "upnp_serial_number",
             "fc:34:97:84:75:28"
+          ],
+          [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ]
         ],
         "manufacturer": "ASUSTeK Computer Inc.",
@@ -587,7 +587,7 @@
         "manufacturer": "Shelly",
         "model": "Shelly Plus 1PM",
         "name": "Shelly-Plus-1PM-AC",
-        "sw_version": "20220617-112825/0.10.3-g7c89a05",
+        "sw_version": "20220909-120529/0.11.1-g56f689f",
         "hw_version": "gen2 (SNSW-001P16EU)",
         "entry_type": null,
         "id": "595327bc1b72fc20cda0b84b6afdc30d",
@@ -644,6 +644,30 @@
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": "http://192.168.1.122"
+      },
+      {
+        "config_entries": [
+          "ad029a534a33369a4c5daeb9fbd91af1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_adguard"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "AdGuard Home",
+        "sw_version": "4.7.3",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "4d123410d01c4baa603b8e047a3168cb",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_adguard"
       }
     ],
     "deleted_devices": [

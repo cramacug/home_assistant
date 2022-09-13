@@ -18,16 +18,16 @@
           "entity_picture": "/api/image/serve/d4d39442c181f1c5e801a08730c0c473/512x512",
           "friendly_name": "Marc CG"
         },
-        "last_changed": "2022-09-07T19:20:21.224210+00:00",
-        "last_updated": "2022-09-07T19:20:39.704934+00:00",
+        "last_changed": "2022-09-12T11:04:01.261897+00:00",
+        "last_updated": "2022-09-12T11:04:19.571257+00:00",
         "context": {
-          "id": "01GCCPBDGR16HZYXEW5FG39QJS",
+          "id": "01GCRNY6BK2X3KS4VE1YYY6KPR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -39,16 +39,16 @@
           "user_id": "39562036d5044f5ea8491eaddc6a8932",
           "friendly_name": "Cramacug"
         },
-        "last_changed": "2022-09-07T19:20:21.224532+00:00",
-        "last_updated": "2022-09-07T19:20:39.705154+00:00",
+        "last_changed": "2022-09-12T11:04:01.262255+00:00",
+        "last_updated": "2022-09-12T11:04:19.571548+00:00",
         "context": {
-          "id": "01GCCPBDGSFG0M2NSFBRENQY3C",
+          "id": "01GCRNY6BKR8SJMXPG8DNVS0QY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -56,27 +56,27 @@
         "state": "off",
         "attributes": {
           "auto_update": true,
-          "installed_version": "2022.08.5",
+          "installed_version": "2022.08.6",
           "in_progress": false,
-          "latest_version": "2022.08.5",
+          "latest_version": "2022.08.6",
           "release_summary": null,
-          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.08.5",
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.08.6",
           "skipped_version": null,
           "title": "Home Assistant Supervisor",
           "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
           "friendly_name": "Home Assistant Supervisor Update",
           "supported_features": 1
         },
-        "last_changed": "2022-09-07T19:20:27.782159+00:00",
-        "last_updated": "2022-09-07T19:20:27.782159+00:00",
+        "last_changed": "2022-09-13T06:52:03.793095+00:00",
+        "last_updated": "2022-09-13T06:52:03.793095+00:00",
         "context": {
-          "id": "01GCCPB1W6BB2FVTZ69DJVYB59",
+          "id": "01GCTSX0AHDVNH3M0NP8HRWH1E",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -84,9 +84,9 @@
         "state": "off",
         "attributes": {
           "auto_update": false,
-          "installed_version": "2022.9.0",
+          "installed_version": "2022.9.2",
           "in_progress": false,
-          "latest_version": "2022.9.0",
+          "latest_version": "2022.9.2",
           "release_summary": null,
           "release_url": "https://www.home-assistant.io/latest-release-notes/",
           "skipped_version": null,
@@ -95,16 +95,16 @@
           "friendly_name": "Home Assistant Core Update",
           "supported_features": 11
         },
-        "last_changed": "2022-09-07T19:20:27.782876+00:00",
-        "last_updated": "2022-09-07T19:20:27.782876+00:00",
+        "last_changed": "2022-09-13T06:52:03.793745+00:00",
+        "last_updated": "2022-09-13T06:52:03.793745+00:00",
         "context": {
-          "id": "01GCCPB1W6VY0S12HS0SDC2X8J",
+          "id": "01GCTSX0AHS5V7F9FNDC7XNBWA",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -123,16 +123,16 @@
           "friendly_name": "Let's Encrypt Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.783207+00:00",
-        "last_updated": "2022-09-07T19:20:27.783207+00:00",
+        "last_changed": "2022-09-13T06:52:03.794134+00:00",
+        "last_updated": "2022-09-13T06:52:03.794134+00:00",
         "context": {
-          "id": "01GCCPB1W7FBQTKG3SYSCS5GDV",
+          "id": "01GCTSX0AJNASEPAJXF578PSN2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -151,16 +151,16 @@
           "friendly_name": "Mosquitto broker Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.783487+00:00",
-        "last_updated": "2022-09-07T19:20:27.783487+00:00",
+        "last_changed": "2022-09-13T06:52:03.794529+00:00",
+        "last_updated": "2022-09-13T06:52:03.794529+00:00",
         "context": {
-          "id": "01GCCPB1W794FJM39TV2XGWZNA",
+          "id": "01GCTSX0AJZD20V3BWG67H2MZG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -179,16 +179,16 @@
           "friendly_name": "Grafana Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.783744+00:00",
-        "last_updated": "2022-09-07T19:20:27.783744+00:00",
+        "last_changed": "2022-09-13T06:52:03.794942+00:00",
+        "last_updated": "2022-09-13T06:52:03.794942+00:00",
         "context": {
-          "id": "01GCCPB1W72XEXZP265QRC3K44",
+          "id": "01GCTSX0AJCANGQ5EBDZGJ06J9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -207,16 +207,16 @@
           "friendly_name": "Studio Code Server Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.783990+00:00",
-        "last_updated": "2022-09-07T19:20:27.783990+00:00",
+        "last_changed": "2022-09-13T06:52:03.795291+00:00",
+        "last_updated": "2022-09-13T06:52:03.795291+00:00",
         "context": {
-          "id": "01GCCPB1W7PD0KPMJXG59TN4YA",
+          "id": "01GCTSX0AKJXZ7KMQ2KCHE5J60",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -224,10 +224,10 @@
         "state": "off",
         "attributes": {
           "auto_update": false,
-          "installed_version": "5.4.0",
+          "installed_version": "5.4.1",
           "in_progress": false,
-          "latest_version": "5.4.0",
-          "release_summary": "# Changelog\n\n## 5.4.0\n\n- Add Generate UUID menu item\n- Harmonize Home Assistant term\n- Rename Components to integrations\n- Remove images for libraries\n- Update jQuery to 3.6.0\n- Update js-yaml to 4.1.0\n- Update Ace Editor to 1.9.6\n\n## 5.3.3\n\n- Fix Home As",
+          "latest_version": "5.4.1",
+          "release_summary": "# Changelog\n\n## 5.4.1\n\n- Bugfix: Disable Ace-internal yaml-linting\n- Disable internal check for new releases\n\n## 5.4.0\n\n- Add Generate UUID menu item\n- Harmonize Home Assistant term\n- Rename Components to integrations\n- Remove images for libraries\n- Updat",
           "release_url": null,
           "skipped_version": null,
           "title": "File editor",
@@ -235,16 +235,16 @@
           "friendly_name": "File editor Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.784252+00:00",
-        "last_updated": "2022-09-07T19:20:27.784252+00:00",
+        "last_changed": "2022-09-13T06:52:03.795654+00:00",
+        "last_updated": "2022-09-13T06:52:03.795654+00:00",
         "context": {
-          "id": "01GCCPB1W8FY3FP4TJP95V7RZP",
+          "id": "01GCTSX0AK979V0QDXHMFS31HC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -263,16 +263,16 @@
           "friendly_name": "Duck DNS Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.784491+00:00",
-        "last_updated": "2022-09-07T19:20:27.784491+00:00",
+        "last_changed": "2022-09-13T06:52:03.795974+00:00",
+        "last_updated": "2022-09-13T06:52:03.795974+00:00",
         "context": {
-          "id": "01GCCPB1W8NP0140JSBPRCMBQE",
+          "id": "01GCTSX0AKR49Z54X3MGR0T8VV",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -291,16 +291,16 @@
           "friendly_name": "NGINX Home Assistant SSL proxy Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.785037+00:00",
-        "last_updated": "2022-09-07T19:20:27.785037+00:00",
+        "last_changed": "2022-09-13T06:52:03.796291+00:00",
+        "last_updated": "2022-09-13T06:52:03.796291+00:00",
         "context": {
-          "id": "01GCCPB1W93N1S9QQEBDBY80V2",
+          "id": "01GCTSX0AMJ8QPZJEEKM2AC8FS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -319,16 +319,16 @@
           "friendly_name": "Terminal & SSH Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.785406+00:00",
-        "last_updated": "2022-09-07T19:20:27.785406+00:00",
+        "last_changed": "2022-09-13T06:52:03.796639+00:00",
+        "last_updated": "2022-09-13T06:52:03.796639+00:00",
         "context": {
-          "id": "01GCCPB1W9D1MAY1956F1K94B9",
+          "id": "01GCTSX0AMY4T3KTA5XWAMYHQ9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -347,16 +347,16 @@
           "friendly_name": "Samba share Update",
           "supported_features": 25
         },
-        "last_changed": "2022-09-07T19:20:27.785756+00:00",
-        "last_updated": "2022-09-07T19:20:27.785756+00:00",
+        "last_changed": "2022-09-13T06:52:03.796979+00:00",
+        "last_updated": "2022-09-13T06:52:03.796979+00:00",
         "context": {
-          "id": "01GCCPB1W9556MB0S4P1RN7BMK",
+          "id": "01GCTSX0AMWG9HNF9GTZ7VJ709",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -375,46 +375,130 @@
           "friendly_name": "Home Assistant Operating System Update",
           "supported_features": 3
         },
-        "last_changed": "2022-09-07T19:20:27.786241+00:00",
-        "last_updated": "2022-09-07T19:20:27.786241+00:00",
+        "last_changed": "2022-09-13T06:52:03.798118+00:00",
+        "last_updated": "2022-09-13T06:52:03.798118+00:00",
         "context": {
-          "id": "01GCCPB1WAGR86C3JATZNM3WDG",
+          "id": "01GCTSX0APPE6RM1K2FW9VGMH7",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_core_update_available",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.12",
+          "in_progress": false,
+          "latest_version": "v5.12",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/pi-hole/releases/tag/v5.12",
+          "skipped_version": null,
+          "title": "Pi-hole Core",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole Core Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-09-12T11:04:19.218848+00:00",
+        "last_updated": "2022-09-12T11:04:19.218848+00:00",
+        "context": {
+          "id": "01GCRNY60J3PJTZ2P4R6K4FZMF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_web_update_available",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.14.2",
+          "in_progress": false,
+          "latest_version": "v5.14.2",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/AdminLTE/releases/tag/v5.14.2",
+          "skipped_version": null,
+          "title": "Pi-hole Web interface",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole Web Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-09-12T11:04:19.219410+00:00",
+        "last_updated": "2022-09-12T11:04:19.219410+00:00",
+        "context": {
+          "id": "01GCRNY60KCW6XWCG8NFH1P1M4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.pi_hole_ftl_update_available",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v5.17",
+          "in_progress": false,
+          "latest_version": "v5.17",
+          "release_summary": null,
+          "release_url": "https://github.com/pi-hole/FTL/releases/tag/v5.17",
+          "skipped_version": null,
+          "title": "Pi-hole FTL DNS",
+          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
+          "friendly_name": "Pi-Hole FTL Update Available",
+          "supported_features": 0
+        },
+        "last_changed": "2022-09-12T11:04:19.219792+00:00",
+        "last_updated": "2022-09-12T11:04:19.219792+00:00",
+        "context": {
+          "id": "01GCRNY60KTR4J2KDX2N6NRT43",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_level",
-        "state": "46",
+        "state": "52",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-40",
+          "icon": "mdi:battery-charging-wireless-50",
           "friendly_name": "Pixel 6 Battery Level"
         },
-        "last_changed": "2022-09-08T05:31:17.662486+00:00",
-        "last_updated": "2022-09-08T05:31:17.662486+00:00",
+        "last_changed": "2022-09-13T06:52:32.608677+00:00",
+        "last_updated": "2022-09-13T06:52:32.608677+00:00",
         "context": {
-          "id": "01GCDS9GRYK4KSVM4CBMY6F96T",
+          "id": "01GCTSXWF0QNDYHF7965BN10VK",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 46,
+        "native_value": 52,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_temperature",
-        "state": "26.7",
+        "state": "37.0",
         "attributes": {
           "state_class": "measurement",
           "unit_of_measurement": "°C",
@@ -422,63 +506,63 @@
           "icon": "mdi:battery",
           "friendly_name": "Pixel 6 Battery Temperature"
         },
-        "last_changed": "2022-09-08T06:06:56.663541+00:00",
-        "last_updated": "2022-09-08T06:06:56.663541+00:00",
+        "last_changed": "2022-09-13T06:52:32.609609+00:00",
+        "last_updated": "2022-09-13T06:52:32.609609+00:00",
         "context": {
-          "id": "01GCDVASMQ92XR45MD2RNDHH34",
+          "id": "01GCTSXWF1B5B1NTYXX2H6F4G9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 26.7,
+        "native_value": 37.0,
         "native_unit_of_measurement": "°C"
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_state",
-        "state": "discharging",
+        "state": "charging",
         "attributes": {
-          "icon": "mdi:battery-minus",
+          "icon": "mdi:battery-plus",
           "friendly_name": "Pixel 6 Battery State"
         },
-        "last_changed": "2022-09-07T19:20:38.844304+00:00",
-        "last_updated": "2022-09-07T19:20:38.844304+00:00",
+        "last_changed": "2022-09-13T06:37:17.182017+00:00",
+        "last_updated": "2022-09-13T06:37:17.182017+00:00",
         "context": {
-          "id": "01GCCPBCNWHPNMQ410SSQZ99M6",
+          "id": "01GCTS1YFYEKCC173ZCHHYBY28",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "discharging",
+        "native_value": "charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_charger_type",
-        "state": "none",
+        "state": "wireless",
         "attributes": {
-          "icon": "mdi:battery",
+          "icon": "mdi:battery-charging-wireless",
           "friendly_name": "Pixel 6 Charger Type"
         },
-        "last_changed": "2022-09-07T19:20:38.844543+00:00",
-        "last_updated": "2022-09-07T19:20:38.844543+00:00",
+        "last_changed": "2022-09-13T06:23:35.583551+00:00",
+        "last_updated": "2022-09-13T06:23:35.583551+00:00",
         "context": {
-          "id": "01GCCPBCNWXFZZEPP7TSPZM25S",
+          "id": "01GCTR8W4ZA05N1QKE28QXTV5Z",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "none",
+        "native_value": "wireless",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -488,10 +572,10 @@
           "icon": "mdi:battery-heart-variant",
           "friendly_name": "Pixel 6 Battery Health"
         },
-        "last_changed": "2022-09-07T19:20:38.844803+00:00",
-        "last_updated": "2022-09-07T19:20:38.844803+00:00",
+        "last_changed": "2022-09-12T11:04:19.223632+00:00",
+        "last_updated": "2022-09-12T11:04:19.223632+00:00",
         "context": {
-          "id": "01GCCPBCNWDQW7DR41CRBVR1VR",
+          "id": "01GCRNY60QZAF6R54VR0YN2W69",
           "parent_id": null,
           "user_id": null
         }
@@ -500,54 +584,54 @@
         "native_value": "good",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_6_battery_power",
-        "state": "-0.24",
+        "state": "2.42",
         "attributes": {
           "state_class": "measurement",
-          "current": -0.061875,
-          "voltage": 3.833,
+          "current": 0.605937,
+          "voltage": 4.001,
           "unit_of_measurement": "W",
           "device_class": "power",
-          "icon": "mdi:battery-minus",
+          "icon": "mdi:battery-plus",
           "friendly_name": "Pixel 6 Battery Power"
         },
-        "last_changed": "2022-09-08T06:06:59.548347+00:00",
-        "last_updated": "2022-09-08T06:06:59.548347+00:00",
+        "last_changed": "2022-09-13T06:52:32.610161+00:00",
+        "last_updated": "2022-09-13T06:52:32.610161+00:00",
         "context": {
-          "id": "01GCDVAWEW31GRAZPMBCW40F4T",
+          "id": "01GCTSXWF2R9C7D10WZ16WMZTG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": -0.24,
+        "native_value": 2.42,
         "native_unit_of_measurement": "W"
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.pixel_6_is_charging",
-        "state": "off",
+        "state": "on",
         "attributes": {
           "device_class": "plug",
-          "icon": "mdi:power-plug-off",
+          "icon": "mdi:power-plug",
           "friendly_name": "Pixel 6 Is Charging"
         },
-        "last_changed": "2022-09-07T19:20:38.845356+00:00",
-        "last_updated": "2022-09-07T19:20:38.845356+00:00",
+        "last_changed": "2022-09-13T06:37:17.182968+00:00",
+        "last_updated": "2022-09-13T06:37:17.182968+00:00",
         "context": {
-          "id": "01GCCPBCNX7A281KTWPEDJXF8C",
+          "id": "01GCTS1YFYFHZCBM511PGEXGF0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -557,66 +641,66 @@
           "source_type": "gps",
           "friendly_name": "Pixel 6"
         },
-        "last_changed": "2022-09-07T19:20:38.845634+00:00",
-        "last_updated": "2022-09-07T19:20:38.845634+00:00",
+        "last_changed": "2022-09-12T11:04:19.224683+00:00",
+        "last_updated": "2022-09-12T11:04:19.224683+00:00",
         "context": {
-          "id": "01GCCPBCNXN9PJX21BK346XFYD",
+          "id": "01GCRNY60RZ91CXTE46NWH1E7M",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_activity",
-        "state": "Stationary",
+        "state": "Unknown",
         "attributes": {
           "Confidence": "High",
           "Types": [
-            "Stationary"
+            "Unknown"
           ],
-          "icon": "mdi:human-male",
+          "icon": "mdi:help-circle",
           "friendly_name": "Marc’s iPad Activity"
         },
-        "last_changed": "2022-09-07T21:27:35.202568+00:00",
-        "last_updated": "2022-09-07T21:27:35.202568+00:00",
+        "last_changed": "2022-09-12T21:34:37.241950+00:00",
+        "last_updated": "2022-09-12T21:34:37.241950+00:00",
         "context": {
-          "id": "01GCCXKTH2YPXMJF0MVKX87QBF",
+          "id": "01GCST09NS0GMG277T3BBZ06TB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Stationary",
+        "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_battery_level",
-        "state": "100",
+        "state": "98",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery",
+          "icon": "mdi:battery-90",
           "friendly_name": "Marc’s iPad Battery Level"
         },
-        "last_changed": "2022-09-07T19:20:38.846143+00:00",
-        "last_updated": "2022-09-07T19:20:38.846143+00:00",
+        "last_changed": "2022-09-12T21:46:19.191517+00:00",
+        "last_updated": "2022-09-12T21:46:19.191517+00:00",
         "context": {
-          "id": "01GCCPBCNYZ14BAAZE80CH9NTE",
+          "id": "01GCSTNQ5QC0C81K34DATK01W6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 100,
+        "native_value": 98,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -624,13 +708,13 @@
         "state": "Not Charging",
         "attributes": {
           "Low Power Mode": false,
-          "icon": "mdi:battery",
+          "icon": "mdi:battery-90",
           "friendly_name": "Marc’s iPad Battery State"
         },
-        "last_changed": "2022-09-07T21:19:14.053602+00:00",
-        "last_updated": "2022-09-07T21:19:14.053602+00:00",
+        "last_changed": "2022-09-12T11:04:19.225712+00:00",
+        "last_updated": "2022-09-12T21:33:29.253438+00:00",
         "context": {
-          "id": "01GCCX4H45TH9JMDHYM1KSG839",
+          "id": "01GCSSY795TR7QNRYKF2R72VYH",
           "parent_id": null,
           "user_id": null
         }
@@ -639,56 +723,56 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_storage",
-        "state": "42.84",
+        "state": "43.01",
         "attributes": {
-          "Available": "25,15 GB",
-          "Available (Important)": "30,10 GB",
-          "Available (Opportunistic)": "27,41 GB",
+          "Available": "25,26 GB",
+          "Available (Important)": "31,06 GB",
+          "Available (Opportunistic)": "27,52 GB",
           "Total": "63,98 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "Marc’s iPad Storage"
         },
-        "last_changed": "2022-09-07T21:27:35.203619+00:00",
-        "last_updated": "2022-09-07T21:27:35.203619+00:00",
+        "last_changed": "2022-09-12T21:46:19.192358+00:00",
+        "last_updated": "2022-09-12T21:46:19.192358+00:00",
         "context": {
-          "id": "01GCCXKTH36Z1CDENHHS0NHEA2",
+          "id": "01GCSTNQ5R7KQE648AN5SJA5WA",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "42.84",
+        "native_value": "43.01",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_ssid",
-        "state": "Not Connected",
+        "state": "cramacug_5G",
         "attributes": {
-          "icon": "mdi:wifi-off",
+          "icon": "mdi:wifi",
           "friendly_name": "Marc’s iPad SSID"
         },
-        "last_changed": "2022-09-07T20:37:55.436402+00:00",
-        "last_updated": "2022-09-07T20:37:55.436402+00:00",
+        "last_changed": "2022-09-12T21:33:29.255350+00:00",
+        "last_updated": "2022-09-12T21:33:29.255350+00:00",
         "context": {
-          "id": "01GCCTRWKCX8M0FSNFQQ8ASGDE",
+          "id": "01GCSSY797224VPS4J1GDJ8Z9Q",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Not Connected",
+        "native_value": "cramacug_5G",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -698,10 +782,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "Marc’s iPad Connection Type"
         },
-        "last_changed": "2022-09-07T19:20:38.847185+00:00",
-        "last_updated": "2022-09-07T19:20:38.847185+00:00",
+        "last_changed": "2022-09-12T11:04:19.226866+00:00",
+        "last_updated": "2022-09-12T11:04:19.226866+00:00",
         "context": {
-          "id": "01GCCPBCNZF310670R7BFSG84F",
+          "id": "01GCRNY60T3N3DASESXTDQQJPS",
           "parent_id": null,
           "user_id": null
         }
@@ -710,29 +794,29 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_bssid",
-        "state": "Not Connected",
+        "state": "30:5a:3a:c4:65:2c",
         "attributes": {
-          "icon": "mdi:wifi-off",
+          "icon": "mdi:wifi-star",
           "friendly_name": "Marc’s iPad BSSID"
         },
-        "last_changed": "2022-09-07T20:37:55.436743+00:00",
-        "last_updated": "2022-09-07T20:37:55.436743+00:00",
+        "last_changed": "2022-09-12T21:33:29.260487+00:00",
+        "last_updated": "2022-09-12T21:33:29.260487+00:00",
         "context": {
-          "id": "01GCCTRWKCS1MERPKYYWTB5CWP",
+          "id": "01GCSSY79CG66XVT2NCTYHBGZ0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Not Connected",
+        "native_value": "30:5a:3a:c4:65:2c",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -761,10 +845,10 @@
           "icon": "mdi:map",
           "friendly_name": "Marc’s iPad Geocoded Location"
         },
-        "last_changed": "2022-09-07T19:20:38.847630+00:00",
-        "last_updated": "2022-09-07T19:20:38.847630+00:00",
+        "last_changed": "2022-09-12T11:04:19.227633+00:00",
+        "last_updated": "2022-09-12T11:04:19.227633+00:00",
         "context": {
-          "id": "01GCCPBCNZTZ2PJ3RMM0352TPC",
+          "id": "01GCRNY60VRPXYH37YJJ67PFB9",
           "parent_id": null,
           "user_id": null
         }
@@ -773,29 +857,29 @@
         "native_value": "Carrer de Rocabuquera, 70\n08530 La Garriga Barcelona\nSpain",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.marcs_ipad_last_update_trigger",
-        "state": "Background Fetch",
+        "state": "Launch",
         "attributes": {
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "Marc’s iPad Last Update Trigger"
         },
-        "last_changed": "2022-09-07T21:11:30.415184+00:00",
-        "last_updated": "2022-09-07T21:11:30.415184+00:00",
+        "last_changed": "2022-09-12T21:33:29.261449+00:00",
+        "last_updated": "2022-09-12T21:33:29.261449+00:00",
         "context": {
-          "id": "01GCCWPCBFGSAG5S5V43X05C4X",
+          "id": "01GCSSY79D923MN5TA4587VKNW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Background Fetch",
+        "native_value": "Launch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -811,100 +895,16 @@
           "vertical_accuracy": 25.562612533569336,
           "friendly_name": "Marc’s iPad"
         },
-        "last_changed": "2022-09-07T19:20:38.848287+00:00",
-        "last_updated": "2022-09-07T19:20:38.848287+00:00",
+        "last_changed": "2022-09-12T11:04:19.228523+00:00",
+        "last_updated": "2022-09-12T11:04:19.228523+00:00",
         "context": {
-          "id": "01GCCPBCP0WTXF2QR55E7SK1G6",
+          "id": "01GCRNY60WFYZZ92Q4D4T9G012",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.pi_hole_core_update_available",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "v5.11.4",
-          "in_progress": false,
-          "latest_version": "v5.12",
-          "release_summary": null,
-          "release_url": "https://github.com/pi-hole/pi-hole/releases/tag/v5.12",
-          "skipped_version": null,
-          "title": "Pi-hole Core",
-          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
-          "friendly_name": "Pi-Hole Core Update Available",
-          "supported_features": 0
-        },
-        "last_changed": "2022-09-07T19:20:46.571398+00:00",
-        "last_updated": "2022-09-07T19:20:46.571398+00:00",
-        "context": {
-          "id": "01GCCPBM7BJJAH2BDMA6ETVWYW",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.pi_hole_web_update_available",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "v5.13",
-          "in_progress": false,
-          "latest_version": "v5.14.2",
-          "release_summary": null,
-          "release_url": "https://github.com/pi-hole/AdminLTE/releases/tag/v5.14.2",
-          "skipped_version": null,
-          "title": "Pi-hole Web interface",
-          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
-          "friendly_name": "Pi-Hole Web Update Available",
-          "supported_features": 0
-        },
-        "last_changed": "2022-09-07T19:20:46.573325+00:00",
-        "last_updated": "2022-09-07T19:20:46.573325+00:00",
-        "context": {
-          "id": "01GCCPBM7DVVRQK46KRQ8PY5RS",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.pi_hole_ftl_update_available",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "v5.16.3",
-          "in_progress": false,
-          "latest_version": "v5.17",
-          "release_summary": null,
-          "release_url": "https://github.com/pi-hole/FTL/releases/tag/v5.17",
-          "skipped_version": null,
-          "title": "Pi-hole FTL DNS",
-          "entity_picture": "https://brands.home-assistant.io/_/pi_hole/icon.png",
-          "friendly_name": "Pi-Hole FTL Update Available",
-          "supported_features": 0
-        },
-        "last_changed": "2022-09-07T19:20:46.579828+00:00",
-        "last_updated": "2022-09-07T19:20:46.579828+00:00",
-        "context": {
-          "id": "01GCCPBM7KQRKASPER61J7S6G1",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -914,16 +914,16 @@
           "device_class": "update",
           "friendly_name": "ShellyPro-4PM-Garden OTA Update"
         },
-        "last_changed": "2022-09-07T19:20:47.155302+00:00",
-        "last_updated": "2022-09-07T19:20:47.155302+00:00",
+        "last_changed": "2022-09-12T11:04:23.547127+00:00",
+        "last_updated": "2022-09-12T11:04:23.547127+00:00",
         "context": {
-          "id": "01GCCPBMSKXE60E0P4MTBCP6H9",
+          "id": "01GCRNYA7VFQEFTMCP5R49X7Z8",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -933,16 +933,16 @@
           "device_class": "update",
           "friendly_name": "ShellyPro-4PM-Garden OTA Update Beta"
         },
-        "last_changed": "2022-09-07T19:20:47.155778+00:00",
-        "last_updated": "2022-09-07T19:20:47.155778+00:00",
+        "last_changed": "2022-09-12T11:04:23.547590+00:00",
+        "last_updated": "2022-09-12T11:04:23.547590+00:00",
         "context": {
-          "id": "01GCCPBMSK9H942B62QFZA3PDM",
+          "id": "01GCRNYA7VB2NPCE3V0WRVMMRY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -952,16 +952,16 @@
           "device_class": "restart",
           "friendly_name": "ShellyPro-4PM-Garden Reboot"
         },
-        "last_changed": "2022-09-07T19:20:47.156114+00:00",
-        "last_updated": "2022-09-07T19:20:47.156114+00:00",
+        "last_changed": "2022-09-12T11:04:23.547895+00:00",
+        "last_updated": "2022-09-12T11:04:23.547895+00:00",
         "context": {
-          "id": "01GCCPBMSMC391N6AD447XEYZ9",
+          "id": "01GCRNYA7V023CHJ313W6JXGZE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -971,16 +971,16 @@
           "device_class": "update",
           "friendly_name": "Shelly-Plus-1PM-AC OTA Update"
         },
-        "last_changed": "2022-09-07T19:20:46.882927+00:00",
-        "last_updated": "2022-09-07T19:20:46.882927+00:00",
+        "last_changed": "2022-09-12T14:20:26.305904+00:00",
+        "last_updated": "2022-09-12T14:20:26.305904+00:00",
         "context": {
-          "id": "01GCCPBMH2MPZG0R5QBF3G6VDZ",
+          "id": "01GCS159A1W4JTM1KNXVQ706VM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -990,16 +990,16 @@
           "device_class": "restart",
           "friendly_name": "Shelly-Plus-1PM-AC Reboot"
         },
-        "last_changed": "2022-09-07T19:20:46.883429+00:00",
-        "last_updated": "2022-09-07T19:20:46.883429+00:00",
+        "last_changed": "2022-09-12T14:20:26.306305+00:00",
+        "last_updated": "2022-09-12T14:20:26.306305+00:00",
         "context": {
-          "id": "01GCCPBMH3TJ8618P9T6X3CPD3",
+          "id": "01GCS159A2MSCQW07ESH9G9WBB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -1009,16 +1009,16 @@
           "device_class": "update",
           "friendly_name": "Shelly-Plus-1PM-Server OTA Update"
         },
-        "last_changed": "2022-09-07T19:20:47.139938+00:00",
-        "last_updated": "2022-09-07T19:20:47.139938+00:00",
+        "last_changed": "2022-09-12T11:04:23.579012+00:00",
+        "last_updated": "2022-09-12T11:04:23.579012+00:00",
         "context": {
-          "id": "01GCCPBMS3HVDQ248DFZ1W2XSV",
+          "id": "01GCRNYA8VMJZ4VS36Z4MPKSQX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -1028,92 +1028,16 @@
           "device_class": "restart",
           "friendly_name": "Shelly-Plus-1PM-Server Reboot"
         },
-        "last_changed": "2022-09-07T19:20:47.140765+00:00",
-        "last_updated": "2022-09-07T19:20:47.140765+00:00",
+        "last_changed": "2022-09-12T11:04:23.579520+00:00",
+        "last_updated": "2022-09-12T11:04:23.579520+00:00",
         "context": {
-          "id": "01GCCPBMS4P0YNMY39ZDKH8AVB",
+          "id": "01GCRNYA8VHE9T07MHP5AYNA8S",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_ht_atic_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPlus_HT_Atic OTA Update"
-        },
-        "last_changed": "2022-09-07T19:23:39.193791+00:00",
-        "last_updated": "2022-09-07T19:23:39.193791+00:00",
-        "context": {
-          "id": "01GCCPGWSSVEXDTJCP4VN74R10",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_ht_atic_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPlus_HT_Atic Reboot"
-        },
-        "last_changed": "2022-09-07T19:23:39.194313+00:00",
-        "last_updated": "2022-09-07T19:23:39.194313+00:00",
-        "context": {
-          "id": "01GCCPGWSTV6XRZX1R6AZZFJS7",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_ht_secondfloor_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPlus_HT_SecondFloor OTA Update"
-        },
-        "last_changed": "2022-09-07T19:25:47.059282+00:00",
-        "last_updated": "2022-09-07T19:25:47.059282+00:00",
-        "context": {
-          "id": "01GCCPMSNK8M5RKW9SZ9995NRA",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_ht_secondfloor_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPlus_HT_SecondFloor Reboot"
-        },
-        "last_changed": "2022-09-07T19:25:47.059888+00:00",
-        "last_updated": "2022-09-07T19:25:47.059888+00:00",
-        "context": {
-          "id": "01GCCPMSNKAC7MTBFNE4079HWQ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -1123,16 +1047,16 @@
           "device_class": "update",
           "friendly_name": "Shelly-Plug-S-Fridge OTA Update"
         },
-        "last_changed": "2022-09-07T19:20:47.435259+00:00",
-        "last_updated": "2022-09-07T19:20:47.435259+00:00",
+        "last_changed": "2022-09-12T11:04:23.664686+00:00",
+        "last_updated": "2022-09-12T11:04:23.664686+00:00",
         "context": {
-          "id": "01GCCPBN2BBF5PRRQ5F0NT86EF",
+          "id": "01GCRNYABG4MC4VZVR500QZGGJ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -1142,16 +1066,120 @@
           "device_class": "restart",
           "friendly_name": "Shelly-Plug-S-Fridge Reboot"
         },
-        "last_changed": "2022-09-07T19:20:47.435638+00:00",
-        "last_updated": "2022-09-07T19:20:47.435638+00:00",
+        "last_changed": "2022-09-12T11:04:23.665170+00:00",
+        "last_updated": "2022-09-12T11:04:23.665170+00:00",
         "context": {
-          "id": "01GCCPBN2B7TKFX5RVP4CYR9XH",
+          "id": "01GCRNYABHHQBCYGTDE2ZEV6HH",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-09-08T06:20:39.758729+00:00"
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyplus_ht_atic_ota_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "ShellyPlus_HT_Atic OTA Update"
+        },
+        "last_changed": "2022-09-12T11:06:33.118915+00:00",
+        "last_updated": "2022-09-12T11:06:33.118915+00:00",
+        "context": {
+          "id": "01GCRP28RY116E93H1AW4HCQFQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyplus_ht_atic_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "ShellyPlus_HT_Atic Reboot"
+        },
+        "last_changed": "2022-09-12T11:06:33.119434+00:00",
+        "last_updated": "2022-09-12T11:06:33.119434+00:00",
+        "context": {
+          "id": "01GCRP28RZ1EAJVJZW3TTHVWDA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyplus_ht_secondfloor_ota_update",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "update",
+          "friendly_name": "ShellyPlus_HT_SecondFloor OTA Update"
+        },
+        "last_changed": "2022-09-12T11:07:04.649904+00:00",
+        "last_updated": "2022-09-12T11:07:04.649904+00:00",
+        "context": {
+          "id": "01GCRP37J9SEKVCGCMTT1MH5VC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.shellyplus_ht_secondfloor_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "ShellyPlus_HT_SecondFloor Reboot"
+        },
+        "last_changed": "2022-09-12T11:07:04.650286+00:00",
+        "last_updated": "2022-09-12T11:07:04.650286+00:00",
+        "context": {
+          "id": "01GCRP37JAFCKESN4R63CAAEV8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.adguard_home_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.7.3",
+          "in_progress": false,
+          "latest_version": "4.7.3",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AdGuard Home",
+          "entity_picture": "/api/hassio/addons/a0d7b954_adguard/icon",
+          "friendly_name": "AdGuard Home Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-09-13T06:52:03.797375+00:00",
+        "last_updated": "2022-09-13T06:52:03.797375+00:00",
+        "context": {
+          "id": "01GCTSX0ANP0NFJWE978EZW1EG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-09-13T07:04:19.663128+00:00"
     },
     {
       "state": {
@@ -1190,367 +1218,6 @@
       },
       "extra_data": null,
       "last_seen": "2022-09-07T19:20:04.678162+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_pro_4pm_garden_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "Shelly-Pro-4PM-Garden OTA Update"
-        },
-        "last_changed": "2022-09-01T10:46:37.598037+00:00",
-        "last_updated": "2022-09-01T10:46:37.598037+00:00",
-        "context": {
-          "id": "01GBWAHW8YF2XDPK4EMPPGEV11",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_pro_4pm_garden_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "Shelly-Pro-4PM-Garden Reboot"
-        },
-        "last_changed": "2022-09-01T10:46:37.598491+00:00",
-        "last_updated": "2022-09-01T10:46:37.598491+00:00",
-        "context": {
-          "id": "01GBWAHW8YWN1H5DPB9T0PPEMQ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_1pm_server_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "Shelly-Plus-1PM-Server OTA Update"
-        },
-        "last_changed": "2022-09-01T10:45:56.096851+00:00",
-        "last_updated": "2022-09-01T10:45:56.096851+00:00",
-        "context": {
-          "id": "01GBWAGKR060ZHY78AR6NYQC61",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_1pm_server_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "Shelly-Plus-1PM-Server Reboot"
-        },
-        "last_changed": "2022-09-01T10:45:56.097249+00:00",
-        "last_updated": "2022-09-01T10:45:56.097249+00:00",
-        "context": {
-          "id": "01GBWAGKR1HJN1JM4WD7VH9TZP",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_1pm_ac_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "Shelly-Plus-1PM-AC OTA Update"
-        },
-        "last_changed": "2022-09-01T10:46:18.263285+00:00",
-        "last_updated": "2022-09-01T10:46:18.263285+00:00",
-        "context": {
-          "id": "01GBWAH9CQD9FXQTY77NAANHB3",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_1pm_ac_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "Shelly-Plus-1PM-AC Reboot"
-        },
-        "last_changed": "2022-09-01T10:46:18.263882+00:00",
-        "last_updated": "2022-09-01T10:46:18.263882+00:00",
-        "context": {
-          "id": "01GBWAH9CQJ6J2143KZVDAQJSR",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_ht_atic_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "Shelly-Plus-HT-Atic OTA Update"
-        },
-        "last_changed": "2022-09-01T10:55:06.030886+00:00",
-        "last_updated": "2022-09-01T10:55:06.030886+00:00",
-        "context": {
-          "id": "01GBWB1CSEHNDNMPJ5T098SZXY",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_ht_atic_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "Shelly-Plus-HT-Atic Reboot"
-        },
-        "last_changed": "2022-09-01T10:55:06.031322+00:00",
-        "last_updated": "2022-09-01T10:55:06.031322+00:00",
-        "context": {
-          "id": "01GBWB1CSFA54WNMW1P0S54Y3T",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_ht_secondfloor_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "Shelly-Plus-HT-SecondFloor OTA Update"
-        },
-        "last_changed": "2022-09-01T10:55:44.235153+00:00",
-        "last_updated": "2022-09-01T10:55:44.235153+00:00",
-        "context": {
-          "id": "01GBWB2J3BYBQ970NPD24Z7F7G",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shelly_plus_ht_secondfloor_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "Shelly-Plus-HT-SecondFloor Reboot"
-        },
-        "last_changed": "2022-09-01T10:55:44.235623+00:00",
-        "last_updated": "2022-09-01T10:55:44.235623+00:00",
-        "context": {
-          "id": "01GBWB2J3BMZ9T46CAB53WPV61",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T11:38:57.463423+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_1pm_ac_ota_update_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPlus-1PM-AC OTA Update"
-        },
-        "last_changed": "2022-09-01T10:17:23.649738+00:00",
-        "last_updated": "2022-09-01T10:17:23.649738+00:00",
-        "context": {
-          "id": "01GBW8WBE1DYB8K43C743RWACR",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:46:18.073591+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_1pm_ac_reboot_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPlus-1PM-AC Reboot"
-        },
-        "last_changed": "2022-09-01T10:17:23.650198+00:00",
-        "last_updated": "2022-09-01T10:17:23.650198+00:00",
-        "context": {
-          "id": "01GBW8WBE2MB4RC7RG3WZHZCWA",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:46:18.074214+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_1pm_server_ota_update_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPlus-1PM-Server OTA Update"
-        },
-        "last_changed": "2022-09-01T10:16:28.035835+00:00",
-        "last_updated": "2022-09-01T10:16:28.035835+00:00",
-        "context": {
-          "id": "01GBW8TN435RHW74Y48R3BJBCW",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:45:55.892268+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellyplus_1pm_server_reboot_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPlus-1PM-Server Reboot"
-        },
-        "last_changed": "2022-09-01T10:16:28.036431+00:00",
-        "last_updated": "2022-09-01T10:16:28.036431+00:00",
-        "context": {
-          "id": "01GBW8TN444Q3Q485YJW5P668R",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:45:55.892912+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellypro_4pm_garden_ota_update",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPRO-4PM-Garden OTA Update"
-        },
-        "last_changed": "2022-09-01T06:23:33.305705+00:00",
-        "last_updated": "2022-09-01T06:23:33.305705+00:00",
-        "context": {
-          "id": "01GBVVG5XS8ZR26219K9B7WA8M",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T06:31:42.103550+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellypro_4pm_garden_reboot",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPRO-4PM-Garden Reboot"
-        },
-        "last_changed": "2022-09-01T06:23:33.306262+00:00",
-        "last_updated": "2022-09-01T06:23:33.306262+00:00",
-        "context": {
-          "id": "01GBVVG5XTPBM6QWWANC83NDPW",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T06:31:42.104338+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellypro_4pm_garden_ota_update_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPro-4PM-Garden OTA Update"
-        },
-        "last_changed": "2022-09-01T10:15:34.686902+00:00",
-        "last_updated": "2022-09-01T10:15:34.686902+00:00",
-        "context": {
-          "id": "01GBW8S10YAPDN4GC1VJ9F5KED",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:45:32.995270+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellypro_4pm_garden_reboot_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "ShellyPro-4PM-Garden Reboot"
-        },
-        "last_changed": "2022-09-01T10:15:34.687711+00:00",
-        "last_updated": "2022-09-01T10:15:34.687711+00:00",
-        "context": {
-          "id": "01GBW8S10Z78341PPW0DRMVK4K",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:45:32.996248+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.shellypro_4pm_garden_ota_update_beta_2",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "update",
-          "friendly_name": "ShellyPro-4PM-Garden OTA Update Beta"
-        },
-        "last_changed": "2022-09-01T10:15:34.687392+00:00",
-        "last_updated": "2022-09-01T10:15:34.687392+00:00",
-        "context": {
-          "id": "01GBW8S10ZHZMJPWHQ3J1GC10J",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-09-01T10:45:32.995853+00:00"
     }
   ]
 }
