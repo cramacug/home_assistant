@@ -19,9 +19,9 @@ recorder:
   # db_url: sqlite:////home/user/.homeassistant/test
   auto_purge: false
 
-influx:
+influxdb:
   api_version: 2
-  ssl: false
+  # ssl: false
   host: !secret ha_influx_host
   port: !secret ha_influx_port
   #path:
@@ -30,14 +30,14 @@ influx:
   database: home_assistant
   #verify_ssl: false
   #ssl_ca_cert: None
-  organitzation: HomeAssistant_ORG
-  token: !secret ha_influx_db
-  bucket: home_assistant
+  organization: HomeAssistant_ORG
+  token: !secret ha_influx_token
+  # bucket: home_assistant
   max_retries: 0
-  precision: ns
-  measurement_attr: unit_of_measurement
+  # precision: ns
+  # measurement_attr: unit_of_measurement
   # default_measurement:
-  #override_measurement:
+  # override_measurement:
 
 # Example configuration.yaml entry with all entry types (delete/comment out as necessary)
 sensor:
