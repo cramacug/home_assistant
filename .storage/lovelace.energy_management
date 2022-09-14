@@ -54,11 +54,7 @@
                   "entities": [
                     {
                       "entity": "sensor.energy_current_hour",
-                      "name": "Current hour"
-                    },
-                    {
-                      "entity": "sensor.energy_next_hour",
-                      "name": "Next hour"
+                      "name": "Energy estimated"
                     }
                   ]
                 }

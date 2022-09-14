@@ -333,7 +333,7 @@
         "data": {
           "supports_encryption": true,
           "device_name": "Marc’s iPad",
-          "os_version": "15.6.1",
+          "os_version": "15.7",
           "model": "iPad13,1",
           "app_id": "io.robbie.HomeAssistant",
           "os_name": "iPadOS",

@@ -18,7 +18,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Core",
         "name": "Home Assistant Core",
-        "sw_version": "2022.9.2",
+        "sw_version": "2022.9.4",
         "hw_version": null,
         "entry_type": "service",
         "id": "41a1eb9a8fe4bdca241844bb6c396cff",
@@ -330,7 +330,7 @@
         "manufacturer": "Apple",
         "model": "iPad13,1",
         "name": "Marc’s iPad",
-        "sw_version": "15.6.1",
+        "sw_version": "15.7",
         "hw_version": null,
         "entry_type": null,
         "id": "22265456ff1ebd1551bb937cadeada7a",
@@ -404,16 +404,16 @@
         ],
         "identifiers": [
           [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
             "upnp_host",
             "192.168.1.1"
           ],
           [
             "upnp_serial_number",
             "fc:34:97:84:75:28"
-          ],
-          [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ]
         ],
         "manufacturer": "ASUSTeK Computer Inc.",

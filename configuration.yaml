@@ -21,21 +21,19 @@ recorder:
 
 influxdb:
   api_version: 2
-  # ssl: false
+  ssl: false
   host: !secret ha_influx_host
   port: !secret ha_influx_port
-  #path:
-  #username: (api_version: 1)
-  #password: (api_version: 1)
-  database: home_assistant
-  #verify_ssl: false
-  #ssl_ca_cert: None
   organization: HomeAssistant_ORG
   token: !secret ha_influx_token
-  # bucket: home_assistant
+  database: home_assistant
+  bucket: home_assistant
+  # path:
+  # verify_ssl: false
+  # ssl_ca_cert: None
   max_retries: 0
-  # precision: ns
-  # measurement_attr: unit_of_measurement
+  precision: ns
+  measurement_attr: unit_of_measurement
   # default_measurement:
   # override_measurement:
 

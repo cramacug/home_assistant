@@ -29,6 +29,9 @@
       },
       {
         "stat_consumption": "sensor.shelly_pro_4pm_garden_2_x_plugs_energy"
+      },
+      {
+        "stat_consumption": "sensor.shelly_plug_heater_energy"
       }
     ]
   }
