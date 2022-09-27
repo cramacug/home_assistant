@@ -42,15 +42,6 @@
       },
       {
         "show_in_sidebar": true,
-        "icon": "mdi:home",
-        "title": "CanMarla Summary",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "canmarla-summary",
-        "id": "canmarla_summary"
-      },
-      {
-        "show_in_sidebar": true,
         "icon": "mdi:lightning-bolt-circle",
         "title": "Home power consumption",
         "require_admin": false,

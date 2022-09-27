@@ -87,6 +87,20 @@
               "show_forecast": true,
               "type": "weather-forecast",
               "entity": "weather.can_marla"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "person.marc_cg"
+                },
+                {
+                  "entity": "device_tracker.marcs_ipad"
+                },
+                {
+                  "entity": "device_tracker.pixel_6"
+                }
+              ]
             }
           ]
         }

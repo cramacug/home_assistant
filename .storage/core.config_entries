@@ -129,7 +129,7 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2022.8.0-full (2624)",
+          "app_version": "2022.9.1-full (2700)",
           "device_name": "Pixel 6",
           "manufacturer": "Google",
           "model": "Pixel 6",
@@ -194,7 +194,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:36906/rootDesc.xml",
+          "location": "http://192.168.1.1:52156/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28",
           "host": "192.168.1.1"
         },
@@ -326,38 +326,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "668dfcc916ccb9e9b825e19326c79601",
-        "version": 1,
-        "domain": "mobile_app",
-        "title": "Marc’s iPad",
-        "data": {
-          "supports_encryption": true,
-          "device_name": "Marc’s iPad",
-          "os_version": "15.7",
-          "model": "iPad13,1",
-          "app_id": "io.robbie.HomeAssistant",
-          "os_name": "iPadOS",
-          "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
-          "app_data": {
-            "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
-          },
-          "app_name": "Home Assistant",
-          "manufacturer": "Apple",
-          "app_version": "2022.8 (2022.387)",
-          "webhook_id": "d0905fc24d27ac633a072664839cf52e7724a0221af2610da7fde1f9ab4b0e1f",
-          "secret": "5680a8f2f948e41d66fcc4d708984febba3da7ca93b71b7556834e75191469fb",
-          "user_id": "5b4f42439d76473a9de09f28359272fb",
-          "no_legacy_encryption": true
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "registration",
-        "unique_id": "io.robbie.HomeAssistant-EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
-        "disabled_by": null
-      },
-      {
         "entry_id": "4e126d0156dce6372d2c0df1051a36cd",
         "version": 1,
         "domain": "shelly",
@@ -463,6 +431,38 @@
         "pref_disable_polling": false,
         "source": "zeroconf",
         "unique_id": "98CDAC25D6FA",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a56c65ce89e82674d63050108e523862",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Marc’s iPad",
+        "data": {
+          "app_version": "2022.8 (2022.387)",
+          "model": "iPad13,1",
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "device_name": "Marc’s iPad",
+          "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
+          "os_version": "15.7",
+          "app_name": "PushProvider",
+          "app_data": {
+            "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "supports_encryption": true,
+          "os_name": "iPadOS",
+          "webhook_id": "c7f73e28d13da2de455e21ca52768957490800611e878109d51514c6668d9baa",
+          "secret": "b24dd71cd0be41dd58bdeb2a8a048a1ae6709a96895c3dc6acb0dc34ced3bde7",
+          "user_id": "5b4f42439d76473a9de09f28359272fb",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
         "disabled_by": null
       }
     ]

@@ -1,26 +1,26 @@
 {
-    "version": 2,
-    "minor_version": 1,
-    "key": "person",
-    "data": {
-        "items": [
-            {
-                "name": "Marc CG",
-                "user_id": "5b4f42439d76473a9de09f28359272fb",
-                "device_trackers": [
-                    "device_tracker.pixel_6",
-                    "device_tracker.marcs_ipad"
-                ],
-                "id": "marc_cg",
-                "picture": "/api/image/serve/d4d39442c181f1c5e801a08730c0c473/512x512"
-            },
-            {
-                "name": "Cramacug",
-                "device_trackers": [],
-                "user_id": "39562036d5044f5ea8491eaddc6a8932",
-                "picture": null,
-                "id": "cramacug"
-            }
-        ]
-    }
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Marc CG",
+        "user_id": "5b4f42439d76473a9de09f28359272fb",
+        "device_trackers": [
+          "device_tracker.pixel_6",
+          "device_tracker.marcs_ipad"
+        ],
+        "id": "marc_cg",
+        "picture": "/api/image/serve/d4d39442c181f1c5e801a08730c0c473/512x512"
+      },
+      {
+        "name": "Cramacug",
+        "device_trackers": [],
+        "user_id": "39562036d5044f5ea8491eaddc6a8932",
+        "picture": null,
+        "id": "cramacug"
+      }
+    ]
+  }
 }

@@ -18,7 +18,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Core",
         "name": "Home Assistant Core",
-        "sw_version": "2022.9.4",
+        "sw_version": "2022.9.7",
         "hw_version": null,
         "entry_type": "service",
         "id": "41a1eb9a8fe4bdca241844bb6c396cff",
@@ -42,7 +42,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Supervisor",
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.08.6",
+        "sw_version": "2022.09.1",
         "hw_version": null,
         "entry_type": "service",
         "id": "71589e35ed8dc1e51b7df91ead45583a",
@@ -66,7 +66,7 @@
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Operating System",
         "name": "Home Assistant Operating System",
-        "sw_version": "8.5",
+        "sw_version": "9.0",
         "hw_version": null,
         "entry_type": "service",
         "id": "bd0d822a596d115c3cf365fb5f036008",
@@ -101,8 +101,8 @@
       },
       {
         "config_entries": [
-          "5cb46c50884f9d010cee70344757ab94",
-          "31e00735dd4f51082a0b1178450dc3d0"
+          "31e00735dd4f51082a0b1178450dc3d0",
+          "5cb46c50884f9d010cee70344757ab94"
         ],
         "connections": [
           [
@@ -186,7 +186,7 @@
         "manufacturer": "Home Assistant Community Add-ons",
         "model": "Home Assistant Add-on",
         "name": "Grafana",
-        "sw_version": "7.6.0",
+        "sw_version": "8.0.2",
         "hw_version": null,
         "entry_type": "service",
         "id": "bc52ba4b79b863053a19a85912f290c1",
@@ -234,7 +234,7 @@
         "manufacturer": "Home Assistant Community Add-ons",
         "model": "Home Assistant Add-on",
         "name": "Studio Code Server",
-        "sw_version": "5.3.0",
+        "sw_version": "5.4.0",
         "hw_version": null,
         "entry_type": "service",
         "id": "b3dd2f2c3a838064056a56dd2ca04f94",
@@ -318,7 +318,7 @@
       },
       {
         "config_entries": [
-          "668dfcc916ccb9e9b825e19326c79601"
+          "a56c65ce89e82674d63050108e523862"
         ],
         "connections": [],
         "identifiers": [
@@ -404,12 +404,12 @@
         ],
         "identifiers": [
           [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
-          ],
-          [
             "upnp_host",
             "192.168.1.1"
+          ],
+          [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ],
           [
             "upnp_serial_number",
@@ -563,7 +563,7 @@
         "manufacturer": "Shelly",
         "model": "Shelly Plus 1PM",
         "name": "Shelly-Plus-1PM-Server",
-        "sw_version": "20220617-112825/0.10.3-g7c89a05",
+        "sw_version": "20220909-120529/0.11.1-g56f689f",
         "hw_version": "gen2 (SNSW-001P16EU)",
         "entry_type": null,
         "id": "cbd5712974c546952ab91b17a6fa979b",
@@ -659,7 +659,7 @@
         "manufacturer": "Home Assistant Community Add-ons",
         "model": "Home Assistant Add-on",
         "name": "AdGuard Home",
-        "sw_version": "4.7.3",
+        "sw_version": "4.7.4",
         "hw_version": null,
         "entry_type": "service",
         "id": "4d123410d01c4baa603b8e047a3168cb",
