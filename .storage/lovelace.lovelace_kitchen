@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_kitchen",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "Fridge Summary",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plug_s_fridge",
+                      "name": "Input"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_rssi",
+                      "name": "RSSI"
+                    }
+                  ]
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.shelly_plug_s_fridge_power",
+                  "needle": true,
+                  "severity": {
+                    "green": 0,
+                    "yellow": 1500,
+                    "red": 2000
+                  },
+                  "min": 0,
+                  "max": 2500,
+                  "name": "Instant power consumption"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_power",
+                      "name": "Fridge power"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Shelly Plug S Fridge",
+              "state_color": true,
+              "entities": [
+                {
+                  "entity": "binary_sensor.shelly_plug_s_fridge_firmware_update",
+                  "name": "Firmware update"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plug_s_fridge_cloud",
+                  "name": "Cloud"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_fridge_rssi",
+                  "name": "RSSI"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_fridge_uptime",
+                  "name": "Uptime"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_fridge_temperature",
+                  "name": "Temperature"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_fridge_power",
+                  "name": "Power"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_fridge_energy",
+                  "name": "Energy"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plug_s_fridge_overheating",
+                  "name": "Overheating"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plug_s_fridge_overpowering",
+                  "name": "Overpowering"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

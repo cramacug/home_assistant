@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.marc_office",
+  "data": {
+    "config": {
+      "title": "Can Marla",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "T&H - Atic",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Summary",
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_uptime",
+                      "name": "Uptime"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "T & H",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "Server Summary",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plus_1pm_server",
+                      "name": "Status"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plus_1pm_server_cloud",
+                      "name": "Cloud"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_voltage",
+                      "name": "Voltage"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_rssi",
+                      "name": "Rssi"
+                    }
+                  ]
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.shelly_plus_1pm_server_power",
+                  "needle": true,
+                  "severity": {
+                    "green": 0,
+                    "yellow": 3000,
+                    "red": 3500
+                  },
+                  "min": 0,
+                  "max": 3600,
+                  "name": "Instant power consumption"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "name": "Power consumption last 24h"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "AC Summary",
+              "cards": [
+                {
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plus_1pm_ac",
+                      "name": "State"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plus_1pm_ac_cloud",
+                      "name": "Cloud"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_voltage",
+                      "name": "Voltage"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_rssi",
+                      "name": "Rssi"
+                    }
+                  ]
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.shelly_plus_1pm_ac_power",
+                  "needle": true,
+                  "severity": {
+                    "green": 0,
+                    "yellow": 3000,
+                    "red": 3500
+                  },
+                  "min": 0,
+                  "max": 3600,
+                  "name": "Instant power consumption"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_power",
+                      "name": "Power consumption last 24h"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "ShellyPlus 1PM Server",
+              "state_color": true,
+              "entities": [
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_server_firmware_update",
+                  "name": "Firmware update"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_server_cloud",
+                  "name": "Cloud"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_rssi",
+                  "name": "Rssi"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_uptime",
+                  "name": "Uptime"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_voltage",
+                  "name": "Voltage"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_temperature",
+                  "name": "Temperature"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_power",
+                  "name": "Power"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_server_energy",
+                  "name": "Energy"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_server_overheating",
+                  "name": "Overheating"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_server_overpowering",
+                  "name": "Overpowering"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_server_overvoltage",
+                  "name": "Overvoltage"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "ShellyPlus-1PM-AC",
+              "state_color": true,
+              "entities": [
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_ac_firmware_update",
+                  "name": "Firmware update"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_ac_cloud",
+                  "name": "Cloud"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_rssi",
+                  "name": "Rssi"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_uptime",
+                  "name": "Uptime"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_voltage",
+                  "name": "Voltage"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_temperature",
+                  "name": "Temperature"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_power",
+                  "name": "Power"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_ac_energy",
+                  "name": "Energy"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_ac_overheating",
+                  "name": "Overheating"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_ac_overpowering",
+                  "name": "Overpowering"
+                },
+                {
+                  "entity": "binary_sensor.shelly_plus_1pm_ac_overvoltage",
+                  "name": "Overvoltage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
