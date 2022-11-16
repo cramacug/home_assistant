@@ -39,6 +39,19 @@
                   "name": "RP4 - CPU Load"
                 },
                 {
+                  "type": "gauge",
+                  "entity": "sensor.memory_use",
+                  "needle": true,
+                  "severity": {
+                    "green": 2048,
+                    "yellow": 6556,
+                    "red": 7168
+                  },
+                  "min": 0,
+                  "max": 8192,
+                  "name": "RP4 - RAM use"
+                },
+                {
                   "type": "history-graph",
                   "title": "RP4 - CPU Use",
                   "hours_to_show": 1,

@@ -95,7 +95,7 @@
                 },
                 {
                   "entity": "switch.shelly_pro_4pm_garden_pool",
-                  "name": "State"
+                  "name": "Pool State"
                 },
                 {
                   "entity": "sensor.shelly_pro_4pm_garden_pool_power",
@@ -122,7 +122,7 @@
                 },
                 {
                   "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
-                  "name": "State"
+                  "name": "2 Plugs State"
                 },
                 {
                   "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power",
@@ -149,7 +149,7 @@
                 },
                 {
                   "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
-                  "name": "State"
+                  "name": "2 Lights and 1 plug State"
                 },
                 {
                   "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power",
@@ -176,7 +176,7 @@
                 },
                 {
                   "entity": "switch.shelly_pro_4pm_garden_internal_plug",
-                  "name": "State"
+                  "name": "Internal plug State"
                 },
                 {
                   "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power",

@@ -5,10 +5,16 @@
   "data": {
     "devices": [
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": null,
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "41a1eb9a8fe4bdca241844bb6c396cff",
         "identifiers": [
           [
             "hassio",
@@ -17,22 +23,22 @@
         ],
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Core",
-        "name": "Home Assistant Core",
-        "sw_version": "2022.9.7",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "41a1eb9a8fe4bdca241844bb6c396cff",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
+        "name": "Home Assistant Core",
+        "sw_version": "2022.11.2",
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": null,
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "71589e35ed8dc1e51b7df91ead45583a",
         "identifiers": [
           [
             "hassio",
@@ -41,22 +47,22 @@
         ],
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Supervisor",
-        "name": "Home Assistant Supervisor",
-        "sw_version": "2022.09.1",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "71589e35ed8dc1e51b7df91ead45583a",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2022.10.2",
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": null,
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "bd0d822a596d115c3cf365fb5f036008",
         "identifiers": [
           [
             "hassio",
@@ -65,22 +71,22 @@
         ],
         "manufacturer": "Home Assistant",
         "model": "Home Assistant Operating System",
-        "name": "Home Assistant Operating System",
-        "sw_version": "9.0",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "bd0d822a596d115c3cf365fb5f036008",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
+        "name": "Home Assistant Operating System",
+        "sw_version": "9.3",
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "55ef6d26fcdfc9ef0388b2de7e5d259e"
         ],
+        "configuration_url": "https://www.met.no/en",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "501bb86ada0fd6416fc50bf7d600e6d1",
         "identifiers": [
           [
             "met"
@@ -88,71 +94,47 @@
         ],
         "manufacturer": "Met.no",
         "model": "Forecast",
+        "name_by_user": null,
         "name": "Forecast",
         "sw_version": null,
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "501bb86ada0fd6416fc50bf7d600e6d1",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "https://www.met.no/en"
+        "via_device_id": null
       },
       {
+        "area_id": "garden",
         "config_entries": [
           "31e00735dd4f51082a0b1178450dc3d0",
           "5cb46c50884f9d010cee70344757ab94"
         ],
+        "configuration_url": "http://192.168.1.116",
         "connections": [
           [
             "mac",
             "08:3a:f2:bf:b5:44"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SPSW-004PE16EU)",
+        "id": "8454d03ae5a0f4beb01b147ee63bf33a",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Pro 4PM",
-        "name": "Shelly-Pro-4PM-Garden",
-        "sw_version": "20220830-132254/0.11.0-gfa1bc37",
-        "hw_version": "gen2 (SPSW-004PE16EU)",
-        "entry_type": null,
-        "id": "8454d03ae5a0f4beb01b147ee63bf33a",
-        "via_device_id": null,
-        "area_id": "garden",
         "name_by_user": "Shelly-Pro-4PM-Garden",
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.116"
+        "name": "Shelly-Pro-4PM-Garden",
+        "sw_version": "20221014-105447/0.11.3-g0753507",
+        "via_device_id": null
       },
       {
-        "config_entries": [
-          "ad029a534a33369a4c5daeb9fbd91af1"
-        ],
-        "connections": [],
-        "identifiers": [
-          [
-            "hassio",
-            "core_mosquitto"
-          ]
-        ],
-        "manufacturer": "Official add-ons",
-        "model": "Home Assistant Add-on",
-        "name": "Mosquitto broker",
-        "sw_version": "6.1.3",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "480df299815844e89bc50487dc0f6f9d",
-        "via_device_id": null,
         "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_mosquitto"
-      },
-      {
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/core_letsencrypt",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e9e327f4bb6251e9166217326feb3e0a",
         "identifiers": [
           [
             "hassio",
@@ -161,46 +143,22 @@
         ],
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
+        "name_by_user": null,
         "name": "Let's Encrypt",
         "sw_version": "4.12.7",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "e9e327f4bb6251e9166217326feb3e0a",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_letsencrypt"
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/core_configurator",
         "connections": [],
-        "identifiers": [
-          [
-            "hassio",
-            "a0d7b954_grafana"
-          ]
-        ],
-        "manufacturer": "Home Assistant Community Add-ons",
-        "model": "Home Assistant Add-on",
-        "name": "Grafana",
-        "sw_version": "8.0.2",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "bc52ba4b79b863053a19a85912f290c1",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
         "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/a0d7b954_grafana"
-      },
-      {
-        "config_entries": [
-          "ad029a534a33369a4c5daeb9fbd91af1"
-        ],
-        "connections": [],
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "538d9af8ae18b972c7ea572f3dd926fc",
         "identifiers": [
           [
             "hassio",
@@ -209,22 +167,22 @@
         ],
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
-        "name": "File editor",
-        "sw_version": "5.4.1",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "538d9af8ae18b972c7ea572f3dd926fc",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_configurator"
+        "name": "File editor",
+        "sw_version": "5.4.2",
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b3dd2f2c3a838064056a56dd2ca04f94",
         "identifiers": [
           [
             "hassio",
@@ -233,22 +191,22 @@
         ],
         "manufacturer": "Home Assistant Community Add-ons",
         "model": "Home Assistant Add-on",
-        "name": "Studio Code Server",
-        "sw_version": "5.4.0",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "b3dd2f2c3a838064056a56dd2ca04f94",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode"
+        "name": "Studio Code Server",
+        "sw_version": "5.4.1",
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/core_duckdns",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ccffb62f1179fb4975d4ee06f57c38c2",
         "identifiers": [
           [
             "hassio",
@@ -257,22 +215,22 @@
         ],
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
+        "name_by_user": null,
         "name": "Duck DNS",
         "sw_version": "1.15.0",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "ccffb62f1179fb4975d4ee06f57c38c2",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_duckdns"
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "73d65265bc6e7527b981285321a1b8f5"
         ],
+        "configuration_url": null,
         "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "524b13cf009092310ad36b8919f5cdfb",
         "identifiers": [
           [
             "mobile_app",
@@ -281,22 +239,22 @@
         ],
         "manufacturer": "Google",
         "model": "Pixel 6",
+        "name_by_user": null,
         "name": "Pixel 6",
         "sw_version": "33",
-        "hw_version": null,
-        "entry_type": null,
-        "id": "524b13cf009092310ad36b8919f5cdfb",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/core_nginx_proxy",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e94c424a9e8202adac5605573e01ca77",
         "identifiers": [
           [
             "hassio",
@@ -305,22 +263,22 @@
         ],
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
+        "name_by_user": null,
         "name": "NGINX Home Assistant SSL proxy",
         "sw_version": "3.1.5",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "e94c424a9e8202adac5605573e01ca77",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_nginx_proxy"
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
-          "a56c65ce89e82674d63050108e523862"
+          "8b69d1dab6f83fc70a3a845b8aba54da"
         ],
+        "configuration_url": null,
         "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "22265456ff1ebd1551bb937cadeada7a",
         "identifiers": [
           [
             "mobile_app",
@@ -329,22 +287,22 @@
         ],
         "manufacturer": "Apple",
         "model": "iPad13,1",
-        "name": "Marc’s iPad",
-        "sw_version": "15.7",
-        "hw_version": null,
-        "entry_type": null,
-        "id": "22265456ff1ebd1551bb937cadeada7a",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
+        "name": "iPad",
+        "sw_version": "16.1",
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/core_ssh",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "7e5c108c12c33ab290fc5b4b96c6a705",
         "identifiers": [
           [
             "hassio",
@@ -353,22 +311,22 @@
         ],
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
+        "name_by_user": null,
         "name": "Terminal & SSH",
         "sw_version": "9.6.1",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "7e5c108c12c33ab290fc5b4b96c6a705",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_ssh"
+        "via_device_id": null
       },
       {
+        "area_id": "can_marla_main",
         "config_entries": [
           "c1cdf379c9f6b73bef0ca65f99da9485"
         ],
+        "configuration_url": "https://forecast.solar",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "2c398cce1bb853fb82ff22aa79ada436",
         "identifiers": [
           [
             "forecast_solar",
@@ -377,31 +335,31 @@
         ],
         "manufacturer": "Forecast.Solar",
         "model": "public",
+        "name_by_user": null,
         "name": "Solar production forecast",
         "sw_version": null,
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "2c398cce1bb853fb82ff22aa79ada436",
-        "via_device_id": null,
-        "area_id": "can_marla_main",
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "https://forecast.solar"
+        "via_device_id": null
       },
       {
+        "area_id": "can_marla_main",
         "config_entries": [
           "89f0e1f7fbc74bd3068dc13460727d40"
         ],
+        "configuration_url": null,
         "connections": [
-          [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
-          ],
           [
             "mac",
             "fc:34:97:84:75:28"
+          ],
+          [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e5df4e5c71cca3def701a02613a23a30",
         "identifiers": [
           [
             "upnp_host",
@@ -418,22 +376,22 @@
         ],
         "manufacturer": "ASUSTeK Computer Inc.",
         "model": "RT-AX88U",
+        "name_by_user": null,
         "name": "RT-AX88-Cramacug",
         "sw_version": null,
-        "hw_version": null,
-        "entry_type": null,
-        "id": "e5df4e5c71cca3def701a02613a23a30",
-        "via_device_id": null,
-        "area_id": "can_marla_main",
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "5cb46c50884f9d010cee70344757ab94"
         ],
+        "configuration_url": "http://192.168.1.1",
         "connections": [],
+        "disabled_by": "config_entry",
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fc6e0c22c50c59c86266c1d8c4811f4b",
         "identifiers": [
           [
             "asuswrt",
@@ -442,22 +400,22 @@
         ],
         "manufacturer": "Asus",
         "model": "RT-AX88U",
+        "name_by_user": null,
         "name": "192.168.1.1",
         "sw_version": "3.0.0.4 (build 386)",
-        "hw_version": null,
-        "entry_type": null,
-        "id": "fc6e0c22c50c59c86266c1d8c4811f4b",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": "config_entry",
-        "configuration_url": "http://192.168.1.1"
+        "via_device_id": null
       },
       {
+        "area_id": "can_marla_main",
         "config_entries": [
           "821e46bc4dc755db760a1552caf591e5"
         ],
+        "configuration_url": "http://192.168.1.155:37545/admin",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "cff68aef073ba15af0722da0fbac2512",
         "identifiers": [
           [
             "pi_hole",
@@ -466,22 +424,22 @@
         ],
         "manufacturer": "Pi-hole",
         "model": null,
+        "name_by_user": null,
         "name": "Pi-Hole",
         "sw_version": null,
-        "hw_version": null,
-        "entry_type": null,
-        "id": "cff68aef073ba15af0722da0fbac2512",
-        "via_device_id": null,
-        "area_id": "can_marla_main",
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.155:37545/admin"
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
         ],
+        "configuration_url": "homeassistant://hassio/addon/core_samba",
         "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "5f55e045b2f3a4bfe351a40347f2b906",
         "identifiers": [
           [
             "hassio",
@@ -490,184 +448,154 @@
         ],
         "manufacturer": "Official add-ons",
         "model": "Home Assistant Add-on",
+        "name_by_user": null,
         "name": "Samba share",
         "sw_version": "10.0.0",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "5f55e045b2f3a4bfe351a40347f2b906",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/core_samba"
+        "via_device_id": null
       },
       {
+        "area_id": null,
         "config_entries": [
           "4e126d0156dce6372d2c0df1051a36cd"
         ],
+        "configuration_url": "http://192.168.1.120",
         "connections": [
           [
             "mac",
             "44:17:93:cc:a6:40"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSN-0013A)",
+        "id": "14732356719f05da1b39dbedd401d9fe",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Plus H&T",
-        "name": "ShellyPlus_HT_SecondFloor",
-        "sw_version": "20220830-130838/0.11.0-gfa1bc37",
-        "hw_version": "gen2 (SNSN-0013A)",
-        "entry_type": null,
-        "id": "14732356719f05da1b39dbedd401d9fe",
-        "via_device_id": null,
-        "area_id": null,
         "name_by_user": "Shelly-Plus-HT-SecondFloor",
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.120"
+        "name": "Shelly-Plus-HT-SecondFloor",
+        "sw_version": "",
+        "via_device_id": null
       },
       {
+        "area_id": "marc_s_office",
         "config_entries": [
           "ba9cebdb6adf9ea539252829d0d58fcf"
         ],
+        "configuration_url": "http://192.168.1.119",
         "connections": [
           [
             "mac",
             "44:17:93:d0:dc:08"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSN-0013A)",
+        "id": "a669169928cd23f3a6c0f68928c49a24",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Plus H&T",
-        "name": "ShellyPlus_HT_Atic",
-        "sw_version": "20220830-130838/0.11.0-gfa1bc37",
-        "hw_version": "gen2 (SNSN-0013A)",
-        "entry_type": null,
-        "id": "a669169928cd23f3a6c0f68928c49a24",
-        "via_device_id": null,
-        "area_id": "marc_s_office",
         "name_by_user": "Shelly-Plus-HT-Atic",
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.119"
+        "name": "Shelly-Plus-HT-Atic",
+        "sw_version": "",
+        "via_device_id": null
       },
       {
+        "area_id": "marc_s_office",
         "config_entries": [
           "99d2218bfc032f90bf054388fab1b6cd"
         ],
+        "configuration_url": "http://192.168.1.117",
         "connections": [
           [
             "mac",
             "44:17:93:d4:ec:dc"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-001P16EU)",
+        "id": "cbd5712974c546952ab91b17a6fa979b",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Plus 1PM",
-        "name": "Shelly-Plus-1PM-Server",
-        "sw_version": "20220909-120529/0.11.1-g56f689f",
-        "hw_version": "gen2 (SNSW-001P16EU)",
-        "entry_type": null,
-        "id": "cbd5712974c546952ab91b17a6fa979b",
-        "via_device_id": null,
-        "area_id": "marc_s_office",
         "name_by_user": "Shelly-Plus-1PM-Server",
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.117"
+        "name": "Shelly-Plus-1PM-Server",
+        "sw_version": "20221024-142010/0.11.4-ga1906a2",
+        "via_device_id": null
       },
       {
+        "area_id": "marc_s_office",
         "config_entries": [
           "45a547a3325c84366a94c60b26a6a39f"
         ],
+        "configuration_url": "http://192.168.1.118",
         "connections": [
           [
             "mac",
             "44:17:93:93:7e:9c"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-001P16EU)",
+        "id": "595327bc1b72fc20cda0b84b6afdc30d",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Plus 1PM",
-        "name": "Shelly-Plus-1PM-AC",
-        "sw_version": "20220909-120529/0.11.1-g56f689f",
-        "hw_version": "gen2 (SNSW-001P16EU)",
-        "entry_type": null,
-        "id": "595327bc1b72fc20cda0b84b6afdc30d",
-        "via_device_id": null,
-        "area_id": "marc_s_office",
         "name_by_user": "Shelly-Plus-1PM-AC",
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.118"
+        "name": "Shelly-Plus-1PM-AC",
+        "sw_version": "20221024-142010/0.11.4-ga1906a2",
+        "via_device_id": null
       },
       {
+        "area_id": "kitchen",
         "config_entries": [
           "5cd869ca5e5e8a273f0c5cfb2debd595"
         ],
+        "configuration_url": "http://192.168.1.121",
         "connections": [
           [
             "mac",
             "e8:db:84:bb:59:02"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHPLG-S)",
+        "id": "70bee833269c443dba3695b026a3716f",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Plug S",
-        "name": "Shelly-Plug-S-Fridge",
-        "sw_version": "20220809-124506/v1.12-g99f7e0b",
-        "hw_version": "gen1 (SHPLG-S)",
-        "entry_type": null,
-        "id": "70bee833269c443dba3695b026a3716f",
-        "via_device_id": null,
-        "area_id": "kitchen",
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.121"
+        "name": "Shelly-Plug-S-Fridge",
+        "sw_version": "20221027-101131/v1.12.1-ga9117d3",
+        "via_device_id": null
       },
       {
+        "area_id": "can_marla_main",
         "config_entries": [
           "15ff370950f3d2dbdc144822bbac4428"
         ],
+        "configuration_url": "http://192.168.1.122",
         "connections": [
           [
             "mac",
             "98:cd:ac:25:d6:fa"
           ]
         ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen1 (SHPLG2-1)",
+        "id": "490ea00a5f54c1fdd8429a756378ff60",
         "identifiers": [],
         "manufacturer": "Shelly",
         "model": "Shelly Plug E",
-        "name": "Shelly Plug Heater ",
-        "sw_version": "20220809-124636/v1.12-g99f7e0b",
-        "hw_version": "gen1 (SHPLG2-1)",
-        "entry_type": null,
-        "id": "490ea00a5f54c1fdd8429a756378ff60",
-        "via_device_id": null,
-        "area_id": "can_marla_main",
         "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "http://192.168.1.122"
-      },
-      {
-        "config_entries": [
-          "ad029a534a33369a4c5daeb9fbd91af1"
-        ],
-        "connections": [],
-        "identifiers": [
-          [
-            "hassio",
-            "a0d7b954_adguard"
-          ]
-        ],
-        "manufacturer": "Home Assistant Community Add-ons",
-        "model": "Home Assistant Add-on",
-        "name": "AdGuard Home",
-        "sw_version": "4.7.4",
-        "hw_version": null,
-        "entry_type": "service",
-        "id": "4d123410d01c4baa603b8e047a3168cb",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "homeassistant://hassio/addon/a0d7b954_adguard"
+        "name": "Shelly Plug Mobile Socket ",
+        "sw_version": "20221027-102248/v1.12.1-ga9117d3",
+        "via_device_id": null
       }
     ],
     "deleted_devices": [
@@ -697,6 +625,48 @@
           ]
         ],
         "id": "5a436bbe8cbf5c93027b525265986bd8",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "ad029a534a33369a4c5daeb9fbd91af1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_grafana"
+          ]
+        ],
+        "id": "bc52ba4b79b863053a19a85912f290c1",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "ad029a534a33369a4c5daeb9fbd91af1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_mosquitto"
+          ]
+        ],
+        "id": "480df299815844e89bc50487dc0f6f9d",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "ad029a534a33369a4c5daeb9fbd91af1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_adguard"
+          ]
+        ],
+        "id": "4d123410d01c4baa603b8e047a3168cb",
         "orphaned_timestamp": null
       }
     ]

@@ -11,74 +11,82 @@
           "title": "Home",
           "cards": [
             {
-              "type": "glance",
-              "title": "Values",
-              "entities": [
-                {
-                  "entity": "switch.shelly_pro_4pm_garden_pool",
-                  "name": "Pool"
-                },
-                {
-                  "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
-                  "name": "Garden BBQ light"
-                },
-                {
-                  "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
-                  "name": "Garden external plugs"
-                },
-                {
-                  "entity": "switch.shelly_pro_4pm_garden_internal_plug",
-                  "name": "Garden Internal Plugs"
-                },
-                {
-                  "entity": "switch.shelly_plug_s_fridge",
-                  "name": "Fridge"
-                },
-                {
-                  "entity": "switch.shelly_plus_1pm_ac",
-                  "name": "AC"
-                },
-                {
-                  "entity": "switch.shelly_plus_1pm_server",
-                  "name": "Server"
-                },
-                {
-                  "entity": "switch.shelly_plug_heater",
-                  "name": "Tmp plug"
-                }
-              ]
-            },
-            {
-              "type": "history-graph",
+              "type": "grid",
               "title": "Power consumption",
-              "hours_to_show": 24,
-              "entities": [
+              "columns": 1,
+              "square": false,
+              "cards": [
                 {
-                  "entity": "sensor.shelly_plus_1pm_server_power"
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_pool",
+                      "name": "Pool"
+                    },
+                    {
+                      "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
+                      "name": "BBQ light"
+                    },
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
+                      "name": "BBQ external plugs"
+                    },
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_internal_plug",
+                      "name": "BBQ Internal Plugs"
+                    },
+                    {
+                      "entity": "switch.shelly_plug_s_fridge",
+                      "name": "Fridge"
+                    },
+                    {
+                      "entity": "switch.shelly_plus_1pm_ac",
+                      "name": "AC"
+                    },
+                    {
+                      "entity": "switch.shelly_plus_1pm_server",
+                      "name": "Server"
+                    },
+                    {
+                      "entity": "switch.shelly_plug_heater",
+                      "name": "Tmp plug"
+                    }
+                  ]
                 },
                 {
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
-                },
-                {
-                  "entity": "sensor.shelly_plus_1pm_ac_power"
-                },
-                {
-                  "entity": "sensor.shelly_plug_s_fridge_power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_pool_power"
-                },
-                {
-                  "entity": "sensor.shelly_plus_1pm_server_power"
-                },
-                {
-                  "entity": "sensor.shelly_plug_heater_power"
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_pool_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    }
+                  ]
                 }
               ]
             },
@@ -90,15 +98,83 @@
             },
             {
               "type": "entities",
+              "title": "Marc",
               "entities": [
                 {
                   "entity": "person.marc_cg"
                 },
                 {
-                  "entity": "device_tracker.marcs_ipad"
+                  "entity": "device_tracker.pixel_6"
                 },
                 {
-                  "entity": "device_tracker.pixel_6"
+                  "entity": "sensor.marcs_ipad_ssid"
+                },
+                {
+                  "entity": "device_tracker.marcs_ipad"
+                }
+              ],
+              "state_color": true
+            },
+            {
+              "square": false,
+              "columns": 1,
+              "type": "grid",
+              "title": "Portable plug 3.6kW",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plug_heater"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_energy"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_rssi"
+                    }
+                  ],
+                  "state_color": true
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    }
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plug_heater"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plug_heater_cloud"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_energy"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_rssi"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_uptime"
+                    }
+                  ]
                 }
               ]
             }

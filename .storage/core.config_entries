@@ -99,7 +99,8 @@
           "discovery": true,
           "password": "shaGoofoo5adeiReo5KoosaTaadai9theezuca9ot7Ohxokoo7ae0shei5vu0Eer",
           "port": 1883,
-          "username": "homeassistant"
+          "username": "homeassistant",
+          "discovery_prefix": "homeassistant"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -129,7 +130,7 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2022.9.1-full (2700)",
+          "app_version": "2022.10.2-full (2770)",
           "device_name": "Pixel 6",
           "manufacturer": "Google",
           "model": "Pixel 6",
@@ -175,9 +176,10 @@
           "longitude": 2.2822
         },
         "options": {
-          "azimuth": 270,
           "declination": 30,
-          "modules power": 8000
+          "azimuth": 270,
+          "modules power": 6000,
+          "damping": 0.0
         },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -194,7 +196,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:52156/rootDesc.xml",
+          "location": "http://192.168.1.1:34567/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28",
           "host": "192.168.1.1"
         },
@@ -332,7 +334,7 @@
         "title": "Shelly-Plus-HT-SecondFloor",
         "data": {
           "host": "192.168.1.120",
-          "sleep_period": 0,
+          "sleep_period": 600,
           "model": "SNSN-0013A",
           "gen": 2
         },
@@ -350,7 +352,7 @@
         "title": "Shelly-Plus-HT-Atic",
         "data": {
           "host": "192.168.1.119",
-          "sleep_period": 0,
+          "sleep_period": 600,
           "model": "SNSN-0013A",
           "gen": 2
         },
@@ -434,27 +436,27 @@
         "disabled_by": null
       },
       {
-        "entry_id": "a56c65ce89e82674d63050108e523862",
+        "entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
         "version": 1,
         "domain": "mobile_app",
         "title": "Marc’s iPad",
         "data": {
-          "app_version": "2022.8 (2022.387)",
-          "model": "iPad13,1",
-          "manufacturer": "Apple",
-          "app_id": "io.robbie.HomeAssistant",
-          "device_name": "Marc’s iPad",
-          "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
-          "os_version": "15.7",
-          "app_name": "PushProvider",
+          "os_name": "iPadOS",
+          "os_version": "16.1",
           "app_data": {
             "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
+          "device_name": "iPad",
+          "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
+          "app_version": "2022.10 (2022.398)",
           "supports_encryption": true,
-          "os_name": "iPadOS",
-          "webhook_id": "c7f73e28d13da2de455e21ca52768957490800611e878109d51514c6668d9baa",
-          "secret": "b24dd71cd0be41dd58bdeb2a8a048a1ae6709a96895c3dc6acb0dc34ced3bde7",
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_name": "Home Assistant",
+          "model": "iPad13,1",
+          "webhook_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6",
+          "secret": "464ae1eadf8f67464a9d286c43fc83bb8d051b09e42f4059119d1aff711b42ac",
           "user_id": "5b4f42439d76473a9de09f28359272fb",
           "no_legacy_encryption": true
         },

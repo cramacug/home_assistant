@@ -15,6 +15,9 @@
               "title": "T&H - Atic",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
                   "type": "glance",
                   "title": "Summary",
                   "entities": [
@@ -30,7 +33,8 @@
                       "entity": "sensor.shelly_plus_ht_atic_uptime",
                       "name": "Uptime"
                     }
-                  ]
+                  ],
+                  "state_color": true
                 },
                 {
                   "type": "history-graph",
