@@ -17,8 +17,11 @@
               "square": false,
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
                   "type": "glance",
-                  "title": "Values",
+                  "title": "Switches",
                   "entities": [
                     {
                       "entity": "switch.shelly_pro_4pm_garden_pool",
@@ -114,69 +117,6 @@
                 }
               ],
               "state_color": true
-            },
-            {
-              "square": false,
-              "columns": 1,
-              "type": "grid",
-              "title": "Portable plug 3.6kW",
-              "cards": [
-                {
-                  "show_name": true,
-                  "show_icon": true,
-                  "show_state": true,
-                  "type": "glance",
-                  "title": "Values",
-                  "entities": [
-                    {
-                      "entity": "switch.shelly_plug_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_power"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_energy"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_rssi"
-                    }
-                  ],
-                  "state_color": true
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plug_heater_power"
-                    }
-                  ]
-                },
-                {
-                  "type": "entities",
-                  "entities": [
-                    {
-                      "entity": "switch.shelly_plug_heater"
-                    },
-                    {
-                      "entity": "binary_sensor.shelly_plug_heater_cloud"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_energy"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_power"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_rssi"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_heater_uptime"
-                    }
-                  ]
-                }
-              ]
             }
           ]
         }

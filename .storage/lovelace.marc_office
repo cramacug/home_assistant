@@ -7,8 +7,10 @@
       "title": "Can Marla",
       "views": [
         {
+          "theme": "Backend-selected",
           "path": "default_view",
-          "title": "Home",
+          "title": "Summary",
+          "badges": [],
           "cards": [
             {
               "type": "vertical-stack",
@@ -55,11 +57,50 @@
             },
             {
               "type": "vertical-stack",
+              "title": "Power",
+              "cards": [
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_1pm_server_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_1pm_ac_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_power"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Server Rack",
+          "path": "server-rack",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
               "title": "Server Summary",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
                   "type": "glance",
-                  "title": "Values",
                   "entities": [
                     {
                       "entity": "switch.shelly_plus_1pm_server",
@@ -81,7 +122,8 @@
                       "entity": "sensor.shelly_plus_1pm_server_rssi",
                       "name": "Rssi"
                     }
-                  ]
+                  ],
+                  "state_color": true
                 },
                 {
                   "type": "gauge",
@@ -110,70 +152,9 @@
               ]
             },
             {
-              "type": "vertical-stack",
-              "title": "AC Summary",
-              "cards": [
-                {
-                  "type": "glance",
-                  "title": "Values",
-                  "entities": [
-                    {
-                      "entity": "switch.shelly_plus_1pm_ac",
-                      "name": "State"
-                    },
-                    {
-                      "entity": "binary_sensor.shelly_plus_1pm_ac_cloud",
-                      "name": "Cloud"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_1pm_ac_temperature",
-                      "name": "Temperature"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_1pm_ac_voltage",
-                      "name": "Voltage"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_1pm_ac_rssi",
-                      "name": "Rssi"
-                    }
-                  ]
-                },
-                {
-                  "type": "gauge",
-                  "entity": "sensor.shelly_plus_1pm_ac_power",
-                  "needle": true,
-                  "severity": {
-                    "green": 0,
-                    "yellow": 3000,
-                    "red": 3500
-                  },
-                  "min": 0,
-                  "max": 3600,
-                  "name": "Instant power consumption"
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_1pm_ac_power",
-                      "name": "Power consumption last 24h"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "type": "entities",
-              "title": "ShellyPlus 1PM Server",
               "state_color": true,
               "entities": [
-                {
-                  "entity": "binary_sensor.shelly_plus_1pm_server_firmware_update",
-                  "name": "Firmware update"
-                },
                 {
                   "entity": "binary_sensor.shelly_plus_1pm_server_cloud",
                   "name": "Cloud"
@@ -215,23 +196,85 @@
                   "name": "Overvoltage"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Air Condition",
+          "path": "monitoring",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "AC Summary",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "type": "glance",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plus_1pm_ac",
+                      "name": "State"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plus_1pm_ac_cloud",
+                      "name": "Cloud"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_voltage",
+                      "name": "Voltage"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_rssi",
+                      "name": "Rssi"
+                    }
+                  ],
+                  "state_color": true
+                },
+                {
+                  "type": "gauge",
+                  "entity": "sensor.shelly_plus_1pm_ac_power",
+                  "needle": true,
+                  "severity": {
+                    "green": 0,
+                    "yellow": 3000,
+                    "red": 3500
+                  },
+                  "min": 0,
+                  "max": 3600,
+                  "name": "Instant power consumption"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_power",
+                      "name": "Power consumption last 24h"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "type": "entities",
-              "title": "ShellyPlus-1PM-AC",
               "state_color": true,
               "entities": [
-                {
-                  "entity": "binary_sensor.shelly_plus_1pm_ac_firmware_update",
-                  "name": "Firmware update"
-                },
                 {
                   "entity": "binary_sensor.shelly_plus_1pm_ac_cloud",
                   "name": "Cloud"
                 },
                 {
                   "entity": "sensor.shelly_plus_1pm_ac_rssi",
-                  "name": "Rssi"
+                  "name": "RSSI"
                 },
                 {
                   "entity": "sensor.shelly_plus_1pm_ac_uptime",

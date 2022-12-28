@@ -32,9 +32,6 @@
       },
       {
         "stat_consumption": "sensor.shelly_plug_heater_energy"
-      },
-      {
-        "stat_consumption": "sensor.shelly_pro_4pm_garden_pool_energy"
       }
     ]
   }

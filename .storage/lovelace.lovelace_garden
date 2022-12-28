@@ -4,11 +4,13 @@
   "key": "lovelace.lovelace_garden",
   "data": {
     "config": {
-      "title": "Can Marla",
+      "title": "Garden",
       "views": [
         {
+          "theme": "Backend-selected",
           "path": "default_view",
-          "title": "Home",
+          "title": "Summary",
+          "badges": [],
           "cards": [
             {
               "type": "vertical-stack",
@@ -22,9 +24,6 @@
                       "entity": "binary_sensor.shelly_pro_4pm_garden_cloud"
                     },
                     {
-                      "entity": "switch.shelly_pro_4pm_garden_pool"
-                    },
-                    {
                       "entity": "sensor.shelly_pro_4pm_garden_internal_plug_temperature"
                     },
                     {
@@ -36,17 +35,24 @@
                   ]
                 },
                 {
-                  "type": "gauge",
+                  "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_garden_pool_power",
-                  "needle": true,
-                  "severity": {
-                    "green": 0,
-                    "yellow": 3000,
-                    "red": 3500
-                  },
-                  "min": 0,
-                  "max": 3600,
-                  "name": "Instant power consumption"
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power",
+                  "unit": "W"
                 },
                 {
                   "type": "history-graph",
@@ -54,149 +60,209 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_pool_power",
-                      "name": "Power consumption last 24h"
+                      "entity": "sensor.shelly_pro_4pm_garden_pool_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
                     }
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Pool and BBQ",
+          "path": "g",
+          "type": "panel",
+          "badges": [],
+          "cards": [
             {
-              "type": "entities",
-              "title": "Garden power hub",
-              "state_color": true,
-              "entities": [
+              "square": false,
+              "columns": 2,
+              "type": "grid",
+              "title": "Main power dashboard",
+              "cards": [
                 {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_firmware_update",
-                  "name": "Firmware"
+                  "type": "vertical-stack",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "binary_sensor.shelly_pro_4pm_garden_cloud",
+                          "name": "Cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_pro_4pm_garden_rssi",
+                          "name": "Rssi"
+                        },
+                        {
+                          "entity": "sensor.shelly_pro_4pm_garden_uptime",
+                          "name": "Uptime"
+                        },
+                        {
+                          "entity": "sensor.shelly_pro_4pm_garden_internal_plug_voltage",
+                          "name": "Voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_pro_4pm_garden_internal_plug_temperature",
+                          "name": "Temperature"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_cloud",
-                  "name": "Cloud"
+                  "type": "history-graph",
+                  "hours_to_show": 24,
+                  "title": "Garden events",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_pool"
+                    },
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_2_x_plugs"
+                    },
+                    {
+                      "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug"
+                    },
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_internal_plug"
+                    }
+                  ]
                 },
                 {
-                  "entity": "sensor.shelly_pro_4pm_garden_rssi",
-                  "name": "Rssi"
+                  "type": "entities",
+                  "title": "Pool",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_pool",
+                      "name": "Pool State"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_pool_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_pool_energy",
+                      "name": "Energy"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overvoltage",
+                      "name": "Overvoltage"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overpowering",
+                      "name": "Overpowering"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overheating",
+                      "name": "Overheating"
+                    }
+                  ]
                 },
                 {
-                  "entity": "sensor.shelly_pro_4pm_garden_uptime",
-                  "name": "Uptime"
+                  "type": "entities",
+                  "title": "2 x plugs",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
+                      "name": "2 Plugs State"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_energy",
+                      "name": "Energy"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overvoltage",
+                      "name": "Overvoltage"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overpowering",
+                      "name": "Overpowering"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overheating",
+                      "name": "Overheating"
+                    }
+                  ]
                 },
                 {
-                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_voltage",
-                  "name": "Voltage"
+                  "type": "entities",
+                  "title": "2 x lights + 1 x plug",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
+                      "name": "2 Lights and 1 plug State"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_energy",
+                      "name": "Energy"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overvoltage",
+                      "name": "Overvoltage"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overpowering",
+                      "name": "Overpowering"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overheating",
+                      "name": "Overheating"
+                    }
+                  ]
                 },
                 {
-                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_temperature",
-                  "name": "Temperature"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "entity": "switch.shelly_pro_4pm_garden_pool",
-                  "name": "Pool State"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_pool_power",
-                  "name": "Power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_pool_energy",
-                  "name": "Energy"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overvoltage",
-                  "name": "Overvoltage"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overpowering",
-                  "name": "Overpowering"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_pool_overheating",
-                  "name": "OVerheating"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
-                  "name": "2 Plugs State"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power",
-                  "name": "Power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_energy",
-                  "name": "Energy"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overvoltage",
-                  "name": "Overvoltage"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overpowering",
-                  "name": "Overpowering"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_plugs_overheating",
-                  "name": "Overheating"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
-                  "name": "2 Lights and 1 plug State"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power",
-                  "name": "Power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_energy",
-                  "name": "Energy"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overvoltage",
-                  "name": "Overvoltage"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overpowering",
-                  "name": "Overpowering"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_2_x_lights_plug_overheating",
-                  "name": "Overheating"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "entity": "switch.shelly_pro_4pm_garden_internal_plug",
-                  "name": "Internal plug State"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power",
-                  "name": "Power"
-                },
-                {
-                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_energy",
-                  "name": "Energy"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overvoltage",
-                  "name": "Overvoltage"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overpowering",
-                  "name": "Overpowering"
-                },
-                {
-                  "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overheating",
-                  "name": "Overheating"
+                  "type": "entities",
+                  "title": "Internal switch",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_pro_4pm_garden_internal_plug",
+                      "name": "Internal plug State"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_energy",
+                      "name": "Energy"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overvoltage",
+                      "name": "Overvoltage"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overpowering",
+                      "name": "Overpowering"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_pro_4pm_garden_internal_plug_overheating",
+                      "name": "Overheating"
+                    }
+                  ]
                 }
               ]
             }

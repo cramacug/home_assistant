@@ -4,26 +4,30 @@
   "key": "lovelace.lovelace_testing",
   "data": {
     "config": {
-      "title": "Can Marla",
+      "title": "HA System",
       "views": [
         {
+          "theme": "Backend-selected",
           "path": "default_view",
-          "title": "Home",
+          "title": "Raspberry_Pi-4",
+          "badges": [],
           "cards": [
             {
               "type": "vertical-stack",
-              "title": "RP4 - Status",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
                   "type": "glance",
-                  "title": "Glance card sample",
                   "entities": [
                     "binary_sensor.rpi_power_status",
                     "sensor.processor_temperature",
                     "sensor.processor_use",
                     "sensor.memory_use",
                     "sensor.disk_use"
-                  ]
+                  ],
+                  "title": "Monitoring"
                 },
                 {
                   "type": "gauge",
@@ -64,7 +68,7 @@
                 },
                 {
                   "type": "history-graph",
-                  "title": "RP4 - Memory usee",
+                  "title": "RP4 - Memory use",
                   "hours_to_show": 1,
                   "entities": [
                     {
@@ -124,35 +128,19 @@
               "title": "RP4 - Sensors",
               "show_header_toggle": true,
               "state_color": true
-            },
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "PiHole",
+          "path": "pihole",
+          "icon": "",
+          "badges": [],
+          "cards": [
             {
               "type": "entities",
-              "entities": [
-                {
-                  "entity": "binary_sensor.rt_ax88_cramacug_wan_status",
-                  "name": "Wan status"
-                },
-                {
-                  "entity": "sensor.rt_ax88_cramacug_external_ip",
-                  "name": "External IP"
-                },
-                {
-                  "entity": "sensor.rt_ax88_cramacug_uptime"
-                },
-                {
-                  "entity": "sensor.rt_ax88_cramacug_kib_s_received",
-                  "name": "KiB/s received"
-                },
-                {
-                  "entity": "sensor.rt_ax88_cramacug_kib_s_sent",
-                  "name": "KiB/s sent"
-                }
-              ],
-              "title": "RT-AX88-Cramacug",
-              "state_color": true
-            },
-            {
-              "type": "entities",
+              "title": "Pi-Hole",
               "entities": [
                 {
                   "entity": "binary_sensor.pi_hole"
@@ -202,8 +190,41 @@
                 {
                   "entity": "update.pi_hole_ftl_update_available"
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Router ",
+          "path": "router",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "binary_sensor.rt_ax88_cramacug_wan_status",
+                  "name": "Wan status"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_external_ip",
+                  "name": "External IP"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_uptime"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_kib_s_received",
+                  "name": "KiB/s received"
+                },
+                {
+                  "entity": "sensor.rt_ax88_cramacug_kib_s_sent",
+                  "name": "KiB/s sent"
+                }
               ],
-              "title": "Pi-Hole"
+              "title": "RT-AX88-Cramacug",
+              "state_color": true
             }
           ]
         }

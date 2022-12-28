@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2022.11.2",
+        "sw_version": "2022.12.8",
         "via_device_id": null
       },
       {
@@ -49,7 +49,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.10.2",
+        "sw_version": "2022.11.2",
         "via_device_id": null
       },
       {
@@ -73,7 +73,7 @@
         "model": "Home Assistant Operating System",
         "name_by_user": null,
         "name": "Home Assistant Operating System",
-        "sw_version": "9.3",
+        "sw_version": "9.4",
         "via_device_id": null
       },
       {
@@ -121,7 +121,7 @@
         "model": "Shelly Pro 4PM",
         "name_by_user": "Shelly-Pro-4PM-Garden",
         "name": "Shelly-Pro-4PM-Garden",
-        "sw_version": "20221014-105447/0.11.3-g0753507",
+        "sw_version": "20221024-143451/0.11.4-ga1906a2",
         "via_device_id": null
       },
       {
@@ -193,7 +193,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.4.1",
+        "sw_version": "5.5.0",
         "via_device_id": null
       },
       {
@@ -265,7 +265,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "NGINX Home Assistant SSL proxy",
-        "sw_version": "3.1.5",
+        "sw_version": "3.2.0",
         "via_device_id": null
       },
       {
@@ -288,8 +288,8 @@
         "manufacturer": "Apple",
         "model": "iPad13,1",
         "name_by_user": null,
-        "name": "iPad",
-        "sw_version": "16.1",
+        "name": "Marc’s iPad",
+        "sw_version": "16.1.1",
         "via_device_id": null
       },
       {
@@ -362,16 +362,16 @@
         "id": "e5df4e5c71cca3def701a02613a23a30",
         "identifiers": [
           [
+            "upnp_serial_number",
+            "fc:34:97:84:75:28"
+          ],
+          [
             "upnp_host",
             "192.168.1.1"
           ],
           [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
-          ],
-          [
-            "upnp_serial_number",
-            "fc:34:97:84:75:28"
           ]
         ],
         "manufacturer": "ASUSTeK Computer Inc.",
@@ -522,7 +522,7 @@
         "model": "Shelly Plus 1PM",
         "name_by_user": "Shelly-Plus-1PM-Server",
         "name": "Shelly-Plus-1PM-Server",
-        "sw_version": "20221024-142010/0.11.4-ga1906a2",
+        "sw_version": "20221206-141253/0.12.0-gafc2404",
         "via_device_id": null
       },
       {
@@ -546,7 +546,7 @@
         "model": "Shelly Plus 1PM",
         "name_by_user": "Shelly-Plus-1PM-AC",
         "name": "Shelly-Plus-1PM-AC",
-        "sw_version": "20221024-142010/0.11.4-ga1906a2",
+        "sw_version": "20221206-141253/0.12.0-gafc2404",
         "via_device_id": null
       },
       {
@@ -595,6 +595,30 @@
         "name_by_user": null,
         "name": "Shelly Plug Mobile Socket ",
         "sw_version": "20221027-102248/v1.12.1-ga9117d3",
+        "via_device_id": null
+      },
+      {
+        "area_id": "can_marla_main",
+        "config_entries": [
+          "1560d2bd93e5f211c84aa28760a35b46"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "DC:A6:32:C2:7F:13"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d053F",
+        "id": "b7a81f56ac584fb87ed30a6b3a173dcb",
+        "identifiers": [],
+        "manufacturer": "Raspberry Pi Trading Ltd",
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (DC:A6:32:C2:7F:13)",
+        "sw_version": "homeassistant",
         "via_device_id": null
       }
     ],

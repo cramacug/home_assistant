@@ -130,7 +130,7 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2022.10.2-full (2770)",
+          "app_version": "2022.12.0-full (3026)",
           "device_name": "Pixel 6",
           "manufacturer": "Google",
           "model": "Pixel 6",
@@ -196,7 +196,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:34567/rootDesc.xml",
+          "location": "http://192.168.1.1:45049/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28",
           "host": "192.168.1.1"
         },
@@ -278,19 +278,6 @@
         "pref_disable_polling": false,
         "source": "user",
         "unique_id": "41.6832-2.2822",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "2c861ec74c1fdc0e3aa79ccd5d391c2d",
-        "version": 1,
-        "domain": "bluetooth",
-        "title": "DC:A6:32:C2:7F:13",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "ignore",
-        "unique_id": "DC:A6:32:C2:7F:13",
         "disabled_by": null
       },
       {
@@ -442,14 +429,14 @@
         "title": "Marc’s iPad",
         "data": {
           "os_name": "iPadOS",
-          "os_version": "16.1",
+          "os_version": "16.1.1",
           "app_data": {
             "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
-          "device_name": "iPad",
+          "device_name": "Marc’s iPad",
           "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
-          "app_version": "2022.10 (2022.398)",
+          "app_version": "2022.10.1 (2022.424)",
           "supports_encryption": true,
           "manufacturer": "Apple",
           "app_id": "io.robbie.HomeAssistant",
@@ -465,6 +452,19 @@
         "pref_disable_polling": false,
         "source": "registration",
         "unique_id": "io.robbie.HomeAssistant-EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1560d2bd93e5f211c84aa28760a35b46",
+        "version": 1,
+        "domain": "bluetooth",
+        "title": "DC:A6:32:C2:7F:13",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "DC:A6:32:C2:7F:13",
         "disabled_by": null
       }
     ]

@@ -6,7 +6,75 @@
     "config": {
       "views": [
         {
-          "title": "Home",
+          "theme": "Backend-selected",
+          "title": "Summary",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "T & H",
+              "cards": [
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_ht_secondfloor_humidity"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Temperature",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Suite"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Humidity",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Suite"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "Power",
+              "cards": [
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plug_s_fridge_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_power"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Kitchen",
+          "path": "kitchen",
+          "badges": [],
           "cards": [
             {
               "type": "vertical-stack",
@@ -31,17 +99,9 @@
                   ]
                 },
                 {
-                  "type": "gauge",
+                  "type": "entity",
                   "entity": "sensor.shelly_plug_s_fridge_power",
-                  "needle": true,
-                  "severity": {
-                    "green": 0,
-                    "yellow": 1500,
-                    "red": 2000
-                  },
-                  "min": 0,
-                  "max": 2500,
-                  "name": "Instant power consumption"
+                  "units": "W"
                 },
                 {
                   "type": "history-graph",
@@ -53,55 +113,59 @@
                       "name": "Fridge power"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "entities",
-              "title": "Shelly Plug S Fridge",
-              "state_color": true,
-              "entities": [
-                {
-                  "entity": "binary_sensor.shelly_plug_s_fridge_firmware_update",
-                  "name": "Firmware update"
                 },
                 {
-                  "entity": "binary_sensor.shelly_plug_s_fridge_cloud",
-                  "name": "Cloud"
-                },
-                {
-                  "entity": "sensor.shelly_plug_s_fridge_rssi",
-                  "name": "RSSI"
-                },
-                {
-                  "entity": "sensor.shelly_plug_s_fridge_uptime",
-                  "name": "Uptime"
-                },
-                {
-                  "entity": "sensor.shelly_plug_s_fridge_temperature",
-                  "name": "Temperature"
-                },
-                {
-                  "entity": "sensor.shelly_plug_s_fridge_power",
-                  "name": "Power"
-                },
-                {
-                  "entity": "sensor.shelly_plug_s_fridge_energy",
-                  "name": "Energy"
-                },
-                {
-                  "entity": "binary_sensor.shelly_plug_s_fridge_overheating",
-                  "name": "Overheating"
-                },
-                {
-                  "entity": "binary_sensor.shelly_plug_s_fridge_overpowering",
-                  "name": "Overpowering"
+                  "type": "entities",
+                  "title": "Shelly Plug S Fridge",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "binary_sensor.shelly_plug_s_fridge_cloud",
+                      "name": "Cloud"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_rssi",
+                      "name": "RSSI"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_uptime",
+                      "name": "Uptime"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_power",
+                      "name": "Power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_s_fridge_energy",
+                      "name": "Energy"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plug_s_fridge_overheating",
+                      "name": "Overheating"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plug_s_fridge_overpowering",
+                      "name": "Overpowering"
+                    }
+                  ]
                 }
               ]
             }
           ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Living Room",
+          "path": "living-room",
+          "badges": [],
+          "cards": []
         }
-      ]
+      ],
+      "title": "First Floor"
     }
   }
 }

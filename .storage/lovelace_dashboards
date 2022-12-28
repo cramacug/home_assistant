@@ -24,17 +24,8 @@
       },
       {
         "show_in_sidebar": true,
-        "icon": "mdi:solar-power",
-        "title": "Energy Management",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "energy-management",
-        "id": "energy_management"
-      },
-      {
-        "show_in_sidebar": true,
-        "icon": "mdi:penguin",
-        "title": "Marc_Office",
+        "icon": "mdi:format-header-3",
+        "title": "Floor-3",
         "require_admin": false,
         "mode": "storage",
         "url_path": "marc-office",
@@ -42,21 +33,48 @@
       },
       {
         "show_in_sidebar": true,
-        "icon": "mdi:lightning-bolt-circle",
-        "title": "Home power consumption",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "lovelace-test",
-        "id": "lovelace_test"
-      },
-      {
-        "show_in_sidebar": true,
-        "icon": "mdi:fridge",
-        "title": "Kitchen",
+        "icon": "mdi:format-header-1",
+        "title": "Floor-1",
         "require_admin": false,
         "mode": "storage",
         "url_path": "lovelace-kitchen",
         "id": "lovelace_kitchen"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:test-tube-empty",
+        "title": "Test-stuff",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "test-stuff",
+        "id": "test_stuff"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:solar-power",
+        "title": "Power Load",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "power-load",
+        "id": "power_load"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:format-header-2",
+        "title": "Floor-2",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "second-floor",
+        "id": "second_floor"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:car",
+        "title": "Entrance",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-entrance",
+        "id": "dashboard_entrance"
       }
     ]
   }
