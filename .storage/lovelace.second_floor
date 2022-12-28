@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.second_floor",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "theme": "Backend-selected",
+          "title": "Summary",
+          "icon": "",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "T & H",
+              "cards": [
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_ht_secondfloor_humidity"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Temperature",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Suite"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Humidity",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Suite"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "Power",
+              "cards": [
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_1pm_server_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_1pm_ac_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_1pm_ac_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_1pm_server_power"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Bath",
+          "path": "bath-1",
+          "badges": [],
+          "cards": []
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Bath Suite",
+          "path": "bath-suite",
+          "badges": [],
+          "cards": []
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Suite",
+          "path": "suite",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "T&H - Suite",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "type": "glance",
+                  "title": "Summary",
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "name": "Uptime"
+                    }
+                  ],
+                  "state_color": true
+                },
+                {
+                  "type": "history-graph",
+                  "title": "T & H",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "square": false,
+              "columns": 1,
+              "type": "grid",
+              "title": "Portable plug 3.6kW",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "type": "glance",
+                  "title": "Values",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plug_heater"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_energy"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_rssi"
+                    }
+                  ],
+                  "state_color": true
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    }
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "switch.shelly_plug_heater"
+                    },
+                    {
+                      "entity": "binary_sensor.shelly_plug_heater_cloud"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_energy"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_rssi"
+                    },
+                    {
+                      "entity": "sensor.shelly_plug_heater_uptime"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Laia's Office",
+          "path": "laias-office",
+          "badges": [],
+          "cards": []
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Pongo Room",
+          "path": "pongo-room",
+          "badges": [],
+          "cards": []
+        }
+      ]
+    }
+  }
+}

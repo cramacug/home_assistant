@@ -1,0 +1,551 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.power_load",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "theme": "default",
+          "title": "Inst. Power",
+          "id": "home",
+          "panel": true,
+          "type": "panel",
+          "badges": [],
+          "cards": [
+            {
+              "square": false,
+              "columns": 3,
+              "type": "grid",
+              "title": "Main power dashboard",
+              "cards": [
+                {
+                  "type": "vertical-stack",
+                  "title": "Main Power Meter",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 3600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Ceramic hob",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "AC - Main",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Oven",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Wash machine",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Dish machine",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Dry machine",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Lights",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 1800,
+                        "red": 2000
+                      },
+                      "min": 0,
+                      "max": 2200,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Plugs group 1",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Plugs group 2",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Wet plugs",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plus_1pm_server"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plus_1pm_server_cloud"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_temperature"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_voltage"
+                        },
+                        {
+                          "entity": "sensor.shelly_plus_1pm_server_rssi"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plus_1pm_server_power",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Energy",
+          "path": "energy",
+          "badges": [],
+          "cards": [
+            {
+              "chart_type": "line",
+              "period": "day",
+              "days_to_show": 30,
+              "type": "statistics-graph",
+              "entities": [
+                "sensor.shelly_plug_s_fridge_power",
+                "sensor.shelly_pro_4pm_garden_pool_power",
+                "sensor.shelly_plus_1pm_server_power",
+                "sensor.shelly_plus_1pm_ac_power",
+                "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
+              ],
+              "stat_types": [
+                "mean"
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Solar",
+          "path": "solar",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "title": "Estimated PV Energy production",
+              "cards": [
+                {
+                  "type": "entities",
+                  "title": "PV - Summary",
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "sensor.power_production_now"
+                    },
+                    {
+                      "entity": "sensor.energy_current_hour"
+                    },
+                    {
+                      "entity": "sensor.energy_next_hour"
+                    },
+                    {
+                      "entity": "sensor.energy_production_today"
+                    },
+                    {
+                      "entity": "sensor.energy_production_tomorrow"
+                    },
+                    {
+                      "entity": "sensor.power_highest_peak_time_today"
+                    },
+                    {
+                      "entity": "sensor.power_highest_peak_time_tomorrow"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "title": "Estimated Energy per hour",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.energy_current_hour",
+                      "name": "Energy estimated"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Energy distribution today",
+              "type": "energy-distribution",
+              "link_dashboard": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
