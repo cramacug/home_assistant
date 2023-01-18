@@ -4,7 +4,7 @@
   "key": "lovelace.marc_office",
   "data": {
     "config": {
-      "title": "Can Marla",
+      "title": "Third Floor",
       "views": [
         {
           "theme": "Backend-selected",
@@ -14,30 +14,37 @@
           "cards": [
             {
               "type": "vertical-stack",
-              "title": "T&H - Atic",
+              "title": "Power",
               "cards": [
                 {
-                  "show_name": true,
-                  "show_icon": true,
-                  "show_state": true,
-                  "type": "glance",
-                  "title": "Summary",
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_atic_temperature",
-                      "name": "Temperature"
+                      "entity": "sensor.shelly_plus_1pm_ac_power"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_atic_humidity",
-                      "name": "Humidity"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_ht_atic_uptime",
-                      "name": "Uptime"
+                      "entity": "sensor.shelly_plus_1pm_server_power"
                     }
-                  ],
-                  "state_color": true
+                  ]
                 },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_1pm_ac_power",
+                  "unit": "W"
+                },
+                {
+                  "type": "entity",
+                  "entity": "sensor.shelly_plus_1pm_server_power",
+                  "unit": "W"
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "T&H",
+              "cards": [
                 {
                   "type": "history-graph",
                   "title": "T & H",
@@ -52,37 +59,41 @@
                       "name": "Humidity"
                     }
                   ]
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "type": "glance",
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_uptime",
+                      "name": "Uptime"
+                    }
+                  ],
+                  "state_color": true,
+                  "title": "Marc Office"
                 }
               ]
             },
             {
-              "type": "vertical-stack",
-              "title": "Power",
-              "cards": [
+              "type": "history-graph",
+              "entities": [
                 {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plus_1pm_server_power",
-                  "unit": "W"
-                },
-                {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plus_1pm_ac_power",
-                  "unit": "W"
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_1pm_ac_power"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_1pm_server_power"
-                    }
-                  ]
+                  "entity": "sun.sun",
+                  "name": "WIP - sun"
                 }
-              ]
+              ],
+              "hours_to_show": 24,
+              "title": "Manual and scheduled events"
             }
           ]
         },
@@ -94,7 +105,6 @@
           "cards": [
             {
               "type": "vertical-stack",
-              "title": "Server Summary",
               "cards": [
                 {
                   "show_name": true,
@@ -201,13 +211,12 @@
         },
         {
           "theme": "Backend-selected",
-          "title": "Air Condition",
-          "path": "monitoring",
+          "title": "Air Conditioner",
+          "path": "air_conditioner",
           "badges": [],
           "cards": [
             {
               "type": "vertical-stack",
-              "title": "AC Summary",
               "cards": [
                 {
                   "show_name": true,

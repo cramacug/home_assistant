@@ -225,6 +225,21 @@
               ],
               "title": "RT-AX88-Cramacug",
               "state_color": true
+            },
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sensor.rt_ax88_cramacug_external_ip",
+                  "name": "Ip"
+                },
+                {
+                  "entity": "binary_sensor.rt_ax88_cramacug_wan_status",
+                  "name": "WAN status"
+                }
+              ],
+              "title": "Router Status",
+              "hours_to_show": 72
             }
           ]
         }

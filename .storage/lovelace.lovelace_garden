@@ -74,6 +74,25 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "history-graph",
+              "hours_to_show": 24,
+              "title": "All events",
+              "entities": [
+                {
+                  "entity": "switch.shelly_pro_4pm_garden_pool"
+                },
+                {
+                  "entity": "switch.shelly_pro_4pm_garden_2_x_plugs"
+                },
+                {
+                  "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug"
+                },
+                {
+                  "entity": "switch.shelly_pro_4pm_garden_internal_plug"
+                }
+              ]
             }
           ]
         },

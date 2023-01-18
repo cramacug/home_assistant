@@ -1,10 +1,11 @@
 {
   "version": 1,
-  "minor_version": 8,
+  "minor_version": 10,
   "key": "core.entity_registry",
   "data": {
     "entities": [
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -24,10 +25,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home_assistant_os_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -47,10 +50,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home_assistant_os_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -70,10 +75,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 1,
+        "translation_key": null,
         "unique_id": "home_assistant_supervisor_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -93,10 +100,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 11,
+        "translation_key": null,
         "unique_id": "home_assistant_core_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -116,10 +125,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 3,
+        "translation_key": null,
         "unique_id": "home_assistant_os_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -139,10 +150,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home_assistant_os_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -162,10 +175,12 @@
         "original_name": "Marc CG",
         "platform": "person",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "marc_cg",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "073e1406d93fe6f1edcd458658415251",
@@ -185,10 +200,12 @@
         "original_name": "RPi Power status",
         "platform": "rpi_power",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "rpi_power",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "55ef6d26fcdfc9ef0388b2de7e5d259e",
@@ -208,10 +225,12 @@
         "original_name": "Can Marla",
         "platform": "met",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "55ef6d26fcdfc9ef0388b2de7e5d259e",
@@ -231,10 +250,12 @@
         "original_name": "Can Marla hourly",
         "platform": "met",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home-hourly",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -254,10 +275,12 @@
         "original_name": "Pool Input",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-input:0-input",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -277,10 +300,12 @@
         "original_name": "2_x_Plugs Input",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-input:1-input",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -300,10 +325,12 @@
         "original_name": "2_x_Lights_+_Plug Input",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-input:2-input",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -323,10 +350,12 @@
         "original_name": "Internal_Plug Input",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-input:3-input",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -346,10 +375,12 @@
         "original_name": "Pool Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -369,10 +400,12 @@
         "original_name": "2_x_Plugs Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -392,10 +425,12 @@
         "original_name": "2_x_Lights_+_Plug Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -415,10 +450,12 @@
         "original_name": "Internal_Plug Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -438,10 +475,12 @@
         "original_name": "Pool Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -461,10 +500,12 @@
         "original_name": "2_x_Plugs Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -484,10 +525,12 @@
         "original_name": "2_x_Lights_+_Plug Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -507,10 +550,12 @@
         "original_name": "Internal_Plug Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -530,10 +575,12 @@
         "original_name": "Pool Overvoltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-overvoltage",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -553,10 +600,12 @@
         "original_name": "2_x_Plugs Overvoltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-overvoltage",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -576,10 +625,12 @@
         "original_name": "2_x_Lights_+_Plug Overvoltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-overvoltage",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -599,10 +650,12 @@
         "original_name": "Internal_Plug Overvoltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-overvoltage",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -624,10 +677,12 @@
         "original_name": "Pool Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -649,10 +704,12 @@
         "original_name": "2_x_Plugs Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -674,10 +731,12 @@
         "original_name": "2_x_Lights_+_Plug Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -699,10 +758,12 @@
         "original_name": "Internal_Plug Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -724,10 +785,12 @@
         "original_name": "Pool Voltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -749,10 +812,12 @@
         "original_name": "2_x_Plugs Voltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -774,10 +839,12 @@
         "original_name": "2_x_Lights_+_Plug Voltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -799,10 +866,12 @@
         "original_name": "Internal_Plug Voltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -824,10 +893,12 @@
         "original_name": "Pool Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -849,10 +920,12 @@
         "original_name": "2_x_Plugs Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -874,10 +947,12 @@
         "original_name": "2_x_Lights_+_Plug Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -899,10 +974,12 @@
         "original_name": "Internal_Plug Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -924,10 +1001,12 @@
         "original_name": "Pool Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -949,10 +1028,12 @@
         "original_name": "2_x_Plugs Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -974,10 +1055,12 @@
         "original_name": "2_x_Lights_+_Plug Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -999,10 +1082,12 @@
         "original_name": "Internal_Plug Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -1022,10 +1107,12 @@
         "original_name": "Pool",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -1045,10 +1132,12 @@
         "original_name": "2_x_Plugs",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -1068,10 +1157,12 @@
         "original_name": "Internal_Plug",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "supported_color_modes": [
@@ -1095,10 +1186,12 @@
         "original_name": "2_x_Lights_+_Plug",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-switch:2",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1118,10 +1211,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1141,10 +1236,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1164,10 +1261,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1187,10 +1286,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1212,10 +1313,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1237,10 +1340,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1260,10 +1365,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_letsencrypt_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1283,10 +1390,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_configurator_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1306,10 +1415,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1329,10 +1440,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_configurator_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1352,10 +1465,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1375,10 +1490,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_configurator_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1398,10 +1515,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_configurator_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1423,10 +1542,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_configurator_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1448,10 +1569,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_configurator_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1471,10 +1594,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1494,10 +1619,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1519,10 +1646,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1544,10 +1673,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1567,10 +1698,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_configurator_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1590,10 +1723,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1613,10 +1748,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_duckdns_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1636,10 +1773,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_duckdns_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1659,10 +1798,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_duckdns_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1682,10 +1823,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_duckdns_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1707,10 +1850,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_duckdns_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1732,10 +1877,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_duckdns_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1755,10 +1902,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_duckdns_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -1778,10 +1927,12 @@
         "original_name": "Pixel 6",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "b98d27017a17d327",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1801,10 +1952,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1824,10 +1977,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1847,10 +2002,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1870,10 +2027,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1895,10 +2054,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1920,10 +2081,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -1943,10 +2106,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_nginx_proxy_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -1966,10 +2131,12 @@
         "original_name": "Cramacug",
         "platform": "person",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "cramacug",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -1985,14 +2152,16 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-60",
+        "original_icon": "mdi:battery-30",
         "original_name": "Pixel 6 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_battery_level",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2012,10 +2181,12 @@
         "original_name": "Pixel 6 Battery Temperature",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_battery_temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2031,14 +2202,16 @@
         "name": null,
         "options": {},
         "original_device_class": null,
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_battery_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2058,10 +2231,12 @@
         "original_name": "Pixel 6 Charger Type",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_charger_type",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2081,10 +2256,12 @@
         "original_name": "Pixel 6 Is Charging",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_is_charging",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2104,10 +2281,12 @@
         "original_name": "Pixel 6 Detected Activity",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_detected_activity",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2129,10 +2308,12 @@
         "original_name": "Pixel 6 Sleep Confidence",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_sleep_confidence",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2152,10 +2333,12 @@
         "original_name": "Pixel 6 Sleep Segment",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_sleep_segment",
         "unit_of_measurement": "ms"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2175,10 +2358,12 @@
         "original_name": "Pixel 6 Current Version",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_current_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -2200,10 +2385,12 @@
         "original_name": "Pixel 6 App Rx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_app_rx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -2225,10 +2412,12 @@
         "original_name": "Pixel 6 App Tx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_app_tx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2250,10 +2439,12 @@
         "original_name": "Pixel 6 App Memory",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_app_memory",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2273,10 +2464,12 @@
         "original_name": "Pixel 6 App Inactive",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_app_inactive",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2296,10 +2489,12 @@
         "original_name": "Pixel 6 App Standby Bucket",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_app_standby_bucket",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2319,10 +2514,12 @@
         "original_name": "Pixel 6 App Importance",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_app_importance",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2342,10 +2539,12 @@
         "original_name": "Pixel 6 Ringer Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_audio_sensor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2365,10 +2564,12 @@
         "original_name": "Pixel 6 Audio Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_audio_mode",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2388,10 +2589,12 @@
         "original_name": "Pixel 6 Headphones",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_headphone_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2411,10 +2614,12 @@
         "original_name": "Pixel 6 Mic Muted",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_mic_muted",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2434,10 +2639,12 @@
         "original_name": "Pixel 6 Speakerphone",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_speakerphone_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2457,10 +2664,12 @@
         "original_name": "Pixel 6 Music Active",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_music_active",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2480,10 +2689,12 @@
         "original_name": "Pixel 6 Volume Level Alarm",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_alarm",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2503,10 +2714,12 @@
         "original_name": "Pixel 6 Volume Level Call",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_call",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2526,10 +2739,12 @@
         "original_name": "Pixel 6 Volume Level Music",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_music",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2549,10 +2764,12 @@
         "original_name": "Pixel 6 Volume Level Ringer",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_ring",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2572,10 +2789,12 @@
         "original_name": "Pixel 6 Volume Level Notification",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_notification",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2595,10 +2814,12 @@
         "original_name": "Pixel 6 Volume Level System",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_system",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2618,10 +2839,12 @@
         "original_name": "Pixel 6 Volume Level DTMF",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_dtmf",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2641,10 +2864,12 @@
         "original_name": "Pixel 6 Volume Level Accessibility",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_volume_accessibility",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2664,10 +2889,12 @@
         "original_name": "Pixel 6 Battery Health",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_battery_health",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2689,10 +2916,12 @@
         "original_name": "Pixel 6 Bluetooth Connection",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_bluetooth_connection",
         "unit_of_measurement": "connection(s)"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2712,10 +2941,12 @@
         "original_name": "Pixel 6 Bluetooth State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_bluetooth_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2735,10 +2966,12 @@
         "original_name": "Pixel 6 BLE Transmitter",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_ble_emitter",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2758,10 +2991,12 @@
         "original_name": "Pixel 6 Do Not Disturb Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_dnd_sensor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2781,10 +3016,12 @@
         "original_name": "Pixel 6 Work Profile",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_is_work_profile",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2804,10 +3041,12 @@
         "original_name": "Pixel 6 Geocoded Location",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_geocoded_location",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2827,10 +3066,12 @@
         "original_name": "Pixel 6 Device Locked",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_device_locked",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2850,10 +3091,12 @@
         "original_name": "Pixel 6 Device Secure",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_device_secure",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2873,10 +3116,12 @@
         "original_name": "Pixel 6 Keyguard Locked",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_keyguard_locked",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2896,10 +3141,12 @@
         "original_name": "Pixel 6 Keyguard Secure",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_keyguard_secure",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2919,10 +3166,12 @@
         "original_name": "Pixel 6 Last Used App",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_last_used_app",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2942,10 +3191,12 @@
         "original_name": "Pixel 6 Last Reboot",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_last_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -2965,10 +3216,12 @@
         "original_name": "Pixel 6 Last Update Trigger",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_last_update",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2990,10 +3243,12 @@
         "original_name": "Pixel 6 Light Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_light_sensor",
         "unit_of_measurement": "lx"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3013,10 +3268,12 @@
         "original_name": "Pixel 6 High Accuracy Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_high_accuracy_mode",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3036,10 +3293,12 @@
         "original_name": "Pixel 6 High Accuracy Update Interval",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_high_accuracy_update_interval",
         "unit_of_measurement": "seconds"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3059,10 +3318,12 @@
         "original_name": "Pixel 6 Mobile Data",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_mobile_data",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3082,10 +3343,12 @@
         "original_name": "Pixel 6 Mobile Data Roaming",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_mobile_data_roaming",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3105,10 +3368,12 @@
         "original_name": "Pixel 6 WiFi Connection",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_connection",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3128,10 +3393,12 @@
         "original_name": "Pixel 6 WiFi BSSID",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_bssid",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3151,10 +3418,12 @@
         "original_name": "Pixel 6 WiFi IP Address",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_ip_address",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3176,10 +3445,12 @@
         "original_name": "Pixel 6 WiFi Link Speed",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_link_speed",
         "unit_of_measurement": "Mbps"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3199,10 +3470,12 @@
         "original_name": "Pixel 6 WiFi State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3224,10 +3497,12 @@
         "original_name": "Pixel 6 WiFi Frequency",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_frequency",
         "unit_of_measurement": "MHz"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3249,10 +3524,12 @@
         "original_name": "Pixel 6 WiFi Signal Strength",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_wifi_signal_strength",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3272,10 +3549,12 @@
         "original_name": "Pixel 6 Public IP Address",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_public_ip_address",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3295,10 +3574,12 @@
         "original_name": "Pixel 6 Network Type",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_network_type",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3318,10 +3599,12 @@
         "original_name": "Pixel 6 Next Alarm",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_next_alarm",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3341,10 +3624,12 @@
         "original_name": "Pixel 6 Last Notification",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_last_notification",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3364,10 +3649,12 @@
         "original_name": "Pixel 6 Last Removed Notification",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_last_removed_notification",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3389,10 +3676,12 @@
         "original_name": "Pixel 6 Active Notification Count",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_active_notification_count",
         "unit_of_measurement": "notifications"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3412,10 +3701,12 @@
         "original_name": "Pixel 6 Media Session",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_media_session",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3435,10 +3726,12 @@
         "original_name": "Pixel 6 Phone State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_phone_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3458,10 +3751,12 @@
         "original_name": "Pixel 6 SIM 1",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_sim_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3481,10 +3776,12 @@
         "original_name": "Pixel 6 SIM 2",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_sim_2",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3504,10 +3801,12 @@
         "original_name": "Pixel 6 Interactive",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_is_interactive",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3527,10 +3826,12 @@
         "original_name": "Pixel 6 Doze Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_is_idle",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3550,10 +3851,12 @@
         "original_name": "Pixel 6 Power Save",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_power_save",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3575,10 +3878,12 @@
         "original_name": "Pixel 6 Pressure Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_pressure_sensor",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3598,10 +3903,12 @@
         "original_name": "Pixel 6 Proximity Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_proximity_sensor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -3623,10 +3930,12 @@
         "original_name": "Pixel 6 Steps Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_steps_sensor",
         "unit_of_measurement": "steps"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3648,10 +3957,12 @@
         "original_name": "Pixel 6 Internal Storage",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_storage_sensor",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3673,10 +3984,12 @@
         "original_name": "Pixel 6 External Storage",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_external_storage",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -3696,10 +4009,12 @@
         "original_name": "Pixel 6 Current Time Zone",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_current_time_zone",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -3721,10 +4036,12 @@
         "original_name": "Pixel 6 Mobile Rx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_mobile_rx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -3746,10 +4063,12 @@
         "original_name": "Pixel 6 Mobile Tx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_mobile_tx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -3771,10 +4090,12 @@
         "original_name": "Pixel 6 Total Rx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_total_rx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -3796,10 +4117,12 @@
         "original_name": "Pixel 6 Total Tx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_total_tx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -3819,10 +4142,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -3842,10 +4167,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -3865,10 +4192,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -3888,10 +4217,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3913,10 +4244,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3938,10 +4271,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -3961,10 +4296,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_ssh_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3986,10 +4323,12 @@
         "original_name": "Disk use (percent) /config",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "disk_use_percent_config",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4006,15 +4345,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:harddisk",
         "original_name": "Disk use /",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "disk_use",
         "unit_of_measurement": "GiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4031,15 +4372,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:harddisk",
         "original_name": "Disk free /",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "disk_free",
         "unit_of_measurement": "GiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4061,10 +4404,12 @@
         "original_name": "Memory use (percent)",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "memory_use_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4081,15 +4426,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:memory",
         "original_name": "Memory use",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "memory_use",
         "unit_of_measurement": "MiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4106,15 +4453,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:memory",
         "original_name": "Memory free",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "memory_free",
         "unit_of_measurement": "MiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4136,10 +4485,12 @@
         "original_name": "Swap use (percent)",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "swap_use_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4156,15 +4507,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:harddisk",
         "original_name": "Swap use",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "swap_use",
         "unit_of_measurement": "MiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4181,15 +4534,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:harddisk",
         "original_name": "Swap free",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "swap_free",
         "unit_of_measurement": "MiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4211,10 +4566,12 @@
         "original_name": "Load (1m)",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "load_1m",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4236,10 +4593,12 @@
         "original_name": "Load (5m)",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "load_5m",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4261,10 +4620,12 @@
         "original_name": "Load (15m)",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "load_15m",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4281,15 +4642,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "Network in eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "network_in_eth0",
         "unit_of_measurement": "MiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4306,15 +4669,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "Network out eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "network_out_eth0",
         "unit_of_measurement": "MiB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4331,15 +4696,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:server-network",
+        "original_device_class": "data_rate",
+        "original_icon": null,
         "original_name": "Network throughput in eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "throughput_network_in_eth0",
         "unit_of_measurement": "MB/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4356,15 +4723,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:server-network",
+        "original_device_class": "data_rate",
+        "original_icon": null,
         "original_name": "Network throughput out eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "throughput_network_out_eth0",
         "unit_of_measurement": "MB/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4386,10 +4755,12 @@
         "original_name": "Packets in eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "packets_in_eth0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4411,10 +4782,12 @@
         "original_name": "Packets out eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "packets_out_eth0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -4434,10 +4807,12 @@
         "original_name": "IPv4 address eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "ipv4_address_eth0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -4457,10 +4832,12 @@
         "original_name": "IPv6 address eth0",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "ipv6_address_eth0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4482,10 +4859,12 @@
         "original_name": "Processor use",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "processor_use",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4507,10 +4886,12 @@
         "original_name": "Processor temperature",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "processor_temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -4530,10 +4911,12 @@
         "original_name": "Last boot",
         "platform": "systemmonitor",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "last_boot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4553,10 +4936,12 @@
         "original_name": "Estimated energy production - today",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_energy_production_today",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4576,10 +4961,12 @@
         "original_name": "Estimated energy production - tomorrow",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_energy_production_tomorrow",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4599,10 +4986,12 @@
         "original_name": "Highest power peak time - today",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_power_highest_peak_time_today",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4622,10 +5011,12 @@
         "original_name": "Highest power peak time - tomorrow",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_power_highest_peak_time_tomorrow",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4647,10 +5038,12 @@
         "original_name": "Estimated power production - now",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_power_production_now",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4670,10 +5063,12 @@
         "original_name": "Estimated power production - next hour",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_power_production_next_hour",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4693,10 +5088,12 @@
         "original_name": "Estimated power production - next 12 hours",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_power_production_next_12hours",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4716,10 +5113,12 @@
         "original_name": "Estimated power production - next 24 hours",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_power_production_next_24hours",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4739,10 +5138,12 @@
         "original_name": "Estimated energy production - this hour",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_energy_current_hour",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "c1cdf379c9f6b73bef0ca65f99da9485",
@@ -4762,10 +5163,12 @@
         "original_name": "Estimated energy production - next hour",
         "platform": "forecast_solar",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "c1cdf379c9f6b73bef0ca65f99da9485_energy_next_hour",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "89f0e1f7fbc74bd3068dc13460727d40",
@@ -4785,10 +5188,12 @@
         "original_name": "RT-AX88-Cramacug wan status",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_wan_status",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4805,15 +5210,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "RT-AX88-Cramacug B received",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_bytes_received",
         "unit_of_measurement": "B"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4830,15 +5237,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "RT-AX88-Cramacug B sent",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_bytes_sent",
         "unit_of_measurement": "B"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4860,10 +5269,12 @@
         "original_name": "RT-AX88-Cramacug packets received",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_packets_received",
         "unit_of_measurement": "packets"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -4885,10 +5296,12 @@
         "original_name": "RT-AX88-Cramacug packets sent",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_packets_sent",
         "unit_of_measurement": "packets"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "89f0e1f7fbc74bd3068dc13460727d40",
@@ -4908,10 +5321,12 @@
         "original_name": "RT-AX88-Cramacug External IP",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_ip",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "89f0e1f7fbc74bd3068dc13460727d40",
@@ -4931,10 +5346,12 @@
         "original_name": "RT-AX88-Cramacug Uptime",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_uptime",
         "unit_of_measurement": "s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "89f0e1f7fbc74bd3068dc13460727d40",
@@ -4954,10 +5371,12 @@
         "original_name": "RT-AX88-Cramacug wan status",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_wan_status",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4974,15 +5393,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_rate",
         "original_icon": "mdi:server-network",
         "original_name": "RT-AX88-Cramacug KiB/s received",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_KiB/sec_received",
         "unit_of_measurement": "KiB/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4999,15 +5420,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_rate",
         "original_icon": "mdi:server-network",
         "original_name": "RT-AX88-Cramacug KiB/s sent",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_KiB/sec_sent",
         "unit_of_measurement": "KiB/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5029,10 +5452,12 @@
         "original_name": "RT-AX88-Cramacug packets/s received",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_packets/sec_received",
         "unit_of_measurement": "packets/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5054,10 +5479,12 @@
         "original_name": "RT-AX88-Cramacug packets/s sent",
         "platform": "upnp",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528_packets/sec_sent",
         "unit_of_measurement": "packets/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5077,10 +5504,12 @@
         "original_name": "shellypro4pm-083af2bfb544",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "08:3a:f2:bf:b5:44",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5100,10 +5529,12 @@
         "original_name": "Marcs-MBP",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a4:83:e7:c4:e4:a0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5123,10 +5554,12 @@
         "original_name": "marc-cg-p6",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "d2:1e:a3:1c:5d:6d",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5146,10 +5579,12 @@
         "original_name": "ubuntu",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "b8:27:eb:d7:8d:67",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5169,10 +5604,12 @@
         "original_name": "homeassistant",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "dc:a6:32:c2:7f:11",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5192,10 +5629,12 @@
         "original_name": "Camera1",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "ec:71:db:13:88:fd",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -5217,10 +5656,12 @@
         "original_name": "192.168.1.1 Upload",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Upload",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5242,10 +5683,12 @@
         "original_name": "192.168.1.1 Load Avg (5m)",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Load Avg (5m)",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5267,10 +5710,12 @@
         "original_name": "192.168.1.1 Load Avg (15m)",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Load Avg (15m)",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5292,10 +5737,12 @@
         "original_name": "192.168.1.1 Upload Speed",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Upload Speed",
         "unit_of_measurement": "Mbit/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5317,10 +5764,12 @@
         "original_name": "192.168.1.1 CPU Temperature",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 CPU Temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5342,10 +5791,12 @@
         "original_name": "192.168.1.1 Devices Connected",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Devices Connected",
         "unit_of_measurement": "Devices"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5367,10 +5818,12 @@
         "original_name": "192.168.1.1 Load Avg (1m)",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Load Avg (1m)",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5392,10 +5845,12 @@
         "original_name": "192.168.1.1 Download Speed",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Download Speed",
         "unit_of_measurement": "Mbit/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -5417,10 +5872,12 @@
         "original_name": "192.168.1.1 Download",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 Download",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5442,10 +5899,12 @@
         "original_name": "192.168.1.1 5GHz Temperature",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "asuswrt fc:34:97:84:75:28 5GHz Temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5465,10 +5924,12 @@
         "original_name": "dropade-GL63-8RD",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "74:70:fd:38:06:c6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cb46c50884f9d010cee70344757ab94",
@@ -5488,10 +5949,12 @@
         "original_name": "MacBookBPdeLaia",
         "platform": "asuswrt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0:78:17:98:af:78",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5511,10 +5974,12 @@
         "original_name": "Pi-Hole Core Update Available",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Core Update Available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5534,10 +5999,12 @@
         "original_name": "Pi-Hole Web Update Available",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Web Update Available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5557,10 +6024,12 @@
         "original_name": "Pi-Hole FTL Update Available",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/FTL Update Available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5580,10 +6049,12 @@
         "original_name": "Pi-Hole Web Update Available",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Web Update Available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5603,10 +6074,12 @@
         "original_name": "Pi-Hole FTL Update Available",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/FTL Update Available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5626,10 +6099,12 @@
         "original_name": "Pi-Hole",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Status",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5649,10 +6124,12 @@
         "original_name": "Pi-Hole Ads Blocked Today",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Ads Blocked Today",
         "unit_of_measurement": "ads"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5672,10 +6149,12 @@
         "original_name": "Pi-Hole Ads Percentage Blocked Today",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Ads Percentage Blocked Today",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5695,10 +6174,12 @@
         "original_name": "Pi-Hole Seen Clients",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Seen Clients",
         "unit_of_measurement": "clients"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5718,10 +6199,12 @@
         "original_name": "Pi-Hole DNS Queries Today",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/DNS Queries Today",
         "unit_of_measurement": "queries"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5741,10 +6224,12 @@
         "original_name": "Pi-Hole Domains Blocked",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Domains Blocked",
         "unit_of_measurement": "domains"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5764,10 +6249,12 @@
         "original_name": "Pi-Hole DNS Queries Cached",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/DNS Queries Cached",
         "unit_of_measurement": "queries"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5787,10 +6274,12 @@
         "original_name": "Pi-Hole DNS Queries Forwarded",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/DNS Queries Forwarded",
         "unit_of_measurement": "queries"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5810,10 +6299,12 @@
         "original_name": "Pi-Hole DNS Unique Clients",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/DNS Unique Clients",
         "unit_of_measurement": "clients"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5833,10 +6324,12 @@
         "original_name": "Pi-Hole DNS Unique Domains",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/DNS Unique Domains",
         "unit_of_measurement": "domains"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
@@ -5856,10 +6349,12 @@
         "original_name": "Pi-Hole Core Update Available",
         "platform": "pi_hole",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "821e46bc4dc755db760a1552caf591e5/Core Update Available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -5879,10 +6374,12 @@
         "original_name": "Update available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_samba_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -5902,10 +6399,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_samba_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -5925,10 +6424,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_samba_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -5948,10 +6449,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_samba_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5973,10 +6476,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_samba_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5998,10 +6503,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_samba_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ad029a534a33369a4c5daeb9fbd91af1",
@@ -6021,10 +6528,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_samba_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6044,10 +6553,12 @@
         "original_name": "AEMET Condition",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-condition",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6069,10 +6580,12 @@
         "original_name": "AEMET Humidity",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-humidity",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6094,10 +6607,12 @@
         "original_name": "AEMET Pressure",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-pressure",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6117,10 +6632,12 @@
         "original_name": "AEMET Rain",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-rain",
         "unit_of_measurement": "mm/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6142,10 +6659,12 @@
         "original_name": "AEMET Rain probability",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-rain-probability",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6165,10 +6684,12 @@
         "original_name": "AEMET Snow",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-snow",
         "unit_of_measurement": "mm/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6190,10 +6711,12 @@
         "original_name": "AEMET Snow probability",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-snow-probability",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6213,10 +6736,12 @@
         "original_name": "AEMET Station ID",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-station-id",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6236,10 +6761,12 @@
         "original_name": "AEMET Station name",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-station-name",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6259,10 +6786,12 @@
         "original_name": "AEMET Station timestamp",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-station-timestamp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6284,10 +6813,12 @@
         "original_name": "AEMET Storm probability",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-storm-probability",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6309,10 +6840,12 @@
         "original_name": "AEMET Temperature",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6334,10 +6867,12 @@
         "original_name": "AEMET Temperature feeling",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-temperature-feeling",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6357,10 +6892,12 @@
         "original_name": "AEMET Town ID",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-town-id",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6380,10 +6917,12 @@
         "original_name": "AEMET Town name",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-town-name",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6403,10 +6942,12 @@
         "original_name": "AEMET Town timestamp",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-town-timestamp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6428,10 +6969,12 @@
         "original_name": "AEMET Wind bearing",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-wind-bearing",
         "unit_of_measurement": "°"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6446,15 +6989,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "wind_speed",
         "original_icon": null,
         "original_name": "AEMET Wind max speed",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-wind-max-speed",
         "unit_of_measurement": "km/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6471,15 +7016,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "wind_speed",
         "original_icon": null,
         "original_name": "AEMET Wind speed",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-wind-speed",
         "unit_of_measurement": "km/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6499,10 +7046,12 @@
         "original_name": "AEMET daily Forecast Condition",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-condition",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6522,10 +7071,12 @@
         "original_name": "AEMET daily Forecast Precipitation",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-precipitation",
         "unit_of_measurement": "mm/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6545,10 +7096,12 @@
         "original_name": "AEMET daily Forecast Precipitation probability",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-precipitation_probability",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6568,10 +7121,12 @@
         "original_name": "AEMET daily Forecast Temperature",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6591,10 +7146,12 @@
         "original_name": "AEMET daily Forecast Temperature Low",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-templow",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6614,10 +7171,12 @@
         "original_name": "AEMET daily Forecast Time",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-datetime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6637,10 +7196,12 @@
         "original_name": "AEMET daily Forecast Wind bearing",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-wind_bearing",
         "unit_of_measurement": "°"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6655,15 +7216,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "wind_speed",
         "original_icon": null,
         "original_name": "AEMET daily Forecast Wind speed",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-daily-wind_speed",
         "unit_of_measurement": "km/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6683,10 +7246,12 @@
         "original_name": "AEMET hourly Forecast Condition",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-condition",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6706,10 +7271,12 @@
         "original_name": "AEMET hourly Forecast Precipitation",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-precipitation",
         "unit_of_measurement": "mm/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6729,10 +7296,12 @@
         "original_name": "AEMET hourly Forecast Precipitation probability",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-precipitation_probability",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6752,10 +7321,12 @@
         "original_name": "AEMET hourly Forecast Temperature",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6775,10 +7346,12 @@
         "original_name": "AEMET hourly Forecast Temperature Low",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-templow",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6798,10 +7371,12 @@
         "original_name": "AEMET hourly Forecast Time",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-datetime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6821,10 +7396,12 @@
         "original_name": "AEMET hourly Forecast Wind bearing",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-wind_bearing",
         "unit_of_measurement": "°"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6839,15 +7416,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "wind_speed",
         "original_icon": null,
         "original_name": "AEMET hourly Forecast Wind speed",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822-forecast-hourly-wind_speed",
         "unit_of_measurement": "km/h"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6867,10 +7446,12 @@
         "original_name": "AEMET daily",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822 daily",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "257bf020ab6c570ed6daf145902ba488",
@@ -6890,10 +7471,12 @@
         "original_name": "AEMET hourly",
         "platform": "aemet",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "41.6832-2.2822 hourly",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -6913,10 +7496,12 @@
         "original_name": "Pixel 6 Battery Power",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_battery_power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -6936,10 +7521,12 @@
         "original_name": "Server Input",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-input:0-input",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -6959,10 +7546,12 @@
         "original_name": "Server Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -6982,10 +7571,12 @@
         "original_name": "Server Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -7005,10 +7596,12 @@
         "original_name": "Server Overvoltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-overvoltage",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7030,10 +7623,12 @@
         "original_name": "Server Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7055,10 +7650,12 @@
         "original_name": "Server Voltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7080,10 +7677,12 @@
         "original_name": "Server Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7105,10 +7704,12 @@
         "original_name": "Server Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -7128,10 +7729,12 @@
         "original_name": "Server",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-switch:0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7151,10 +7754,12 @@
         "original_name": "Air_Conditioned Input",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-input:0-input",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7174,10 +7779,12 @@
         "original_name": "Air_Conditioned Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7197,10 +7804,12 @@
         "original_name": "Air_Conditioned Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7220,10 +7829,12 @@
         "original_name": "Air_Conditioned Overvoltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-overvoltage",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7245,10 +7856,12 @@
         "original_name": "Air_Conditioned Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7270,10 +7883,12 @@
         "original_name": "Air_Conditioned Voltage",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7295,10 +7910,12 @@
         "original_name": "Air_Conditioned Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7320,10 +7937,12 @@
         "original_name": "Air_Conditioned Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0-temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7343,10 +7962,12 @@
         "original_name": "Air_Conditioned",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-switch:0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -7366,10 +7987,12 @@
         "original_name": "Shelly-Pro-4PM-Garden Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_pro_4pm_garden_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7391,10 +8014,12 @@
         "original_name": "Shelly-Pro-4PM-Garden RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-wifi-rssi",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -7414,10 +8039,12 @@
         "original_name": "Shelly-Pro-4PM-Garden Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-cloud-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -7437,10 +8064,12 @@
         "original_name": "Shelly-Pro-4PM-Garden Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-sys-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -7460,10 +8089,12 @@
         "original_name": "Shelly-Pro-4PM-Garden Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_pro_4pm_garden_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7483,10 +8114,12 @@
         "original_name": "Shelly-Plus-1PM-AC Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-cloud-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7508,10 +8141,12 @@
         "original_name": "Shelly-Plus-1PM-AC RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-wifi-rssi",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7531,10 +8166,12 @@
         "original_name": "Shelly-Plus-1PM-AC Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793937E9C-sys-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -7554,10 +8191,12 @@
         "original_name": "Shelly-Plus-1PM-AC Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_1pm_ac_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -7577,10 +8216,12 @@
         "original_name": "Shelly-Plus-1PM-Server Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-cloud-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7602,10 +8243,12 @@
         "original_name": "Shelly-Plus-1PM-Server RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-wifi-rssi",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -7625,10 +8268,12 @@
         "original_name": "Shelly-Plus-1PM-Server Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-sys-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -7648,10 +8293,12 @@
         "original_name": "Shelly-Plus-1PM-Server Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_1pm_server_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -7671,10 +8318,12 @@
         "original_name": "ShellyPlus_HT_Atic Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D0DC08-cloud-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -7694,10 +8343,12 @@
         "original_name": "Shelly_Plus_HT_Atic OTA Update",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_ht_atic_ota_update",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -7717,10 +8368,12 @@
         "original_name": "Shelly_Plus_HT_Atic Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_ht_atic_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -7740,10 +8393,12 @@
         "original_name": "ShellyPlus_HT_Atic Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D0DC08-sys-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -7763,10 +8418,12 @@
         "original_name": "Shelly_Plus_HT_Atic OTA Update Beta",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_ht_atic_ota_update_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7788,10 +8445,12 @@
         "original_name": "ShellyPlus_HT_Atic RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D0DC08-wifi-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -7811,10 +8470,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793CCA640-cloud-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -7834,10 +8495,12 @@
         "original_name": "Shelly_Plus_HT_SecondFloor OTA Update",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_ht_secondfloor_ota_update",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -7857,10 +8520,12 @@
         "original_name": "Shelly_Plus_HT_SecondFloor Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_ht_secondfloor_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -7880,10 +8545,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793CCA640-sys-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -7903,10 +8570,12 @@
         "original_name": "Shelly_Plus_HT_SecondFloor OTA Update Beta",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plus_ht_secondfloor_ota_update_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7928,10 +8597,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793CCA640-wifi-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -7951,10 +8622,12 @@
         "original_name": "Shelly-Plug-S-Fridge Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-relay_0-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -7974,10 +8647,12 @@
         "original_name": "Shelly-Plug-S-Fridge Overheating",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-device-overtemp",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -7997,10 +8672,12 @@
         "original_name": "Shelly-Plug-S-Fridge Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -8020,10 +8697,12 @@
         "original_name": "Shelly-Plug-S-Fridge Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plug_s_fridge_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8045,10 +8724,12 @@
         "original_name": "Shelly-Plug-S-Fridge Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-relay_0-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -8070,10 +8751,12 @@
         "original_name": "Shelly-Plug-S-Fridge Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-relay_0-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8095,10 +8778,12 @@
         "original_name": "Shelly-Plug-S-Fridge RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-rssi",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -8118,10 +8803,12 @@
         "original_name": "Shelly-Plug-S-Fridge Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -8141,10 +8828,12 @@
         "original_name": "Shelly-Plug-S-Fridge",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-relay_0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8166,10 +8855,12 @@
         "original_name": "Shelly-Plug-S-Fridge Device Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-device-deviceTemp",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8189,10 +8880,12 @@
         "original_name": "Shelly Plug Mobile Socket  Overpowering",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-relay_0-overpower",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8212,10 +8905,12 @@
         "original_name": "Shelly Plug Mobile Socket  Cloud",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-cloud",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8235,10 +8930,12 @@
         "original_name": "Shelly Plug Heater  OTA Update",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plug_heater_ota_update",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8258,10 +8955,12 @@
         "original_name": "Shelly Plug Heater  OTA Update Beta",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plug_heater_ota_update_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8281,10 +8980,12 @@
         "original_name": "Shelly Plug Heater  Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plug_heater_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8306,10 +9007,12 @@
         "original_name": "Shelly Plug Mobile Socket  Power",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-relay_0-power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -8331,10 +9034,12 @@
         "original_name": "Shelly Plug Mobile Socket  Energy",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-relay_0-energy",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8356,10 +9061,12 @@
         "original_name": "Shelly Plug Mobile Socket  RSSI",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-rssi",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8379,10 +9086,12 @@
         "original_name": "Shelly Plug Mobile Socket  Uptime",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-uptime",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8402,10 +9111,12 @@
         "original_name": "Shelly Plug Mobile Socket ",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-relay_0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8427,10 +9138,12 @@
         "original_name": "ShellyPlus_HT_Atic Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D0DC08-temperature:0-temperature_0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8452,10 +9165,12 @@
         "original_name": "ShellyPlus_HT_Atic Humidity",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793D0DC08-humidity:0-humidity_0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8477,10 +9192,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Temperature",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793CCA640-temperature:0-temperature_0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8502,10 +9219,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Humidity",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "441793CCA640-humidity:0-humidity_0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -8525,10 +9244,12 @@
         "original_name": "ShellyPlus_HT_Atic Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shellyplus_ht_atic_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -8548,10 +9269,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shellyplus_ht_secondfloor_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -8571,10 +9294,12 @@
         "original_name": "Pixel 6 Beacon Monitor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_beacon_monitor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8594,10 +9319,12 @@
         "original_name": "Marc’s iPad",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8617,10 +9344,12 @@
         "original_name": "Marc’s iPad Activity",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_activity",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8640,10 +9369,12 @@
         "original_name": "Marc’s iPad Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_battery_level",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8663,10 +9394,12 @@
         "original_name": "Marc’s iPad SSID",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_connectivity_ssid",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8686,10 +9419,12 @@
         "original_name": "Marc’s iPad Battery State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_battery_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8709,10 +9444,12 @@
         "original_name": "Marc’s iPad Connection Type",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_connectivity_connection_type",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8732,10 +9469,12 @@
         "original_name": "Marc’s iPad Last Update Trigger",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_last_update_trigger",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8755,10 +9494,12 @@
         "original_name": "Marc’s iPad BSSID",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_connectivity_bssid",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8778,10 +9519,12 @@
         "original_name": "Marc’s iPad Storage",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_storage",
         "unit_of_measurement": "% available"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b69d1dab6f83fc70a3a845b8aba54da",
@@ -8801,10 +9544,12 @@
         "original_name": "Marc’s iPad Geocoded Location",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7033a07cc73691046e06436f086b42261cf31588f3a626b49ae1fac1ce4341b6_geocoded_location",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -8824,10 +9569,12 @@
         "original_name": "Shelly-Plus-1PM-AC Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793937E9C-sys-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "45a547a3325c84366a94c60b26a6a39f",
@@ -8847,10 +9594,12 @@
         "original_name": "Shelly-Plus-1PM-AC Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793937E9C-sys-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -8870,10 +9619,12 @@
         "original_name": "Shelly-Plus-1PM-Server Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-sys-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "99d2218bfc032f90bf054388fab1b6cd",
@@ -8893,10 +9644,12 @@
         "original_name": "Shelly-Plus-1PM-Server Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793D4ECDC-sys-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -8916,10 +9669,12 @@
         "original_name": "Shelly-Pro-4PM-Garden Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-sys-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "31e00735dd4f51082a0b1178450dc3d0",
@@ -8939,10 +9694,12 @@
         "original_name": "Shelly-Pro-4PM-Garden Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "083AF2BFB544-sys-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8962,10 +9719,12 @@
         "original_name": "Shelly Plug Mobile Socket  Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -8985,10 +9744,12 @@
         "original_name": "Shelly Plug Mobile Socket  Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "98CDAC25D6FA-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -9008,10 +9769,12 @@
         "original_name": "Shelly-Plug-S-Fridge Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
@@ -9031,10 +9794,12 @@
         "original_name": "Shelly-Plug-S-Fridge Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "E8DB84BB5902-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -9054,10 +9819,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793CCA640-sys-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "4e126d0156dce6372d2c0df1051a36cd",
@@ -9077,10 +9844,12 @@
         "original_name": "ShellyPlus_HT_SecondFloor Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793CCA640-sys-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -9100,10 +9869,12 @@
         "original_name": "ShellyPlus_HT_Atic Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793D0DC08-sys-fwupdate",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "ba9cebdb6adf9ea539252829d0d58fcf",
@@ -9123,10 +9894,12 @@
         "original_name": "ShellyPlus_HT_Atic Beta Firmware Update",
         "platform": "shelly",
         "supported_features": 5,
+        "translation_key": null,
         "unique_id": "441793D0DC08-sys-fwupdate_beta",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -9146,10 +9919,12 @@
         "original_name": "Pixel 6 Accent Color",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_accent_color",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -9169,10 +9944,12 @@
         "original_name": "Pixel 6 Screen Brightness",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_screen_brightness",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "15ff370950f3d2dbdc144822bbac4428",
@@ -9192,10 +9969,12 @@
         "original_name": "Shelly Plug Mobile Socket  Reboot",
         "platform": "shelly",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "shelly_plug_mobile_socket_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "73d65265bc6e7527b981285321a1b8f5",
@@ -9215,7 +9994,33 @@
         "original_name": "Pixel 6 Screen Off Timeout",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7096c06e1fab0d6d730f13349564f9cbbc33e21fe36e191520cff74387105987_screen_off_timeout",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "821e46bc4dc755db760a1552caf591e5",
+        "device_class": null,
+        "device_id": "cff68aef073ba15af0722da0fbac2512",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.pi_hole",
+        "hidden_by": null,
+        "icon": null,
+        "id": "24d1c9452a22e9f58ced97f46e63b170",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:pi-hole",
+        "original_name": "Pi-Hole",
+        "platform": "pi_hole",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "821e46bc4dc755db760a1552caf591e5/Switch",
         "unit_of_measurement": null
       }
     ]

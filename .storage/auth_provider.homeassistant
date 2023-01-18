@@ -1,17 +1,21 @@
 {
-    "version": 1,
-    "minor_version": 1,
-    "key": "auth_provider.homeassistant",
-    "data": {
-        "users": [
-            {
-                "username": "marc_cg",
-                "password": "JDJiJDEyJFVWNWluT0lUaXp1ZzlaT2xVU3BXS09nNzJya1lnRlAxLzFDdGxLY3dVcFNUSXYzOFJGVWtT"
-            },
-            {
-                "username": "cramacug",
-                "password": "JDJiJDEyJGhKRm0zbUFna09GNFJUNURKTm03dnVEOTdUTEVOeUQwRTdnRGs2ZE90VG5sSHJMalF2VmVD"
-            }
-        ]
-    }
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "marc_cg",
+        "password": "JDJiJDEyJFVWNWluT0lUaXp1ZzlaT2xVU3BXS09nNzJya1lnRlAxLzFDdGxLY3dVcFNUSXYzOFJGVWtT"
+      },
+      {
+        "username": "cramacug",
+        "password": "JDJiJDEyJGhKRm0zbUFna09GNFJUNURKTm03dnVEOTdUTEVOeUQwRTdnRGs2ZE90VG5sSHJMalF2VmVD"
+      },
+      {
+        "username": "laia",
+        "password": "JDJiJDEyJFNuOWFWWmd1SVdIMTRxNTBReTB5OWU3L095US5MTVEuWEhBYXZUWUVBeHE4ajl0cFFYUzFH"
+      }
+    ]
+  }
 }

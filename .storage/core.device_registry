@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2022.12.8",
+        "sw_version": "2023.1.5",
         "via_device_id": null
       },
       {
@@ -49,7 +49,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.11.2",
+        "sw_version": "2022.12.1",
         "via_device_id": null
       },
       {
@@ -102,8 +102,8 @@
       {
         "area_id": "garden",
         "config_entries": [
-          "31e00735dd4f51082a0b1178450dc3d0",
-          "5cb46c50884f9d010cee70344757ab94"
+          "5cb46c50884f9d010cee70344757ab94",
+          "31e00735dd4f51082a0b1178450dc3d0"
         ],
         "configuration_url": "http://192.168.1.116",
         "connections": [
@@ -121,7 +121,7 @@
         "model": "Shelly Pro 4PM",
         "name_by_user": "Shelly-Pro-4PM-Garden",
         "name": "Shelly-Pro-4PM-Garden",
-        "sw_version": "20221024-143451/0.11.4-ga1906a2",
+        "sw_version": "20221206-143814/0.12.0-gafc2404",
         "via_device_id": null
       },
       {
@@ -193,7 +193,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.5.0",
+        "sw_version": "5.5.1",
         "via_device_id": null
       },
       {
@@ -289,7 +289,7 @@
         "model": "iPad13,1",
         "name_by_user": null,
         "name": "Marc’s iPad",
-        "sw_version": "16.1.1",
+        "sw_version": "16.2",
         "via_device_id": null
       },
       {
@@ -348,12 +348,12 @@
         "configuration_url": null,
         "connections": [
           [
-            "mac",
-            "fc:34:97:84:75:28"
-          ],
-          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
+          ],
+          [
+            "mac",
+            "fc:34:97:84:75:28"
           ]
         ],
         "disabled_by": null,
@@ -366,12 +366,12 @@
             "fc:34:97:84:75:28"
           ],
           [
-            "upnp_host",
-            "192.168.1.1"
-          ],
-          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_host",
+            "192.168.1.1"
           ]
         ],
         "manufacturer": "ASUSTeK Computer Inc.",
@@ -570,7 +570,7 @@
         "model": "Shelly Plug S",
         "name_by_user": null,
         "name": "Shelly-Plug-S-Fridge",
-        "sw_version": "20221027-101131/v1.12.1-ga9117d3",
+        "sw_version": "20230109-114426/v1.12.2-g32055ee",
         "via_device_id": null
       },
       {

@@ -6,7 +6,20 @@
     "config": {
       "views": [
         {
-          "title": "Home"
+          "title": "Home",
+          "cards": [
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sun.sun",
+                  "name": "WIP - sun"
+                }
+              ],
+              "hours_to_show": 24,
+              "title": "Manual and scheduled events"
+            }
+          ]
         }
       ]
     }

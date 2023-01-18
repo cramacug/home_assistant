@@ -16,7 +16,7 @@
       {
         "show_in_sidebar": true,
         "icon": "mdi:desktop-classic",
-        "title": "System - RP4",
+        "title": "System",
         "require_admin": true,
         "mode": "storage",
         "url_path": "lovelace-testing",
@@ -52,7 +52,7 @@
       {
         "show_in_sidebar": true,
         "icon": "mdi:solar-power",
-        "title": "Power Load",
+        "title": "Power & Energy",
         "require_admin": false,
         "mode": "storage",
         "url_path": "power-load",

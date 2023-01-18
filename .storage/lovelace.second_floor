@@ -13,85 +13,85 @@
           "cards": [
             {
               "type": "vertical-stack",
-              "title": "T & H",
-              "cards": [
-                {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
-                  "unit": "W"
-                },
-                {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plus_ht_secondfloor_humidity"
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Temperature",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
-                      "name": "Suite"
-                    }
-                  ]
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Humidity",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
-                      "name": "Suite"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "vertical-stack",
               "title": "Power",
               "cards": [
-                {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plus_1pm_server_power",
-                  "unit": "W"
-                },
-                {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plus_1pm_ac_power",
-                  "unit": "W"
-                },
                 {
                   "type": "history-graph",
                   "title": "Power consumption",
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_1pm_ac_power"
+                      "entity": "sensor.shelly_plug_heater_power"
+                    }
+                  ]
+                },
+                {
+                  "type": "entity",
+                  "unit": "W",
+                  "entity": "sensor.shelly_plug_heater_power"
+                },
+                {
+                  "type": "entity",
+                  "unit": "W",
+                  "entity": "sensor.shelly_plug_heater_power"
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "T&H",
+              "cards": [
+                {
+                  "type": "history-graph",
+                  "title": "T & H",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_temperature",
+                      "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_1pm_server_power"
+                      "entity": "sensor.shelly_plus_ht_atic_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "state_color": true,
+                  "type": "glance",
+                  "title": "Suite",
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "name": "Uptime"
                     }
                   ]
                 }
               ]
+            },
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sun.sun",
+                  "name": "WIP - sun"
+                }
+              ],
+              "hours_to_show": 24,
+              "title": "Manual and scheduled events"
             }
           ]
-        },
-        {
-          "theme": "Backend-selected",
-          "title": "Bath",
-          "path": "bath-1",
-          "badges": [],
-          "cards": []
-        },
-        {
-          "theme": "Backend-selected",
-          "title": "Bath Suite",
-          "path": "bath-suite",
-          "badges": [],
-          "cards": []
         },
         {
           "theme": "Backend-selected",
@@ -206,6 +206,20 @@
               ]
             }
           ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Bath Suite",
+          "path": "bath-suite",
+          "badges": [],
+          "cards": []
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Bath",
+          "path": "bath-1",
+          "badges": [],
+          "cards": []
         },
         {
           "theme": "Backend-selected",

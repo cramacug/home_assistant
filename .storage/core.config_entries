@@ -196,7 +196,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:45049/rootDesc.xml",
+          "location": "http://192.168.1.1:57144/rootDesc.xml",
           "mac_address": "fc:34:97:84:75:28",
           "host": "192.168.1.1"
         },
@@ -251,7 +251,7 @@
           "location": "admin",
           "ssl": false,
           "verify_ssl": true,
-          "statistics_only": true
+          "api_key": "1f2ab5194313cddac92f097ac59fc276b902056273996b8ac8baf90d97cb1957"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -286,11 +286,11 @@
         "domain": "samsungtv",
         "title": "UE40JU6400 (UE40JU6400)",
         "data": {
-          "host": "192.168.1.219",
+          "host": "192.168.1.209",
           "mac": "fc:8f:90:d9:2d:c3",
           "model": "UE40JU6400",
-          "ssdp_rendering_control_location": "http://192.168.1.219:9197/dmr",
-          "ssdp_main_tv_agent_location": "http://192.168.1.219:7677/MainTVServer2/"
+          "ssdp_rendering_control_location": "http://192.168.1.209:9197/dmr",
+          "ssdp_main_tv_agent_location": "http://192.168.1.209:7677/MainTVServer2/"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -305,7 +305,8 @@
         "domain": "dlna_dmr",
         "title": "[TV] UE40JU6400",
         "data": {
-          "url": "http://192.168.1.219:9197/dmr"
+          "url": "http://192.168.1.209:9197/dmr",
+          "mac": "fc:8f:90:d9:2d:c3"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -429,7 +430,7 @@
         "title": "Marc’s iPad",
         "data": {
           "os_name": "iPadOS",
-          "os_version": "16.1.1",
+          "os_version": "16.2",
           "app_data": {
             "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
@@ -465,6 +466,19 @@
         "pref_disable_polling": false,
         "source": "integration_discovery",
         "unique_id": "DC:A6:32:C2:7F:13",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3bc21b3ce2af865d0029a830f4ba944c",
+        "version": 1,
+        "domain": "ibeacon",
+        "title": "iBeacon Tracker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "unique_id": null,
         "disabled_by": null
       }
     ]

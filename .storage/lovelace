@@ -11,52 +11,16 @@
           "title": "Home",
           "cards": [
             {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.can_marla"
+            },
+            {
               "type": "grid",
-              "title": "Power consumption",
               "columns": 1,
               "square": false,
               "cards": [
-                {
-                  "show_name": true,
-                  "show_icon": true,
-                  "show_state": true,
-                  "type": "glance",
-                  "title": "Switches",
-                  "entities": [
-                    {
-                      "entity": "switch.shelly_pro_4pm_garden_pool",
-                      "name": "Pool"
-                    },
-                    {
-                      "entity": "light.shelly_pro_4pm_garden_2_x_lights_plug",
-                      "name": "BBQ light"
-                    },
-                    {
-                      "entity": "switch.shelly_pro_4pm_garden_2_x_plugs",
-                      "name": "BBQ external plugs"
-                    },
-                    {
-                      "entity": "switch.shelly_pro_4pm_garden_internal_plug",
-                      "name": "BBQ Internal Plugs"
-                    },
-                    {
-                      "entity": "switch.shelly_plug_s_fridge",
-                      "name": "Fridge"
-                    },
-                    {
-                      "entity": "switch.shelly_plus_1pm_ac",
-                      "name": "AC"
-                    },
-                    {
-                      "entity": "switch.shelly_plus_1pm_server",
-                      "name": "Server"
-                    },
-                    {
-                      "entity": "switch.shelly_plug_heater",
-                      "name": "Tmp plug"
-                    }
-                  ]
-                },
                 {
                   "type": "history-graph",
                   "title": "Power consumption",
@@ -92,12 +56,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "show_current": true,
-              "show_forecast": true,
-              "type": "weather-forecast",
-              "entity": "weather.can_marla"
             },
             {
               "type": "entities",
