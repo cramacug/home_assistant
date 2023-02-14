@@ -20,19 +20,19 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plug_heater_power"
+                      "entity": "sensor.shelly_plug_power_heater"
                     }
                   ]
                 },
                 {
                   "type": "entity",
                   "unit": "W",
-                  "entity": "sensor.shelly_plug_heater_power"
+                  "entity": "sensor.shelly_plug_power_heater"
                 },
                 {
                   "type": "entity",
                   "unit": "W",
-                  "entity": "sensor.shelly_plug_heater_power"
+                  "entity": "sensor.shelly_plug_power_heater"
                 }
               ]
             },
@@ -42,14 +42,14 @@
               "cards": [
                 {
                   "type": "history-graph",
-                  "hours_to_show": 6,
+                  "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     }
                   ]
@@ -62,15 +62,15 @@
                   "state_color": true,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "entity": "sensor.shelly_plus_ht_uptime_secondfloor",
                       "name": "Uptime"
                     }
                   ]
@@ -108,15 +108,15 @@
                   "title": "Summary",
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "entity": "sensor.shelly_plus_ht_uptime_secondfloor",
                       "name": "Uptime"
                     }
                   ],
@@ -128,11 +128,11 @@
                   "hours_to_show": 6,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     }
                   ]
@@ -156,13 +156,13 @@
                       "entity": "switch.shelly_plug_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_power"
+                      "entity": "sensor.shelly_plug_power_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_energy"
+                      "entity": "sensor.shelly_plug_energy_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_rssi"
+                      "entity": "sensor.shelly_plug_rssi_heater"
                     }
                   ],
                   "state_color": true
@@ -173,7 +173,7 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plug_heater_power"
+                      "entity": "sensor.shelly_plug_power_heater"
                     }
                   ]
                 },
@@ -184,19 +184,19 @@
                       "entity": "switch.shelly_plug_heater"
                     },
                     {
-                      "entity": "binary_sensor.shelly_plug_heater_cloud"
+                      "entity": "binary_sensor.shelly_plug_cloud_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_energy"
+                      "entity": "sensor.shelly_plug_energy_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_power"
+                      "entity": "sensor.shelly_plug_power_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_rssi"
+                      "entity": "sensor.shelly_plug_rssi_heater"
                     },
                     {
-                      "entity": "sensor.shelly_plug_heater_uptime"
+                      "entity": "sensor.shelly_plug_uptime_heater"
                     }
                   ]
                 }

@@ -20,69 +20,20 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_power"
+                      "entity": "sensor.shelly_plug_s_power_fridge"
                     }
                   ]
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_plug_s_fridge_power",
+                  "entity": "sensor.shelly_plug_s_power_fridge",
                   "unit": "W"
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_plug_s_fridge_power",
+                  "entity": "sensor.shelly_plug_s_power_fridge",
                   "name": "WIP - Oven",
                   "unit": "W"
-                },
-                {
-                  "type": "entity",
-                  "entity": "sensor.shelly_plug_s_fridge_power",
-                  "name": "WIP - DishMachine",
-                  "unit": "W"
-                }
-              ]
-            },
-            {
-              "type": "vertical-stack",
-              "title": "T&H",
-              "cards": [
-                {
-                  "type": "history-graph",
-                  "title": "T & H",
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_ht_atic_temperature",
-                      "name": "Temperature"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_ht_atic_humidity",
-                      "name": "Humidity"
-                    }
-                  ],
-                  "hours_to_show": 24
-                },
-                {
-                  "show_name": true,
-                  "show_icon": true,
-                  "show_state": true,
-                  "state_color": true,
-                  "type": "glance",
-                  "title": "Kitchen",
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
-                      "name": "Temperature"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
-                      "name": "Humidity"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
-                      "name": "Uptime"
-                    }
-                  ]
                 }
               ]
             },
@@ -109,15 +60,15 @@
                   "title": "Summary",
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "entity": "sensor.shelly_plus_ht_uptime_secondfloor",
                       "name": "Uptime"
                     }
                   ],
@@ -129,11 +80,11 @@
                   "hours_to_show": 6,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     }
                   ]
@@ -161,18 +112,18 @@
                       "name": "Input"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_temperature",
+                      "entity": "sensor.shelly_plug_s_temperature_fridge",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_rssi",
+                      "entity": "sensor.shelly_plug_s_rssi_fridge",
                       "name": "RSSI"
                     }
                   ]
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_plug_s_fridge_power",
+                  "entity": "sensor.shelly_plug_s_power_fridge",
                   "units": "W"
                 },
                 {
@@ -181,7 +132,7 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_power",
+                      "entity": "sensor.shelly_plug_s_power_fridge",
                       "name": "Fridge power"
                     }
                   ]
@@ -192,35 +143,35 @@
                   "state_color": true,
                   "entities": [
                     {
-                      "entity": "binary_sensor.shelly_plug_s_fridge_cloud",
+                      "entity": "binary_sensor.shelly_plug_s_cloud_fridge",
                       "name": "Cloud"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_rssi",
+                      "entity": "sensor.shelly_plug_s_rssi_fridge",
                       "name": "RSSI"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_uptime",
+                      "entity": "sensor.shelly_plug_s_uptime_fridge",
                       "name": "Uptime"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_temperature",
+                      "entity": "sensor.shelly_plug_s_temperature_fridge",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_power",
+                      "entity": "sensor.shelly_plug_s_power_fridge",
                       "name": "Power"
                     },
                     {
-                      "entity": "sensor.shelly_plug_s_fridge_energy",
+                      "entity": "sensor.shelly_plug_s_energy_fridge",
                       "name": "Energy"
                     },
                     {
-                      "entity": "binary_sensor.shelly_plug_s_fridge_overheating",
+                      "entity": "binary_sensor.shelly_plug_s_overheating_fridge",
                       "name": "Overheating"
                     },
                     {
-                      "entity": "binary_sensor.shelly_plug_s_fridge_overpowering",
+                      "entity": "binary_sensor.shelly_plug_s_overpowering_fridge",
                       "name": "Overpowering"
                     }
                   ]
