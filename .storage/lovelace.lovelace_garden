@@ -35,6 +35,25 @@
                   ]
                 },
                 {
+                  "type": "history-graph",
+                  "title": "Power consumption",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_pool_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
+                    },
+                    {
+                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
+                    }
+                  ]
+                },
+                {
                   "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_garden_pool_power",
                   "unit": "W"
@@ -53,25 +72,6 @@
                   "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power",
                   "unit": "W"
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_pro_4pm_garden_pool_power"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
-                    }
-                  ]
                 }
               ]
             },

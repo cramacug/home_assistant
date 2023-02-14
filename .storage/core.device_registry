@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2023.1.5",
+        "sw_version": "2023.2.4",
         "via_device_id": null
       },
       {
@@ -49,7 +49,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.12.1",
+        "sw_version": "2023.01.1",
         "via_device_id": null
       },
       {
@@ -73,7 +73,7 @@
         "model": "Home Assistant Operating System",
         "name_by_user": null,
         "name": "Home Assistant Operating System",
-        "sw_version": "9.4",
+        "sw_version": "9.5",
         "via_device_id": null
       },
       {
@@ -102,8 +102,8 @@
       {
         "area_id": "garden",
         "config_entries": [
-          "5cb46c50884f9d010cee70344757ab94",
-          "31e00735dd4f51082a0b1178450dc3d0"
+          "31e00735dd4f51082a0b1178450dc3d0",
+          "5cb46c50884f9d010cee70344757ab94"
         ],
         "configuration_url": "http://192.168.1.116",
         "connections": [
@@ -121,7 +121,7 @@
         "model": "Shelly Pro 4PM",
         "name_by_user": "Shelly-Pro-4PM-Garden",
         "name": "Shelly-Pro-4PM-Garden",
-        "sw_version": "20221206-143814/0.12.0-gafc2404",
+        "sw_version": "20230209-132431/0.13.0-g68ba560",
         "via_device_id": null
       },
       {
@@ -145,7 +145,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Let's Encrypt",
-        "sw_version": "4.12.7",
+        "sw_version": "4.12.8",
         "via_device_id": null
       },
       {
@@ -169,7 +169,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "File editor",
-        "sw_version": "5.4.2",
+        "sw_version": "5.5.0",
         "via_device_id": null
       },
       {
@@ -193,7 +193,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.5.1",
+        "sw_version": "5.5.2",
         "via_device_id": null
       },
       {
@@ -289,7 +289,7 @@
         "model": "iPad13,1",
         "name_by_user": null,
         "name": "Marc’s iPad",
-        "sw_version": "16.2",
+        "sw_version": "16.3",
         "via_device_id": null
       },
       {
@@ -348,12 +348,12 @@
         "configuration_url": null,
         "connections": [
           [
-            "upnp",
-            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
-          ],
-          [
             "mac",
             "fc:34:97:84:75:28"
+          ],
+          [
+            "upnp",
+            "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528"
           ]
         ],
         "disabled_by": null,
@@ -362,12 +362,12 @@
         "id": "e5df4e5c71cca3def701a02613a23a30",
         "identifiers": [
           [
-            "upnp_serial_number",
-            "fc:34:97:84:75:28"
-          ],
-          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_serial_number",
+            "fc:34:97:84:75:28"
           ],
           [
             "upnp_host",
@@ -522,7 +522,7 @@
         "model": "Shelly Plus 1PM",
         "name_by_user": "Shelly-Plus-1PM-Server",
         "name": "Shelly-Plus-1PM-Server",
-        "sw_version": "20221206-141253/0.12.0-gafc2404",
+        "sw_version": "20230209-131443/0.13.0-g68ba560",
         "via_device_id": null
       },
       {
@@ -546,7 +546,7 @@
         "model": "Shelly Plus 1PM",
         "name_by_user": "Shelly-Plus-1PM-AC",
         "name": "Shelly-Plus-1PM-AC",
-        "sw_version": "20221206-141253/0.12.0-gafc2404",
+        "sw_version": "20230209-131443/0.13.0-g68ba560",
         "via_device_id": null
       },
       {

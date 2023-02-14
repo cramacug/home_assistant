@@ -66,6 +66,47 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "vertical-stack",
+              "title": "T&H",
+              "cards": [
+                {
+                  "type": "history-graph",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
+                },
+                {
+                  "type": "glance",
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "state_color": true,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "name": "Uptime"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },

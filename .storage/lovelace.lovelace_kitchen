@@ -96,6 +96,49 @@
               ],
               "hours_to_show": 24,
               "title": "Manual and scheduled events"
+            },
+            {
+              "type": "vertical-stack",
+              "title": "T&H - Suite",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
+                  "type": "glance",
+                  "title": "Summary",
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_uptime",
+                      "name": "Uptime"
+                    }
+                  ],
+                  "state_color": true
+                },
+                {
+                  "type": "history-graph",
+                  "title": "T & H",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },

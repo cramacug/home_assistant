@@ -46,21 +46,6 @@
               "title": "T&H",
               "cards": [
                 {
-                  "type": "history-graph",
-                  "title": "T & H",
-                  "hours_to_show": 6,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_ht_atic_temperature",
-                      "name": "Temperature"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_ht_atic_humidity",
-                      "name": "Humidity"
-                    }
-                  ]
-                },
-                {
                   "show_name": true,
                   "show_icon": true,
                   "show_state": true,
@@ -79,8 +64,21 @@
                       "name": "Uptime"
                     }
                   ],
-                  "state_color": true,
-                  "title": "Marc Office"
+                  "state_color": true
+                },
+                {
+                  "type": "history-graph",
+                  "hours_to_show": 6,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_temperature",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_atic_humidity",
+                      "name": "Humidity"
+                    }
+                  ]
                 }
               ]
             },

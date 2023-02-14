@@ -130,7 +130,7 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2022.12.0-full (3026)",
+          "app_version": "2023.1.1-full (3124)",
           "device_name": "Pixel 6",
           "manufacturer": "Google",
           "model": "Pixel 6",
@@ -196,8 +196,8 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:57144/rootDesc.xml",
-          "mac_address": "fc:34:97:84:75:28",
+          "location": "http://192.168.1.1:48667/rootDesc.xml",
+          "mac_address": null,
           "host": "192.168.1.1"
         },
         "options": {},
@@ -322,7 +322,7 @@
         "title": "Shelly-Plus-HT-SecondFloor",
         "data": {
           "host": "192.168.1.120",
-          "sleep_period": 600,
+          "sleep_period": 7200,
           "model": "SNSN-0013A",
           "gen": 2
         },
@@ -430,7 +430,7 @@
         "title": "Marc’s iPad",
         "data": {
           "os_name": "iPadOS",
-          "os_version": "16.2",
+          "os_version": "16.3",
           "app_data": {
             "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"

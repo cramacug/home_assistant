@@ -17,7 +17,6 @@
               "cards": [
                 {
                   "type": "history-graph",
-                  "title": "Power consumption",
                   "hours_to_show": 24,
                   "entities": [
                     {
@@ -43,26 +42,24 @@
               "cards": [
                 {
                   "type": "history-graph",
-                  "title": "T & H",
                   "hours_to_show": 6,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plus_ht_atic_temperature",
+                      "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
                       "name": "Temperature"
                     },
                     {
-                      "entity": "sensor.shelly_plus_ht_atic_humidity",
+                      "entity": "sensor.shelly_plus_ht_secondfloor_humidity",
                       "name": "Humidity"
                     }
                   ]
                 },
                 {
+                  "type": "glance",
                   "show_name": true,
                   "show_icon": true,
                   "show_state": true,
                   "state_color": true,
-                  "type": "glance",
-                  "title": "Suite",
                   "entities": [
                     {
                       "entity": "sensor.shelly_plus_ht_secondfloor_temperature",
