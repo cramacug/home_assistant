@@ -24,10 +24,10 @@
                       "entity": "binary_sensor.shelly_pro_4pm_garden_cloud"
                     },
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_temperature"
+                      "entity": "sensor.shelly_pro_4pm_garden_temperature_internal_plug"
                     },
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_voltage"
+                      "entity": "sensor.shelly_pro_4pm_garden_voltage_internal_plug"
                     },
                     {
                       "entity": "sensor.shelly_pro_4pm_garden_rssi"
@@ -40,37 +40,37 @@
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_pool_power"
+                      "entity": "sensor.shelly_pro_4pm_garden_power_pool"
                     },
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power"
+                      "entity": "sensor.shelly_pro_4pm_garden_power_2_x_plugs"
                     },
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power"
+                      "entity": "sensor.shelly_pro_4pm_garden_power_internal_plug"
                     },
                     {
-                      "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power"
+                      "entity": "sensor.shelly_pro_4pm_garden_power_2_x_lights_plug"
                     }
                   ]
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_pro_4pm_garden_pool_power",
+                  "entity": "sensor.shelly_pro_4pm_garden_power_pool",
                   "unit": "W"
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_plugs_power",
+                  "entity": "sensor.shelly_pro_4pm_garden_power_2_x_plugs",
                   "unit": "W"
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_pro_4pm_garden_internal_plug_power",
+                  "entity": "sensor.shelly_pro_4pm_garden_power_internal_plug",
                   "unit": "W"
                 },
                 {
                   "type": "entity",
-                  "entity": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_power",
+                  "entity": "sensor.shelly_pro_4pm_garden_power_2_x_lights_plug",
                   "unit": "W"
                 }
               ]
