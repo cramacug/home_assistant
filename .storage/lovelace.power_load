@@ -98,6 +98,40 @@
                       "name": "Instant power consumption"
                     }
                   ]
+                },
+                {
+                  "type": "vertical-stack",
+                  "title": "Main Power Meter",
+                  "cards": [
+                    {
+                      "type": "glance",
+                      "state_color": true,
+                      "entities": [
+                        {
+                          "entity": "switch.shelly_plug_heater"
+                        },
+                        {
+                          "entity": "binary_sensor.shelly_plug_cloud_heater"
+                        },
+                        {
+                          "entity": "sensor.shelly_plug_rssi_heater"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "gauge",
+                      "entity": "sensor.shelly_plug_power_heater",
+                      "needle": true,
+                      "severity": {
+                        "green": 0,
+                        "yellow": 3000,
+                        "red": 3500
+                      },
+                      "min": 0,
+                      "max": 4600,
+                      "name": "Instant power consumption"
+                    }
+                  ]
                 }
               ]
             }

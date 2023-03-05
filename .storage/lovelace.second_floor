@@ -41,20 +41,6 @@
               "title": "T&H",
               "cards": [
                 {
-                  "type": "history-graph",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
-                      "name": "Temperature"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
-                      "name": "Humidity"
-                    }
-                  ]
-                },
-                {
                   "type": "glance",
                   "show_name": true,
                   "show_icon": true,
@@ -72,6 +58,20 @@
                     {
                       "entity": "sensor.shelly_plus_ht_uptime_secondfloor",
                       "name": "Uptime"
+                    }
+                  ]
+                },
+                {
+                  "type": "history-graph",
+                  "hours_to_show": 24,
+                  "entities": [
+                    {
+                      "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
+                      "name": "Temperature"
+                    },
+                    {
+                      "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
+                      "name": "Humidity"
                     }
                   ]
                 }
@@ -125,7 +125,6 @@
                 {
                   "type": "history-graph",
                   "title": "T & H",
-                  "hours_to_show": 6,
                   "entities": [
                     {
                       "entity": "sensor.shelly_plus_ht_temperature_secondfloor",
@@ -135,7 +134,8 @@
                       "entity": "sensor.shelly_plus_ht_humidity_secondfloor",
                       "name": "Humidity"
                     }
-                  ]
+                  ],
+                  "hours_to_show": 24
                 }
               ]
             },

@@ -1320,7 +1320,7 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-30",
+        "original_icon": "mdi:battery-80",
         "original_name": "Pixel 6 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -7460,7 +7460,11 @@
         "id": "071107bd3aec2ad356f04abdb7e31ef0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "power",
         "original_icon": null,
         "original_name": "Shelly Plug Mobile Socket  power",
@@ -7562,7 +7566,14 @@
         "id": "26509e5382685872fa5ac6a8b9cf83aa",
         "has_entity_name": false,
         "name": "Fridge Energy",
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "Shelly-Plug-S-Fridge energy",
@@ -7589,7 +7600,11 @@
         "id": "38ed37ee1738b4157e81bb886c026bc9",
         "has_entity_name": false,
         "name": "Fridge Power",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "power",
         "original_icon": null,
         "original_name": "Shelly-Plug-S-Fridge power",
@@ -7666,7 +7681,11 @@
         "id": "956b15256ddab622874e8655f65216bc",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Shelly-Plug-S-Fridge device temperature",
@@ -7795,7 +7814,11 @@
         "id": "31d0cacc7ad9c2998d8be6c7c5bd23f1",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "ShellyPlus_HT_Atic Humidity",
@@ -7803,7 +7826,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793D0DC08-humidity:0-humidity_0",
-        "unit_of_measurement": null
+        "unit_of_measurement": "%"
       },
       {
         "aliases": [],
@@ -7822,7 +7845,11 @@
         "id": "fc49fe2d28914adc16f5b717f3688128",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "ShellyPlus_HT_Atic Temperature",
@@ -7830,7 +7857,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793D0DC08-temperature:0-temperature_0",
-        "unit_of_measurement": null
+        "unit_of_measurement": "°C"
       },
       {
         "aliases": [],
@@ -7927,7 +7954,7 @@
         "original_icon": null,
         "original_name": "ShellyPlus_HT_Atic Beta Firmware Update",
         "platform": "shelly",
-        "supported_features": 5,
+        "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793D0DC08-sys-fwupdate_beta",
         "unit_of_measurement": null
@@ -7952,7 +7979,7 @@
         "original_icon": null,
         "original_name": "ShellyPlus_HT_Atic Firmware Update",
         "platform": "shelly",
-        "supported_features": 5,
+        "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793D0DC08-sys-fwupdate",
         "unit_of_measurement": null
@@ -8032,7 +8059,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793D0DC08-wifi-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -8051,7 +8078,11 @@
         "id": "946ce9a3658b1776528c47d245778104",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "ShellyPlus_HT_SecondFloor Humidity",
@@ -8059,7 +8090,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793CCA640-humidity:0-humidity_0",
-        "unit_of_measurement": null
+        "unit_of_measurement": "%"
       },
       {
         "aliases": [],
@@ -8078,7 +8109,11 @@
         "id": "85a228b92c139dd8e9bc642c427d0d74",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "ShellyPlus_HT_SecondFloor Temperature",
@@ -8086,7 +8121,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793CCA640-temperature:0-temperature_0",
-        "unit_of_measurement": null
+        "unit_of_measurement": "°C"
       },
       {
         "aliases": [],
@@ -8158,7 +8193,7 @@
         "original_icon": null,
         "original_name": "ShellyPlus_HT_SecondFloor Beta Firmware Update",
         "platform": "shelly",
-        "supported_features": 5,
+        "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793CCA640-sys-fwupdate_beta",
         "unit_of_measurement": null
@@ -8183,7 +8218,7 @@
         "original_icon": null,
         "original_name": "ShellyPlus_HT_SecondFloor Firmware Update",
         "platform": "shelly",
-        "supported_features": 5,
+        "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793CCA640-sys-fwupdate",
         "unit_of_measurement": null
@@ -8263,7 +8298,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "441793CCA640-wifi-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -8282,7 +8317,14 @@
         "id": "c0aba2a197e53ced4f155b933fd5e105",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "Shelly Plug Mobile Socket  energy",
@@ -8436,7 +8478,14 @@
         "id": "613d64e1128cc1b35e58f418fd8112ad",
         "has_entity_name": false,
         "name": "AC - Energy",
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "Air_Conditioned energy",
@@ -8515,7 +8564,11 @@
         "id": "04f6939c2f8efa0b6b400b2ef5f171b4",
         "has_entity_name": false,
         "name": "AC - Voltage",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "Air_Conditioned voltage",
@@ -8894,7 +8947,11 @@
         "id": "d984ef9a920199e6d8addeb39840bf23",
         "has_entity_name": false,
         "name": "Temperature",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Air_Conditioned device temperature",
@@ -8921,7 +8978,14 @@
         "id": "0b91f3f2856b11e73f88f5e2a8d24254",
         "has_entity_name": false,
         "name": "Server - Energy",
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "Server energy",
@@ -9002,7 +9066,11 @@
         "id": "20dc521099c4ffb67af2224a795d07e8",
         "has_entity_name": false,
         "name": "Server - Temperature",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Server device temperature",
@@ -9029,7 +9097,11 @@
         "id": "c5c830ab5b4b0cf3b7a7431dec5d7bfe",
         "has_entity_name": false,
         "name": "Server - Voltage",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "Server voltage",
@@ -9081,7 +9153,14 @@
         "id": "758ecdcb251ad4fe24a81ae0de8782df",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "2_x_Lights_+_Plug energy",
@@ -9108,7 +9187,14 @@
         "id": "004ea3613bf3972d4ffb7563be428f36",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "2_x_Plugs energy",
@@ -9135,7 +9221,11 @@
         "id": "f4f56e2c9251a06e54f783cbcf7c99fa",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "2_x_Lights_+_Plug device temperature",
@@ -9289,7 +9379,11 @@
         "id": "53426d0ab9dd0a9bc0f132b8f911989c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "2_x_Lights_+_Plug voltage",
@@ -9316,7 +9410,11 @@
         "id": "77c3a6ac02f63b463892e8e0656912e4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "2_x_Plugs device temperature",
@@ -9470,7 +9568,11 @@
         "id": "9c76bc91dddfa39dca5ad8c42594d40d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "2_x_Plugs voltage",
@@ -9497,7 +9599,11 @@
         "id": "3dbd0e33040b1473ec8fe486dae211fe",
         "has_entity_name": false,
         "name": "Garden Hub Temp",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Internal_Plug device temperature",
@@ -9524,7 +9630,11 @@
         "id": "902e73fd4b2cdfb706355715c99dcb5d",
         "has_entity_name": false,
         "name": "Garden Hub Voltage",
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "Internal_Plug voltage",
@@ -9551,7 +9661,14 @@
         "id": "bc9b6624f4664e15357547a735e44bc5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "Internal_Plug energy",
@@ -9705,7 +9822,11 @@
         "id": "b02e094a7841b1dd171937e7e0308c62",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Pool device temperature",
@@ -9732,7 +9853,14 @@
         "id": "1e9201817323bed0950b792015861212",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor.private": {
+            "suggested_unit_of_measurement": "kWh"
+          },
+          "sensor": {
+            "suggested_display_precision": 2
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "Pool energy",
@@ -9886,7 +10014,11 @@
         "id": "34387dd0182a2d7e4615a7de2f696f69",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "sensor": {
+            "suggested_display_precision": 1
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "Pool voltage",

@@ -38,17 +38,6 @@
               ]
             },
             {
-              "type": "history-graph",
-              "entities": [
-                {
-                  "entity": "sun.sun",
-                  "name": "WIP - sun"
-                }
-              ],
-              "hours_to_show": 24,
-              "title": "Manual and scheduled events"
-            },
-            {
               "type": "vertical-stack",
               "title": "T&H - Suite",
               "cards": [
@@ -90,6 +79,17 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sun.sun",
+                  "name": "WIP - sun"
+                }
+              ],
+              "hours_to_show": 24,
+              "title": "Manual and scheduled events"
             }
           ]
         },

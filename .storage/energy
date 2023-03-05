@@ -13,25 +13,19 @@
     ],
     "device_consumption": [
       {
-        "stat_consumption": "sensor.shelly_pro_4pm_garden_2_x_lights_plug_energy"
+        "stat_consumption": "sensor.shelly_plug_s_energy_fridge"
       },
       {
-        "stat_consumption": "sensor.shelly_pro_4pm_garden_pool_energy"
+        "stat_consumption": "sensor.shelly_pro_4pm_energy_garden_pool"
       },
       {
-        "stat_consumption": "sensor.shelly_plus_1pm_server_energy"
+        "stat_consumption": "sensor.shelly_plus_1pm_energy_server"
       },
       {
-        "stat_consumption": "sensor.shelly_plug_s_fridge_energy"
+        "stat_consumption": "sensor.shelly_plus_1pm_energy_ac"
       },
       {
-        "stat_consumption": "sensor.shelly_pro_4pm_garden_internal_plug_energy"
-      },
-      {
-        "stat_consumption": "sensor.shelly_pro_4pm_garden_2_x_plugs_energy"
-      },
-      {
-        "stat_consumption": "sensor.shelly_plug_heater_energy"
+        "stat_consumption": "sensor.shelly_plug_energy_heater"
       }
     ]
   }
