@@ -23,6 +23,34 @@
               ],
               "hours_to_show": 24,
               "title": "Manual and scheduled events"
+            },
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_2_x_lights_plug"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_2_x_plugs"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_internal_plug"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_power_fridge"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_pool"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_power_server"
+                },
+                {
+                  "entity": "sensor.shelly_plug_power_heater"
+                }
+              ],
+              "hours_to_show": 24,
+              "title": "Overview Power"
             }
           ]
         },

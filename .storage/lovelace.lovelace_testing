@@ -143,7 +143,7 @@
               "title": "Pi-Hole",
               "entities": [
                 {
-                  "entity": "binary_sensor.pi_hole"
+                  "entity": "binary_sensor.pi_hole_status"
                 },
                 {
                   "entity": "sensor.pi_hole_ads_blocked_today",
@@ -190,7 +190,9 @@
                 {
                   "entity": "update.pi_hole_ftl_update_available"
                 }
-              ]
+              ],
+              "state_color": true,
+              "show_header_toggle": true
             }
           ]
         },

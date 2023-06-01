@@ -17,22 +17,24 @@
               "cards": [
                 {
                   "type": "history-graph",
+                  "title": "Power consumption",
                   "hours_to_show": 24,
                   "entities": [
                     {
-                      "entity": "sensor.shelly_plug_power_heater"
+                      "entity": "sensor.shelly_plug_s_power_fridge"
                     }
                   ]
                 },
                 {
                   "type": "entity",
-                  "unit": "W",
-                  "entity": "sensor.shelly_plug_power_heater"
+                  "entity": "sensor.shelly_plug_s_power_fridge",
+                  "unit": "W"
                 },
                 {
                   "type": "entity",
-                  "unit": "W",
-                  "entity": "sensor.shelly_plug_power_heater"
+                  "entity": "sensor.shelly_plug_s_power_fridge",
+                  "name": "WIP - Oven",
+                  "unit": "W"
                 }
               ]
             },
@@ -136,69 +138,6 @@
                     }
                   ],
                   "hours_to_show": 24
-                }
-              ]
-            },
-            {
-              "square": false,
-              "columns": 1,
-              "type": "grid",
-              "title": "Portable plug 3.6kW",
-              "cards": [
-                {
-                  "show_name": true,
-                  "show_icon": true,
-                  "show_state": true,
-                  "type": "glance",
-                  "title": "Values",
-                  "entities": [
-                    {
-                      "entity": "switch.shelly_plug_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_power_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_energy_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_rssi_heater"
-                    }
-                  ],
-                  "state_color": true
-                },
-                {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plug_power_heater"
-                    }
-                  ]
-                },
-                {
-                  "type": "entities",
-                  "entities": [
-                    {
-                      "entity": "switch.shelly_plug_heater"
-                    },
-                    {
-                      "entity": "binary_sensor.shelly_plug_cloud_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_energy_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_power_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_rssi_heater"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_uptime_heater"
-                    }
-                  ]
                 }
               ]
             }

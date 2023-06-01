@@ -75,6 +75,15 @@
         "mode": "storage",
         "url_path": "dashboard-entrance",
         "id": "dashboard_entrance"
+      },
+      {
+        "id": "dashboard_temp",
+        "show_in_sidebar": true,
+        "icon": "mdi:boombox",
+        "title": "Temp",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-temp"
       }
     ]
   }

@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2023.3.1",
+        "sw_version": "2023.5.4",
         "via_device_id": null
       },
       {
@@ -49,7 +49,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2023.01.1",
+        "sw_version": "2023.04.1",
         "via_device_id": null
       },
       {
@@ -73,7 +73,7 @@
         "model": "Home Assistant Operating System",
         "name_by_user": null,
         "name": "Home Assistant Operating System",
-        "sw_version": "9.5",
+        "sw_version": "10.2",
         "via_device_id": null
       },
       {
@@ -102,8 +102,8 @@
       {
         "area_id": "garden",
         "config_entries": [
-          "5cb46c50884f9d010cee70344757ab94",
-          "31e00735dd4f51082a0b1178450dc3d0"
+          "31e00735dd4f51082a0b1178450dc3d0",
+          "5cb46c50884f9d010cee70344757ab94"
         ],
         "configuration_url": "http://192.168.1.116",
         "connections": [
@@ -121,7 +121,7 @@
         "model": "Shelly Pro 4PM",
         "name_by_user": "Shelly-Pro-4PM-Garden",
         "name": "Shelly-Pro-4PM-Garden",
-        "sw_version": "20230228-093404/0.14.0-g69c7f16",
+        "sw_version": "20230308-091950/0.14.1-g22a4cb7",
         "via_device_id": null
       },
       {
@@ -169,7 +169,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "File editor",
-        "sw_version": "5.5.0",
+        "sw_version": "5.6.0",
         "via_device_id": null
       },
       {
@@ -193,7 +193,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.5.2",
+        "sw_version": "5.6.1",
         "via_device_id": null
       },
       {
@@ -265,7 +265,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "NGINX Home Assistant SSL proxy",
-        "sw_version": "3.2.0",
+        "sw_version": "3.5.0",
         "via_device_id": null
       },
       {
@@ -289,7 +289,7 @@
         "model": "iPad13,1",
         "name_by_user": null,
         "name": "Marc’s iPad",
-        "sw_version": "16.3.1",
+        "sw_version": "16.5",
         "via_device_id": null
       },
       {
@@ -313,7 +313,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Terminal & SSH",
-        "sw_version": "9.6.1",
+        "sw_version": "9.7.0",
         "via_device_id": null
       },
       {
@@ -362,16 +362,16 @@
         "id": "e5df4e5c71cca3def701a02613a23a30",
         "identifiers": [
           [
+            "upnp_host",
+            "192.168.1.1"
+          ],
+          [
             "upnp",
             "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ],
           [
             "upnp_serial_number",
             "fc:34:97:84:75:28"
-          ],
-          [
-            "upnp_host",
-            "192.168.1.1"
           ]
         ],
         "manufacturer": "ASUSTeK Computer Inc.",
@@ -406,30 +406,6 @@
         "via_device_id": null
       },
       {
-        "area_id": "can_marla_main",
-        "config_entries": [
-          "821e46bc4dc755db760a1552caf591e5"
-        ],
-        "configuration_url": "http://192.168.1.155:37545/admin",
-        "connections": [],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "cff68aef073ba15af0722da0fbac2512",
-        "identifiers": [
-          [
-            "pi_hole",
-            "821e46bc4dc755db760a1552caf591e5"
-          ]
-        ],
-        "manufacturer": "Pi-hole",
-        "model": null,
-        "name_by_user": null,
-        "name": "Pi-Hole",
-        "sw_version": null,
-        "via_device_id": null
-      },
-      {
         "area_id": null,
         "config_entries": [
           "ad029a534a33369a4c5daeb9fbd91af1"
@@ -450,7 +426,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Samba share",
-        "sw_version": "10.0.0",
+        "sw_version": "10.0.2",
         "via_device_id": null
       },
       {
@@ -522,31 +498,7 @@
         "model": "Shelly Plus 1PM",
         "name_by_user": "Shelly-Plus-1PM-Server",
         "name": "Shelly-Plus-1PM-Server",
-        "sw_version": "20230228-092432/0.14.0-g69c7f16",
-        "via_device_id": null
-      },
-      {
-        "area_id": "marc_s_office",
-        "config_entries": [
-          "45a547a3325c84366a94c60b26a6a39f"
-        ],
-        "configuration_url": "http://192.168.1.118",
-        "connections": [
-          [
-            "mac",
-            "44:17:93:93:7e:9c"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": "gen2 (SNSW-001P16EU)",
-        "id": "595327bc1b72fc20cda0b84b6afdc30d",
-        "identifiers": [],
-        "manufacturer": "Shelly",
-        "model": "Shelly Plus 1PM",
-        "name_by_user": "Shelly-Plus-1PM-AC",
-        "name": "Shelly-Plus-1PM-AC",
-        "sw_version": "20230228-092432/0.14.0-g69c7f16",
+        "sw_version": "20230308-091612/0.14.1-g22a4cb7",
         "via_device_id": null
       },
       {
@@ -570,7 +522,7 @@
         "model": "Shelly Plug S",
         "name_by_user": null,
         "name": "Shelly-Plug-S-Fridge",
-        "sw_version": "20230109-114426/v1.12.2-g32055ee",
+        "sw_version": "20230503-101129/v1.13.0-g9aed950",
         "via_device_id": null
       },
       {
@@ -594,7 +546,7 @@
         "model": "Shelly Plug E",
         "name_by_user": null,
         "name": "Shelly Plug Mobile Socket ",
-        "sw_version": "20221027-102248/v1.12.1-ga9117d3",
+        "sw_version": "20230503-101325/v1.13.0-g9aed950",
         "via_device_id": null
       },
       {
@@ -611,7 +563,7 @@
         ],
         "disabled_by": null,
         "entry_type": null,
-        "hw_version": "usb:v1D6Bp0246d053F",
+        "hw_version": "usb:v1D6Bp0246d0542",
         "id": "b7a81f56ac584fb87ed30a6b3a173dcb",
         "identifiers": [],
         "manufacturer": "Raspberry Pi Trading Ltd",
@@ -619,6 +571,102 @@
         "name_by_user": null,
         "name": "hci0 (DC:A6:32:C2:7F:13)",
         "sw_version": "homeassistant",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3bc21b3ce2af865d0029a830f4ba944c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6e9e5074d0ad723611900e69e03ae277",
+        "identifiers": [
+          [
+            "ibeacon",
+            "8063ae90-d8b7-11e6-9598-0800200c9a66_31267_22791_B4:B8:59:07:7A:23"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "CARe 7A23",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ad029a534a33369a4c5daeb9fbd91af1"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "61f04a1008b590aa326b956c176dddce",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e0d6d58312b55d2e9867ea18d5b81d8b"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "988484367950ea1d02e539c979952fe4",
+        "identifiers": [
+          [
+            "sun",
+            "e0d6d58312b55d2e9867ea18d5b81d8b"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "can_marla_main",
+        "config_entries": [
+          "84581394d80922307b98bc04f8ccc133"
+        ],
+        "configuration_url": "http://192.168.1.155:37545/admin",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "36f77258f87c97a185dec88f372ef0ea",
+        "identifiers": [
+          [
+            "pi_hole",
+            "84581394d80922307b98bc04f8ccc133"
+          ]
+        ],
+        "manufacturer": "Pi-hole",
+        "model": null,
+        "name_by_user": null,
+        "name": "Pi-Hole",
+        "sw_version": null,
         "via_device_id": null
       }
     ],

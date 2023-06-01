@@ -11,51 +11,44 @@
           "title": "Home",
           "cards": [
             {
-              "show_current": true,
-              "show_forecast": true,
-              "type": "weather-forecast",
-              "entity": "weather.can_marla"
+              "type": "entities",
+              "title": "Switches",
+              "state_color": true,
+              "entities": [
+                {
+                  "entity": "switch.shelly_plug_heater",
+                  "name": "Livingroom light"
+                }
+              ],
+              "show_header_toggle": false
             },
             {
-              "type": "grid",
-              "columns": 1,
-              "square": false,
-              "cards": [
+              "type": "history-graph",
+              "entities": [
                 {
-                  "type": "history-graph",
-                  "title": "Power consumption",
-                  "hours_to_show": 24,
-                  "entities": [
-                    {
-                      "entity": "sensor.shelly_plus_1pm_power_server"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_power_garden_2_x_lights_plug"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_power_garden_2_x_plugs"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_1pm_power_ac"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_s_power_fridge"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_power_garden_internal_plug"
-                    },
-                    {
-                      "entity": "sensor.shelly_pro_4pm_power_garden_pool"
-                    },
-                    {
-                      "entity": "sensor.shelly_plus_1pm_power_server"
-                    },
-                    {
-                      "entity": "sensor.shelly_plug_power_heater"
-                    }
-                  ]
+                  "entity": "sensor.shelly_pro_4pm_power_garden_pool"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_2_x_lights_plug"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_2_x_plugs"
+                },
+                {
+                  "entity": "sensor.shelly_pro_4pm_power_garden_internal_plug"
+                },
+                {
+                  "entity": "sensor.shelly_plug_s_power_fridge"
+                },
+                {
+                  "entity": "sensor.shelly_plus_1pm_power_server"
+                },
+                {
+                  "entity": "sensor.shelly_plug_power_heater"
                 }
-              ]
+              ],
+              "hours_to_show": 24,
+              "title": "Overview Power"
             },
             {
               "type": "entities",
@@ -75,6 +68,12 @@
                 }
               ],
               "state_color": true
+            },
+            {
+              "show_current": true,
+              "show_forecast": true,
+              "type": "weather-forecast",
+              "entity": "weather.can_marla"
             }
           ]
         }

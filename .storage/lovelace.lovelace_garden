@@ -17,6 +17,9 @@
               "title": "Pool Power Hub Meter Summary",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
+                  "show_state": true,
                   "type": "glance",
                   "title": "Values",
                   "entities": [
@@ -32,7 +35,8 @@
                     {
                       "entity": "sensor.shelly_pro_4pm_rssi_garden"
                     }
-                  ]
+                  ],
+                  "state_color": true
                 },
                 {
                   "type": "history-graph",
@@ -56,22 +60,26 @@
                 {
                   "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_power_garden_pool",
-                  "unit": "W"
+                  "unit": "W",
+                  "state_color": true
                 },
                 {
                   "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_power_garden_2_x_plugs",
-                  "unit": "W"
+                  "unit": "W",
+                  "state_color": true
                 },
                 {
                   "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_power_garden_internal_plug",
-                  "unit": "W"
+                  "unit": "W",
+                  "state_color": true
                 },
                 {
                   "type": "entity",
                   "entity": "sensor.shelly_pro_4pm_power_garden_2_x_lights_plug",
-                  "unit": "W"
+                  "unit": "W",
+                  "state_color": true
                 }
               ]
             },

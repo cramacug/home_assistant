@@ -130,7 +130,7 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2023.1.1-full (3124)",
+          "app_version": "2023.3.0-full (3260)",
           "device_name": "Pixel 6",
           "manufacturer": "Google",
           "model": "Pixel 6",
@@ -196,7 +196,7 @@
           "udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:3ddcd1d3-2380-45f5-b069-fc3497847528",
-          "location": "http://192.168.1.1:34026/rootDesc.xml",
+          "location": "http://192.168.1.1:40826/rootDesc.xml",
           "mac_address": null,
           "host": "192.168.1.1"
         },
@@ -220,7 +220,12 @@
           "password": "spiderman-0x86",
           "port": 1024
         },
-        "options": {},
+        "options": {
+          "consider_home": 180,
+          "track_unknown": false,
+          "interface": "eth0",
+          "dnsmasq": "/var/lib/misc"
+        },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
@@ -238,26 +243,6 @@
         "pref_disable_polling": false,
         "source": "ignore",
         "unique_id": "001132C1E821",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "821e46bc4dc755db760a1552caf591e5",
-        "version": 1,
-        "domain": "pi_hole",
-        "title": "Pi-Hole",
-        "data": {
-          "host": "192.168.1.155:37545",
-          "name": "Pi-Hole",
-          "location": "admin",
-          "ssl": false,
-          "verify_ssl": true,
-          "api_key": "1f2ab5194313cddac92f097ac59fc276b902056273996b8ac8baf90d97cb1957"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": null,
         "disabled_by": null
       },
       {
@@ -370,24 +355,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "45a547a3325c84366a94c60b26a6a39f",
-        "version": 1,
-        "domain": "shelly",
-        "title": "Shelly-Plus-1PM-AC",
-        "data": {
-          "host": "192.168.1.118",
-          "sleep_period": 0,
-          "model": "SNSW-001P16EU",
-          "gen": 2
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": "441793937E9C",
-        "disabled_by": null
-      },
-      {
         "entry_id": "5cd869ca5e5e8a273f0c5cfb2debd595",
         "version": 1,
         "domain": "shelly",
@@ -430,14 +397,14 @@
         "title": "Marc’s iPad",
         "data": {
           "os_name": "iPadOS",
-          "os_version": "16.3.1",
+          "os_version": "16.5",
           "app_data": {
             "push_token": "cB2QTrcuh0YWtIO-0qEzQA:APA91bG79u4B63K9jixai8A_c2UQHpg3suQdXbKu9-DfA4bz8zDUCP_F9jC5Bc4lhFCxzpE-UBq-n8HjYrPsvbYHXpLf1v8NCL18WVI8v0sZzTmLqfcXNm7v4diwnzmSDtG1riiqg8fG",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
           "device_name": "Marc’s iPad",
           "device_id": "EF9E7C1B-0D01-42FB-9E97-24DC7D6B4678",
-          "app_version": "2023.2 (2023.444)",
+          "app_version": "2023.4 (2023.460)",
           "supports_encryption": true,
           "manufacturer": "Apple",
           "app_id": "io.robbie.HomeAssistant",
@@ -479,6 +446,56 @@
         "pref_disable_polling": false,
         "source": "bluetooth",
         "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "84581394d80922307b98bc04f8ccc133",
+        "version": 1,
+        "domain": "pi_hole",
+        "title": "Pi-Hole",
+        "data": {
+          "host": "192.168.1.155:37545",
+          "name": "Pi-Hole",
+          "location": "admin",
+          "ssl": false,
+          "verify_ssl": true,
+          "api_key": "1f2ab5194313cddac92f097ac59fc276b902056273996b8ac8baf90d97cb1957"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d09d654723f0315003efd94f66cb18bb",
+        "version": 1,
+        "domain": "reolink",
+        "title": "camera1 (192.168.1.170)",
+        "data": {
+          "host": "192.168.1.170"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "ec:71:db:13:88:fd",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "23a6c01745fdeb16aa361b89df1d5ef2",
+        "version": 1,
+        "domain": "reolink",
+        "title": "camera (192.168.1.171)",
+        "data": {
+          "host": "192.168.1.171"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "ec:71:db:af:6d:25",
         "disabled_by": null
       }
     ]
